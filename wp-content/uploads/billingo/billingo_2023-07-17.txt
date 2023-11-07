@@ -1,0 +1,28 @@
+2023-07-17 06:44:33 getBankAccounts FAILED
+2023-07-17 06:44:33 getBlocks FAILED
+2023-07-17 06:44:59 getBankAccounts FAILED
+2023-07-17 06:44:59 getBlocks FAILED
+2023-07-17 06:44:59
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-17 06:44:59 getBankAccounts FAILED
+2023-07-17 06:45:00
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-17 06:45:00 getBlocks FAILED

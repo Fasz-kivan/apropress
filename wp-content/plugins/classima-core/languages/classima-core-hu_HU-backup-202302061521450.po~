@@ -1,0 +1,1900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Classima Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-06 10:24+0000\n"
+"PO-Revision-Date: 2023-01-22 14:53+0000\n"
+"Last-Translator: admin\n"
+"Language-Team: Magyar\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: classima-core"
+
+#: elementor/listing-store-list/view.php:13
+#, php-format
+msgid "%s Ad"
+msgstr "%s Hirdetés"
+
+#: elementor/listing-store-list/view.php:13
+#, php-format
+msgid "%s Ads"
+msgstr "%s Hirdetések"
+
+#: elementor/pricing-box/class.php:41
+msgid "--Select--"
+msgstr "--Válassza ki--"
+
+#: elementor/listing-ad-type/class.php:24
+#: elementor/listing-category-box/class.php:23
+#: elementor/listing-grid/class.php:23 elementor/listing-isotope/class.php:22
+#: elementor/listing-slider/class.php:24
+#: elementor/listing-store-grid/class.php:21
+msgid "1 Col"
+msgstr "1 Col"
+
+#: elementor/listing-category-slider/class.php:151
+#: elementor/listing-slider/class.php:288 elementor/testimonial-2/class.php:97
+msgid "1 Second"
+msgstr "1 másodperc"
+
+#: elementor/listing-ad-type/class.php:25
+#: elementor/listing-category-box/class.php:24
+#: elementor/listing-grid/class.php:24 elementor/listing-isotope/class.php:23
+#: elementor/listing-slider/class.php:25
+#: elementor/listing-store-grid/class.php:22
+msgid "2 Col"
+msgstr "2 Col"
+
+#: elementor/listing-category-slider/class.php:150
+#: elementor/listing-slider/class.php:287 elementor/testimonial-2/class.php:96
+msgid "2 Seconds"
+msgstr "2 másodperc"
+
+#: elementor/listing-ad-type/class.php:26
+#: elementor/listing-category-box/class.php:25
+#: elementor/listing-grid/class.php:25 elementor/listing-isotope/class.php:24
+#: elementor/listing-slider/class.php:26
+#: elementor/listing-store-grid/class.php:23
+msgid "3 Col"
+msgstr "3 Col"
+
+#: elementor/listing-category-slider/class.php:149
+#: elementor/listing-slider/class.php:286 elementor/testimonial-2/class.php:95
+msgid "3 Seconds"
+msgstr "3 másodperc"
+
+#: elementor/listing-ad-type/class.php:27
+#: elementor/listing-category-box/class.php:26
+#: elementor/listing-grid/class.php:26 elementor/listing-isotope/class.php:25
+#: elementor/listing-slider/class.php:27
+#: elementor/listing-store-grid/class.php:24
+msgid "4 Col"
+msgstr "4 Col"
+
+#: elementor/listing-category-slider/class.php:148
+#: elementor/listing-slider/class.php:285 elementor/testimonial-2/class.php:94
+msgid "4 Seconds"
+msgstr "4 másodperc"
+
+#: elementor/listing-slider/class.php:28
+msgid "5 Col"
+msgstr "5 Col"
+
+#: elementor/listing-category-slider/class.php:147
+#: elementor/listing-slider/class.php:284 elementor/testimonial-2/class.php:93
+msgid "5 Seconds"
+msgstr "5 másodperc"
+
+#: elementor/listing-ad-type/class.php:28
+#: elementor/listing-category-box/class.php:27
+#: elementor/listing-grid/class.php:27 elementor/listing-isotope/class.php:26
+#: elementor/listing-slider/class.php:29
+#: elementor/listing-store-grid/class.php:25
+msgid "6 Col"
+msgstr "6 Col"
+
+#: elementor/accordian/class.php:17
+msgid "Accordian"
+msgstr "Harmonika"
+
+#: elementor/accordian/class.php:68
+msgid "Active Item Background"
+msgstr "Aktív elem Háttér"
+
+#: elementor/listing-category-box/view-1.php:29
+msgid "Ad"
+msgid_plural "Ads"
+msgstr[0] "Ad"
+msgstr[1] "Hirdetések"
+
+#: lib/sidebar-generator/init.php:51
+msgid "Add"
+msgstr "Add"
+
+#: elementor/accordian/class.php:32 elementor/testimonial-2/class.php:32
+msgid "Add as many items as you want"
+msgstr "Adjon hozzá annyi elemet, amennyit csak akar"
+
+#: elementor/app-banner/class.php:68
+msgid "Add Image"
+msgstr "Kép hozzáadása"
+
+#: lib/sidebar-generator/init.php:42
+msgid "Add New Sidebar"
+msgstr "Új oldalsáv hozzáadása"
+
+#: elementor/app-banner/class.php:73
+msgid "Add Shape"
+msgstr "Add Shape"
+
+#: elementor/contact/class.php:32
+msgid "Address"
+msgstr "Cím"
+
+#: elementor/listing-term-list/class.php:114
+msgid "Ajax load for Category / Location<br> to increase PageSpeed."
+msgstr ""
+"Ajax betöltés a kategória / hely<br> számára a PageSpeed növelése érdekében."
+
+#: elementor/button/class.php:100 elementor/title-animated/class.php:56
+msgid "Alignment"
+msgstr "Kiegyenlítés"
+
+#: elementor/listing-grid/class.php:69 elementor/listing-list/class.php:55
+#: elementor/listing-slider/class.php:74
+msgid "All"
+msgstr "Minden"
+
+#: elementor/listing-grid/class.php:35 elementor/listing-isotope/class.php:39
+#: elementor/listing-list/class.php:25 elementor/listing-slider/class.php:37
+#: elementor/listing-store-grid/class.php:34
+#: elementor/listing-store-list/class.php:25 elementor/post/class.php:24
+msgid "All Categories"
+msgstr "Minden kategória"
+
+#: elementor/listing-category-list/class.php:57
+msgid "All Categories Button"
+msgstr "Minden kategória gomb"
+
+#: elementor/listing-search/search-banner.php:14
+msgid "All Locations"
+msgstr "Minden helyszín"
+
+#: elementor/title-animated/class.php:76
+msgid "Animation Options"
+msgstr "Animációs lehetőségek"
+
+#: elementor/counter/class.php:89
+msgid "Animation Speed"
+msgstr "Animáció sebessége"
+
+#: elementor/counter/class.php:96
+msgid "Animation Steps"
+msgstr "Animációs lépések"
+
+#: elementor/app-banner/class.php:17
+msgid "App Banner"
+msgstr "App Banner"
+
+#: lib/sidebar-generator/init.php:79
+msgid "Are you sure you want to remove this custom sidebar"
+msgstr "Biztos, hogy el akarja távolítani ezt az egyéni oldalsávot?"
+
+#: elementor/listing-category-box/class.php:85
+#: elementor/listing-category-list/class.php:101
+#: elementor/listing-category-slider/class.php:80
+#: elementor/listing-grid/class.php:259
+#: elementor/listing-store-grid/class.php:76
+#: elementor/listing-store-list/class.php:67
+msgid "Ascending"
+msgstr "Felszálló"
+
+#: elementor/post/class.php:130 elementor/post/class.php:176
+msgid "Author"
+msgstr "Szerző"
+
+#: elementor/post/class.php:75
+msgid "Author Display"
+msgstr "Szerző megjelenítése"
+
+#: elementor/listing-category-slider/class.php:126
+#: elementor/listing-slider/class.php:263 elementor/testimonial-2/class.php:72
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: elementor/listing-category-slider/class.php:145
+#: elementor/listing-slider/class.php:282 elementor/testimonial-2/class.php:91
+msgid "Autoplay Interval"
+msgstr "Automatikus lejátszási időköz"
+
+#: elementor/listing-category-slider/class.php:160
+#: elementor/listing-slider/class.php:297 elementor/testimonial-2/class.php:106
+msgid "Autoplay Slide Speed"
+msgstr "Automatikus lejátszás Dia sebesség"
+
+#: elementor/app-banner/class.php:119 elementor/cta/class.php:110
+#: elementor/listing-ad-type/class.php:210 elementor/listing-grid/class.php:337
+#: elementor/listing-isotope/class.php:193 elementor/listing-list/class.php:182
+#: elementor/listing-location-box/class.php:102
+#: elementor/listing-location-box/class.php:109
+#: elementor/listing-location-box-2/class.php:102
+#: elementor/listing-location-box-2/class.php:109
+#: elementor/listing-slider/class.php:325 elementor/post/class.php:112
+#: elementor/pricing-box/class.php:147
+msgid "Background"
+msgstr "Háttér"
+
+#: inc/post-meta.php:133 elementor/button/class.php:110
+#: elementor/info-box/class.php:103
+msgid "Background Color"
+msgstr "Háttérszín"
+
+#: inc/post-meta.php:132
+msgid "Background Image"
+msgstr "Háttérkép"
+
+#: inc/post-meta.php:98
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/post-meta.php:143
+msgid "Banner Background Color"
+msgstr "Banner háttér színe"
+
+#: inc/post-meta.php:138
+msgid "Banner Background Image"
+msgstr "Banner háttérkép"
+
+#: inc/post-meta.php:128
+msgid "Banner Background Type"
+msgstr "Banner háttér típusa"
+
+#: inc/post-meta.php:118
+msgid "Banner Search"
+msgstr "Banner keresés"
+
+#: elementor/info-box/class.php:42
+msgid "Block Number"
+msgstr "Blokkszám"
+
+#: elementor/listing-location-box/class.php:91
+#: elementor/listing-location-box-2/class.php:91
+msgid "Box Height"
+msgstr "Doboz magassága"
+
+#: inc/post-meta.php:108
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+#: elementor/button/class.php:17 elementor/listing-search/class.php:103
+#: elementor/post/class.php:184 elementor/pricing-box/class.php:172
+#: elementor/pricing-box/class.php:214
+msgid "Button"
+msgstr "Gomb"
+
+#: elementor/listing-search/class.php:73
+msgid "Button Background"
+msgstr "Gomb Háttér"
+
+#: elementor/app-banner/class.php:174 elementor/cta/class.php:172
+msgid "Button Background Color"
+msgstr "Gomb háttérszín"
+
+#: elementor/app-banner/class.php:194 elementor/cta/class.php:198
+msgid "Button background Color"
+msgstr "Gomb háttér színe"
+
+#: elementor/app-banner/class.php:160 elementor/cta/class.php:158
+msgid "Button Colors"
+msgstr "Gombszínek"
+
+#: elementor/post/class.php:84
+msgid "Button Display"
+msgstr "Gomb kijelző"
+
+#: elementor/pricing-box/class.php:178
+msgid "Button Hover"
+msgstr "Gomb Hover"
+
+#: elementor/listing-search/class.php:79
+msgid "Button Hover Background"
+msgstr "Gomb Hover háttér"
+
+#: elementor/pricing-box/class.php:111
+msgid "Button Link Type"
+msgstr "Gomb Link típusa"
+
+#: elementor/button/class.php:32 elementor/cta/class.php:54
+#: elementor/post/class.php:94 elementor/pricing-box/class.php:105
+#: elementor/text-button/class.php:70
+msgid "Button Text"
+msgstr "Gomb szövege"
+
+#: elementor/app-banner/class.php:44
+msgid "Button Text 1"
+msgstr "Gomb szövege 1"
+
+#: elementor/app-banner/class.php:56
+msgid "Button Text 2"
+msgstr "Gomb szövege 2"
+
+#: elementor/app-banner/class.php:180 elementor/app-banner/class.php:200
+#: elementor/cta/class.php:181 elementor/cta/class.php:207
+msgid "Button Text Color"
+msgstr "Gomb szövegének színe"
+
+#: elementor/cta/class.php:146
+msgid "Button Typography"
+msgstr "Gomb tipográfia"
+
+#: elementor/button/class.php:38 elementor/cta/class.php:60
+#: elementor/pricing-box/class.php:121 elementor/text-button/class.php:76
+msgid "Button URL"
+msgstr "Gomb URL"
+
+#: elementor/app-banner/class.php:50
+msgid "Button URL 1"
+msgstr "Gomb URL 1"
+
+#: elementor/app-banner/class.php:62
+msgid "Button URL 2"
+msgstr "Gomb URL 2"
+
+#: elementor/listing-search/search-banner.php:51
+msgid "Buy, Sell, Rent & Exchange in one Click"
+msgstr "Vásárlás, eladás, bérlés és csere egy kattintással"
+
+#: elementor/post/view-3.php:61
+msgid "By "
+msgstr "A  által"
+
+#: elementor/cta/class.php:17
+msgid "Call to Action"
+msgstr "Felhívás a cselekvésre"
+
+#: elementor/listing-ad-type/class.php:80
+#: elementor/listing-category-box/class.php:62
+#: elementor/listing-category-slider/class.php:57
+#: elementor/listing-grid/class.php:81 elementor/listing-list/class.php:67
+#: elementor/listing-slider/class.php:86
+#: elementor/listing-store-grid/class.php:56
+#: elementor/listing-store-list/class.php:47 elementor/post/class.php:50
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: elementor/listing-ad-type/class.php:216
+#: elementor/listing-ad-type/class.php:250 elementor/listing-grid/class.php:343
+#: elementor/listing-grid/class.php:377 elementor/listing-isotope/class.php:199
+#: elementor/listing-isotope/class.php:233 elementor/listing-list/class.php:188
+#: elementor/listing-list/class.php:234 elementor/listing-slider/class.php:331
+#: elementor/listing-slider/class.php:365
+#: elementor/listing-term-list/class.php:81
+msgid "Category"
+msgstr "Kategória"
+
+#: elementor/listing-ad-type/class.php:96 elementor/listing-grid/class.php:97
+#: elementor/listing-isotope/class.php:79 elementor/listing-list/class.php:83
+#: elementor/listing-slider/class.php:102
+msgid "Category Name Display"
+msgstr "Kategória neve kijelző"
+
+#: elementor/listing-ad-type/class.php:135 elementor/listing-grid/class.php:216
+#: elementor/listing-isotope/class.php:118 elementor/listing-list/class.php:130
+#: elementor/listing-slider/class.php:167
+msgid "Change items on every page load"
+msgstr "Elemek módosítása minden oldal betöltésekor"
+
+#. Name of the plugin
+msgid "Classima Core"
+msgstr "Classima Core"
+
+#. Description of the plugin
+msgid "Classima Core Plugin for Classima Theme"
+msgstr "Classima Core Plugin a Classima témához"
+
+#. Base ID
+#: widgets/about.php:18 widgets/about.php:19
+msgid "Classima: About"
+msgstr "Classima: A"
+
+#: elementor/accordian/class.php:57 elementor/contact/class.php:62
+#: elementor/listing-ad-type/class.php:205
+#: elementor/listing-category-box/class.php:190
+#: elementor/listing-category-list/class.php:152
+#: elementor/listing-category-slider/class.php:183
+#: elementor/listing-grid/class.php:332 elementor/listing-isotope/class.php:188
+#: elementor/listing-list/class.php:177 elementor/listing-search/class.php:61
+#: elementor/listing-slider/class.php:320 elementor/post/class.php:107
+#: elementor/pricing-box/class.php:142
+msgid "Color"
+msgstr "Színes"
+
+#: elementor/contact/class.php:17
+msgid "Contact"
+msgstr "Kapcsolat"
+
+#: elementor/accordian/class.php:43 elementor/accordian/class.php:80
+#: elementor/accordian/class.php:103 elementor/info-box/class.php:81
+#: elementor/listing-category-box/class.php:207
+#: elementor/listing-category-box/class.php:238
+#: elementor/listing-list/class.php:206 elementor/listing-list/class.php:248
+#: elementor/post/class.php:137 elementor/post/class.php:168
+#: elementor/testimonial-1/class.php:54 elementor/testimonial-2/class.php:49
+#: elementor/text-button/class.php:44
+msgid "Content"
+msgstr "Tartalom"
+
+#: elementor/info-box/class.php:127 elementor/testimonial-1/class.php:106
+#: elementor/testimonial-2/class.php:146 elementor/text-button/class.php:105
+msgid "Content Color"
+msgstr "Tartalom Szín"
+
+#: elementor/listing-category-box/class.php:131
+#: elementor/listing-list/class.php:99 elementor/post/class.php:67
+msgid "Content Limit"
+msgstr "Tartalmi korlát"
+
+#: elementor/app-banner/class.php:109 elementor/cta/class.php:99
+msgid "Content Max Width"
+msgstr "Tartalom Maximális szélesség"
+
+#: elementor/info-box/class.php:141 elementor/testimonial-1/class.php:127
+#: elementor/testimonial-2/class.php:167 elementor/text-button/class.php:119
+msgid "Content Typography"
+msgstr "Tartalom tipográfia"
+
+#: elementor/listing-category-box/class.php:75
+#: elementor/listing-category-list/class.php:91
+#: elementor/listing-category-slider/class.php:70
+msgid "Count"
+msgstr "Count"
+
+#: elementor/counter/class.php:17 elementor/listing-category-box/class.php:201
+#: elementor/listing-category-box/class.php:231
+#: elementor/listing-category-slider/class.php:194
+#: elementor/listing-category-slider/class.php:217
+#: elementor/listing-location-box/class.php:138
+#: elementor/listing-location-box/class.php:161
+#: elementor/listing-location-box-2/class.php:138
+#: elementor/listing-location-box-2/class.php:161
+#: elementor/listing-store-grid/class.php:146
+#: elementor/listing-store-grid/class.php:169
+#: elementor/listing-store-list/class.php:104
+#: elementor/listing-store-list/class.php:134
+msgid "Counter"
+msgstr "Counter"
+
+#: elementor/counter/class.php:120
+msgid "Counter Color"
+msgstr "Pult színe"
+
+#: elementor/counter/class.php:71
+msgid "Counter Number"
+msgstr "Számláló száma"
+
+#: elementor/counter/class.php:98
+msgid "Counter steps eg. 10"
+msgstr "Ellenlépések pl. 10"
+
+#: elementor/counter/class.php:77
+msgid "Counter Suffix"
+msgstr "Counter utótag"
+
+#: elementor/counter/class.php:133
+msgid "Counter Typography"
+msgstr "Counter tipográfia"
+
+#: elementor/pricing-box/class.php:68
+msgid "Currency sign eg. $"
+msgstr "Valuta jel pl. $"
+
+#: elementor/pricing-box/class.php:66
+msgid "Currency Symbol"
+msgstr "Valuta szimbólum"
+
+#: elementor/listing-grid/class.php:74 elementor/listing-list/class.php:60
+#: elementor/listing-slider/class.php:79
+msgid "Custom"
+msgstr "Custom"
+
+#: elementor/counter/class.php:50 elementor/info-box/class.php:54
+msgid "Custom Image"
+msgstr "Egyéni kép"
+
+#: elementor/pricing-box/class.php:114
+msgid "Custom Link"
+msgstr "Egyéni link"
+
+#: elementor/listing-category-box/class.php:76
+#: elementor/listing-category-list/class.php:92
+#: elementor/listing-category-slider/class.php:71
+msgid "Custom Order"
+msgstr "Egyedi megrendelés"
+
+#: inc/post-meta.php:48
+msgid "Custom Sidebar"
+msgstr "Egyéni oldalsáv"
+
+#: elementor/counter/class.php:40
+#: elementor/listing-category-slider/class.php:50
+#: elementor/listing-search/class.php:36
+msgid "Dark Background"
+msgstr "Sötét háttér"
+
+#: elementor/listing-category-box/class.php:73
+#: elementor/listing-category-list/class.php:89
+#: elementor/listing-category-slider/class.php:68
+msgid "Date"
+msgstr "Dátum"
+
+#: elementor/listing-ad-type/class.php:145
+#: elementor/listing-isotope/class.php:128
+#: elementor/listing-slider/class.php:186
+msgid "Date (Recents comes first"
+msgstr "Dátum (A legutóbbiaké az első helyen szerepel"
+
+#: elementor/listing-grid/class.php:235 elementor/listing-list/class.php:149
+#: elementor/listing-store-grid/class.php:66
+#: elementor/listing-store-list/class.php:57 elementor/post/class.php:59
+msgid "Date (Recents comes first)"
+msgstr "Dátum (a legutóbbiaké az első)"
+
+#: inc/post-meta.php:27 inc/post-meta.php:28 inc/post-meta.php:40
+#: inc/post-meta.php:57 inc/post-meta.php:67 inc/post-meta.php:77
+#: inc/post-meta.php:91 inc/post-meta.php:101 inc/post-meta.php:111
+#: inc/post-meta.php:121 inc/post-meta.php:131
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: elementor/listing-category-box/class.php:86
+#: elementor/listing-category-list/class.php:102
+#: elementor/listing-category-slider/class.php:81
+#: elementor/listing-grid/class.php:260
+#: elementor/listing-store-grid/class.php:77
+#: elementor/listing-store-list/class.php:68
+msgid "Descending"
+msgstr "Leereszkedő"
+
+#: widgets/about.php:114
+msgid "Description"
+msgstr "Leírás"
+
+#: elementor/testimonial-1/class.php:48 elementor/testimonial-2/class.php:43
+msgid "Designation"
+msgstr "Megnevezés"
+
+#: elementor/testimonial-1/class.php:100 elementor/testimonial-2/class.php:140
+msgid "Designation Color"
+msgstr "Megnevezés Szín"
+
+#: elementor/testimonial-1/class.php:120 elementor/testimonial-2/class.php:160
+msgid "Designation Typography"
+msgstr "Megnevezés Tipográfia"
+
+#: elementor/listing-slider/class.php:218
+msgid "Desktops: > 1199px"
+msgstr "Asztali számítógépek: > 1199px"
+
+#: elementor/listing-slider/class.php:225
+msgid "Desktops: > 991px"
+msgstr "Asztali számítógépek: > 991px"
+
+#: elementor/listing-ad-type/class.php:164
+#: elementor/listing-category-box/class.php:149
+#: elementor/listing-grid/class.php:291 elementor/listing-isotope/class.php:147
+#: elementor/listing-store-grid/class.php:94
+msgid "Desktops: >1199px"
+msgstr "Asztali számítógépek: >1199px"
+
+#: elementor/listing-ad-type/class.php:171
+#: elementor/listing-category-box/class.php:156
+#: elementor/listing-grid/class.php:298 elementor/listing-isotope/class.php:154
+#: elementor/listing-store-grid/class.php:101
+msgid "Desktops: >991px"
+msgstr "Asztali számítógépek: >991px"
+
+#: inc/post-meta.php:59 inc/post-meta.php:69 inc/post-meta.php:103
+#: inc/post-meta.php:113
+msgid "Disable"
+msgstr "Letiltás"
+
+#: inc/post-meta.php:123
+msgid "Disabled"
+msgstr "Elrejtés"
+
+#: elementor/listing-term-list/class.php:89
+msgid "Display Category image/icon"
+msgstr "Kategória képének/ikonjának megjelenítése"
+
+#: elementor/listing-term-list/class.php:106
+msgid "Display count for Category/Location"
+msgstr "A kategória/helyszín kijelzésének száma"
+
+#: elementor/listing-grid/class.php:169
+msgid "Display Load More Button"
+msgstr "További betöltés gomb megjelenítése"
+
+#: elementor/listing-grid/class.php:146 elementor/listing-slider/class.php:126
+msgid "Display Views"
+msgstr "Nézetek megjelenítése"
+
+#: elementor/pricing-box/class.php:87
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "pl. hónap vagy év. Tartsa üresen, ha nem akarja megmutatni az egységet"
+
+#: elementor/contact/class.php:50
+msgid "Email"
+msgstr "E-mail"
+
+#: lib/sidebar-generator/init.php:96 lib/sidebar-generator/init.php:143
+msgid "Empty nonce"
+msgstr "Üres nonce"
+
+#: inc/post-meta.php:58 inc/post-meta.php:68 inc/post-meta.php:102
+#: inc/post-meta.php:112
+msgid "Enable"
+msgstr "Engedélyezze a"
+
+#: elementor/listing-location-box/class.php:55
+#: elementor/listing-location-box-2/class.php:55
+msgid "Enable Link"
+msgstr "Link engedélyezése"
+
+#: elementor/listing-category-slider/class.php:130
+#: elementor/listing-slider/class.php:267 elementor/testimonial-2/class.php:76
+msgid "Enable or disable autoplay. Default: On"
+msgstr ""
+"Az automatikus lejátszás engedélyezése vagy letiltása. Alapértelmezett: "
+"Beállítás"
+
+#: inc/post-meta.php:122
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: widgets/about.php:118
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: elementor/contact/class.php:44
+msgid "Fax"
+msgstr "Fax"
+
+#: elementor/listing-grid/class.php:70 elementor/listing-isotope/class.php:68
+#: elementor/listing-isotope/class.php:333 elementor/listing-list/class.php:56
+#: elementor/listing-slider/class.php:75
+msgid "Featured"
+msgstr "Kiemelt"
+
+#: inc/post-meta.php:155 elementor/pricing-box/class.php:98
+#: elementor/pricing-box/class.php:166 elementor/pricing-box/class.php:208
+msgid "Features"
+msgstr "Jellemzők"
+
+#: inc/post-meta.php:161
+msgid "Features List"
+msgstr "Jellemzők listája"
+
+#: elementor/listing-search/search-banner.php:31
+msgid "Find anything in"
+msgstr "Találjon meg bármit a"
+
+#: inc/post-meta.php:88
+msgid "Footer Style"
+msgstr "Lábléc stílus"
+
+#: lib/wp-svg/init.php:133
+msgid "Full Size"
+msgstr "Teljes méret"
+
+#: inc/post-meta.php:41
+msgid "Full Width"
+msgstr "Teljes szélességben"
+
+#: elementor/accordian/class.php:27 elementor/app-banner/class.php:27
+#: elementor/button/class.php:27 elementor/contact/class.php:27
+#: elementor/counter/class.php:32 elementor/cta/class.php:27
+#: elementor/google-map/class.php:27 elementor/info-box/class.php:27
+#: elementor/listing-ad-type/class.php:53
+#: elementor/listing-category-box/class.php:45
+#: elementor/listing-category-list/class.php:42
+#: elementor/listing-category-slider/class.php:42
+#: elementor/listing-grid/class.php:45 elementor/listing-isotope/class.php:49
+#: elementor/listing-list/class.php:35
+#: elementor/listing-location-box/class.php:36
+#: elementor/listing-location-box-2/class.php:36
+#: elementor/listing-search/class.php:28 elementor/listing-slider/class.php:47
+#: elementor/listing-store-grid/class.php:44
+#: elementor/listing-store-list/class.php:35
+#: elementor/listing-term-list/class.php:68 elementor/post/class.php:34
+#: elementor/pricing-box/class.php:50 elementor/testimonial-1/class.php:27
+#: elementor/testimonial-2/class.php:27 elementor/text-button/class.php:27
+#: elementor/title/class.php:27 elementor/title-animated/class.php:27
+msgid "General"
+msgstr "Általános"
+
+#: elementor/app-banner/view.php:19 elementor/app-banner/view.php:27
+msgid "Get it on"
+msgstr "Get it on"
+
+#: elementor/google-map/class.php:17
+msgid "Google Map"
+msgstr "Google Térkép"
+
+#: elementor/google-map/class.php:32
+msgid "Google Map Code"
+msgstr "Google Térkép kód"
+
+#: inc/post-meta.php:74
+msgid "Header Layout"
+msgstr "Fejléc elrendezése"
+
+#: elementor/google-map/class.php:39
+msgid "Height"
+msgstr "Magasság"
+
+#: elementor/listing-category-box/class.php:97
+#: elementor/listing-category-list/class.php:113
+#: elementor/listing-category-slider/class.php:92
+msgid "Hide Categories that has no listings. Default: On"
+msgstr ""
+"Rejtse el a kategóriákat, amelyeknek nincs listája. Alapértelmezett: On"
+
+#: elementor/listing-category-box/class.php:93
+#: elementor/listing-category-list/class.php:109
+#: elementor/listing-category-slider/class.php:88
+msgid "Hide Empty"
+msgstr "Üres elrejtése"
+
+#: elementor/listing-term-list/class.php:98
+msgid "Hide empty Category/Location"
+msgstr "Üres kategória/helyszín elrejtése"
+
+#: inc/demo-importer-ocdi.php:28 inc/demo-importer-ocdi.php:29
+#: inc/demo-importer.php:42
+msgid "Home 1"
+msgstr "Home 1"
+
+#: inc/demo-importer-ocdi.php:34 inc/demo-importer-ocdi.php:35
+#: inc/demo-importer.php:47
+msgid "Home 2"
+msgstr "Home 2"
+
+#: inc/demo-importer-ocdi.php:40 inc/demo-importer-ocdi.php:41
+#: inc/demo-importer.php:52
+msgid "Home 3"
+msgstr "Home 3"
+
+#: inc/demo-importer-ocdi.php:46 inc/demo-importer-ocdi.php:47
+#: inc/demo-importer.php:57
+msgid "Home 4"
+msgstr "Home 4"
+
+#: inc/demo-importer-ocdi.php:52 inc/demo-importer-ocdi.php:53
+#: inc/demo-importer.php:62
+msgid "Home 5"
+msgstr "Home 5"
+
+#: inc/demo-importer-ocdi.php:58 inc/demo-importer-ocdi.php:59
+#: inc/demo-importer.php:67
+msgid "Home 6"
+msgstr "Home 6"
+
+#: inc/demo-importer-ocdi.php:64 inc/demo-importer-ocdi.php:65
+#: inc/demo-importer.php:72
+msgid "Home 7"
+msgstr "Otthon 7"
+
+#: inc/demo-importer-ocdi.php:70 inc/demo-importer-ocdi.php:71
+#: inc/demo-importer.php:77
+msgid "Home 8"
+msgstr "Home 8"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.radiustheme.com"
+msgstr "https://www.radiustheme.com"
+
+#: elementor/button/class.php:44 elementor/contact/class.php:67
+#: elementor/counter/class.php:49 elementor/counter/class.php:57
+#: elementor/info-box/class.php:53 elementor/info-box/class.php:61
+#: elementor/listing-category-box/class.php:105
+#: elementor/listing-category-list/class.php:121
+#: elementor/listing-category-slider/class.php:100
+msgid "Icon"
+msgstr "Ikon"
+
+#: elementor/button/class.php:122 elementor/counter/class.php:114
+#: elementor/info-box/class.php:109
+msgid "Icon Color"
+msgstr "Ikon színe"
+
+#: elementor/counter/class.php:47 elementor/info-box/class.php:51
+#: elementor/listing-category-box/class.php:102
+#: elementor/listing-category-list/class.php:118
+#: elementor/listing-category-slider/class.php:97
+msgid "Icon Type"
+msgstr "Ikon típusa"
+
+#: elementor/listing-category-box/class.php:72
+#: elementor/listing-category-list/class.php:88
+#: elementor/listing-category-slider/class.php:67
+msgid "ID"
+msgstr "ID"
+
+#: inc/post-meta.php:140 inc/post-meta.php:145
+msgid "If not selected, default will be used"
+msgstr "Ha nincs kiválasztva, az alapértelmezett értéket használjuk"
+
+#: elementor/counter/class.php:64 elementor/info-box/class.php:68
+#: elementor/listing-category-box/class.php:104
+#: elementor/listing-category-list/class.php:120
+#: elementor/listing-category-slider/class.php:99
+#: elementor/text-button/class.php:32
+msgid "Image"
+msgstr "Kép"
+
+#: elementor/parallax/class.php:29
+msgid "Image Placeholder"
+msgstr "Kép helyőrző"
+
+#: elementor/info-box/class.php:17
+msgid "Info Box"
+msgstr "Infobox"
+
+#: widgets/about.php:134
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: inc/demo-importer.php:27
+msgid "Install Demo Contents"
+msgstr "Telepítse a Demo tartalmát"
+
+#: lib/sidebar-generator/init.php:99 lib/sidebar-generator/init.php:146
+msgid "Invalid nonce"
+msgstr "Érvénytelen nonce"
+
+#: elementor/accordian/class.php:62
+msgid "Item Background"
+msgstr "Elem Háttér"
+
+#: elementor/listing-grid/class.php:67 elementor/listing-isotope/class.php:66
+#: elementor/listing-list/class.php:53 elementor/listing-slider/class.php:72
+msgid "Items to Show"
+msgstr "Megmutatandó elemek"
+
+#: lib/wp-svg/init.php:136
+msgid "Large"
+msgstr "Nagy"
+
+#: inc/post-meta.php:37
+msgid "Layout"
+msgstr "Elrendezés"
+
+#: inc/post-meta.php:78
+msgid "Layout 1"
+msgstr "1. elrendezés"
+
+#: inc/post-meta.php:79
+msgid "Layout 2"
+msgstr "2. elrendezés"
+
+#: inc/post-meta.php:80
+msgid "Layout 3"
+msgstr "3. elrendezés"
+
+#: inc/post-meta.php:81
+msgid "Layout 4"
+msgstr "4. elrendezés"
+
+#: inc/post-meta.php:82
+msgid "Layout 5"
+msgstr "5. elrendezés"
+
+#: inc/post-meta.php:83
+msgid "Layout 6"
+msgstr "6. elrendezés"
+
+#: inc/post-meta.php:30
+msgid "Layout Settings"
+msgstr "Elrendezési beállítások"
+
+#: inc/post-meta.php:33
+msgid "Layouts"
+msgstr "Alaprajzok"
+
+#: inc/post-meta.php:42
+msgid "Left Sidebar"
+msgstr "Bal oldalsáv"
+
+#: elementor/counter/class.php:39
+#: elementor/listing-category-slider/class.php:49
+#: elementor/listing-search/class.php:35
+msgid "Light Background"
+msgstr "Világos háttér"
+
+#: elementor/info-box/class.php:87
+msgid "Link (Optional)"
+msgstr "Link (nem kötelező)"
+
+#: elementor/contact/class.php:79
+msgid "Link Hover"
+msgstr "Link Hover"
+
+#: widgets/about.php:126
+msgid "Linkedin URL"
+msgstr "Linkedin URL"
+
+#: elementor/listing-category-list/class.php:163
+#: elementor/listing-category-list/class.php:186
+msgid "List Item"
+msgstr "Listaelem"
+
+#: elementor/listing-category-box/class.php:19
+msgid "Listing Category Box"
+msgstr "Listázási kategória doboz"
+
+#: elementor/listing-category-list/class.php:20
+msgid "Listing Category List"
+msgstr "Listázás Kategóriák listája"
+
+#: elementor/listing-category-slider/class.php:20
+msgid "Listing Category Slider"
+msgstr "Listázási kategória csúszka"
+
+#: elementor/listing-category-box/class.php:112
+#: elementor/listing-category-list/class.php:128
+#: elementor/listing-category-slider/class.php:107
+msgid "Listing Counts"
+msgstr "Listázási számok"
+
+#: elementor/listing-grid/class.php:19
+msgid "Listing Grid"
+msgstr "Listázási rács"
+
+#: elementor/listing-ad-type/class.php:127 elementor/listing-grid/class.php:208
+#: elementor/listing-isotope/class.php:110 elementor/listing-list/class.php:122
+#: elementor/listing-slider/class.php:159
+msgid "Listing ID's, seperated by commas"
+msgstr "Listázási azonosítók, vesszővel elválasztva"
+
+#: elementor/listing-isotope/class.php:18
+msgid "Listing Isotope"
+msgstr "Izotóp listázása"
+
+#: elementor/listing-list/class.php:18
+msgid "Listing List"
+msgstr "Listázás lista"
+
+#: elementor/listing-location-box/class.php:18
+msgid "Listing Location Box"
+msgstr "Listázási hely doboz"
+
+#: elementor/listing-location-box-2/class.php:18
+msgid "Listing Location Box 2"
+msgstr "Listázási hely Box 2"
+
+#: elementor/listing-search/class.php:18
+msgid "Listing Search"
+msgstr "Listázási keresés"
+
+#: elementor/listing-slider/class.php:20
+msgid "Listing Slider"
+msgstr "Listázó csúszka"
+
+#: elementor/listing-store-grid/class.php:17
+msgid "Listing Store Grid"
+msgstr "Listázás Store Grid"
+
+#: elementor/listing-store-list/class.php:17
+msgid "Listing Store List"
+msgstr "Listázás Áruház lista"
+
+#: elementor/listing-term-list/class.php:58
+msgid "Listing Term List"
+msgstr "Listing kifejezés listája"
+
+#: elementor/listing-ad-type/class.php:20
+msgid "Listing Type Tab"
+msgstr "Listázási típus lap"
+
+#: elementor/listing-grid/view.php:59
+msgid "Load More"
+msgstr "Bővebben"
+
+#: elementor/listing-location-box/class.php:41
+#: elementor/listing-location-box-2/class.php:41
+#: elementor/listing-term-list/class.php:82
+msgid "Location"
+msgstr "Helyszín"
+
+#: widgets/about.php:110
+msgid "Logo"
+msgstr "Logó"
+
+#: elementor/listing-category-slider/class.php:168
+#: elementor/listing-slider/class.php:305 elementor/testimonial-2/class.php:114
+#: elementor/title-animated/class.php:96
+msgid "Loop"
+msgstr "Hurok"
+
+#: elementor/listing-category-slider/class.php:172
+#: elementor/listing-slider/class.php:309 elementor/testimonial-2/class.php:118
+msgid "Loop to first item. Default: On"
+msgstr "Hurok az első elemhez. Alapértelmezett: On"
+
+#: elementor/listing-location-box/class.php:71
+#: elementor/listing-location-box-2/class.php:71
+msgid "Max Width"
+msgstr "Maximális szélesség"
+
+#: elementor/post/class.php:69
+msgid "Maximum number of words to display"
+msgstr "A megjelenítendő szavak maximális száma"
+
+#: lib/wp-svg/init.php:135
+msgid "Medium"
+msgstr "Közepes"
+
+#: elementor/listing-ad-type/class.php:228
+#: elementor/listing-ad-type/class.php:264 elementor/listing-grid/class.php:355
+#: elementor/listing-grid/class.php:391 elementor/listing-isotope/class.php:211
+#: elementor/listing-isotope/class.php:247 elementor/listing-list/class.php:212
+#: elementor/listing-list/class.php:255 elementor/listing-slider/class.php:343
+#: elementor/listing-slider/class.php:379 elementor/post/class.php:124
+#: elementor/post/class.php:161
+msgid "Meta"
+msgstr "Meta"
+
+#: elementor/button/class.php:70 elementor/text-button/class.php:51
+msgid "Min Height"
+msgstr "Minimális magasság"
+
+#: elementor/button/class.php:50
+msgid "Min Width"
+msgstr "Minimális szélesség"
+
+#: elementor/testimonial-1/class.php:42 elementor/testimonial-2/class.php:37
+#: lib/sidebar-generator/init.php:49
+msgid "Name"
+msgstr "Név"
+
+#: elementor/testimonial-1/class.php:94 elementor/testimonial-2/class.php:134
+msgid "Name Color"
+msgstr "Név Szín"
+
+#: elementor/testimonial-1/class.php:113 elementor/testimonial-2/class.php:153
+msgid "Name Typography"
+msgstr "Név tipográfia"
+
+#: elementor/listing-grid/class.php:71 elementor/listing-isotope/class.php:69
+#: elementor/listing-isotope/class.php:334 elementor/listing-list/class.php:57
+#: elementor/listing-slider/class.php:76
+msgid "New"
+msgstr "Új"
+
+#: elementor/listing-ad-type/view.php:51 elementor/listing-isotope/view.php:51
+msgid "No Items Available"
+msgstr "Nincsenek elérhető tételek"
+
+#: elementor/listing-category-box/view-3.php:19
+#: elementor/listing-location-box/view.php:10
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s Hirdetés"
+msgstr[1] "%s Hirdetések"
+
+#: elementor/listing-store-grid/view.php:15
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s ad"
+msgid_plural "%s ads"
+msgstr[0] "%s hirdetés"
+msgstr[1] "%s hirdetések"
+
+#: elementor/listing-location-box-2/view.php:10
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad Posted"
+msgid_plural "%s Ads Posted"
+msgstr[0] "%s Hirdetés feladva"
+msgstr[1] "%s Feladott hirdetések"
+
+#: elementor/listing-grid/class.php:192 elementor/listing-list/class.php:106
+#: elementor/listing-store-grid/class.php:49
+#: elementor/listing-store-list/class.php:40
+msgid "Number of Items"
+msgstr "Tételek száma"
+
+#: elementor/listing-isotope/class.php:103
+msgid "Number of Items per "
+msgstr "Tételek száma per"
+
+#: elementor/listing-ad-type/class.php:120
+msgid "Number of Items per Type"
+msgstr "Tételszám típusonként"
+
+#: elementor/listing-ad-type/class.php:159
+#: elementor/listing-category-box/class.php:144
+#: elementor/listing-grid/class.php:286 elementor/listing-isotope/class.php:142
+#: elementor/listing-slider/class.php:213
+#: elementor/listing-store-grid/class.php:89
+msgid "Number of Responsive Columns"
+msgstr "Responsive oszlopok száma"
+
+#: elementor/listing-category-box/class.php:133
+#: elementor/listing-list/class.php:101
+msgid "Number of Words to display"
+msgstr "Megjelenítendő szavak száma"
+
+#: elementor/listing-category-box/class.php:121
+#: elementor/listing-category-list/class.php:137
+msgid "Numbers of sub-category"
+msgstr "Az alkategóriák számai"
+
+#: elementor/listing-category-box/class.php:125
+#: elementor/listing-category-list/class.php:141
+msgid "Numbers of sub-category listed. Default: 3"
+msgstr "A felsorolt alkategóriák számai. Alapértelmezett: 3"
+
+#: elementor/init.php:114 elementor/init.php:142
+#: elementor/listing-ad-type/class.php:98
+#: elementor/listing-ad-type/class.php:106
+#: elementor/listing-ad-type/class.php:114
+#: elementor/listing-ad-type/class.php:137
+#: elementor/listing-category-box/class.php:95
+#: elementor/listing-category-box/class.php:114
+#: elementor/listing-category-list/class.php:59
+#: elementor/listing-category-list/class.php:69
+#: elementor/listing-category-list/class.php:111
+#: elementor/listing-category-list/class.php:130
+#: elementor/listing-category-slider/class.php:90
+#: elementor/listing-category-slider/class.php:109
+#: elementor/listing-category-slider/class.php:128
+#: elementor/listing-category-slider/class.php:137
+#: elementor/listing-category-slider/class.php:170
+#: elementor/listing-grid/class.php:99 elementor/listing-grid/class.php:116
+#: elementor/listing-grid/class.php:124 elementor/listing-grid/class.php:132
+#: elementor/listing-grid/class.php:140 elementor/listing-grid/class.php:148
+#: elementor/listing-grid/class.php:171 elementor/listing-grid/class.php:218
+#: elementor/listing-isotope/class.php:81
+#: elementor/listing-isotope/class.php:89
+#: elementor/listing-isotope/class.php:97
+#: elementor/listing-isotope/class.php:120 elementor/listing-list/class.php:85
+#: elementor/listing-list/class.php:93 elementor/listing-list/class.php:132
+#: elementor/listing-location-box/class.php:49
+#: elementor/listing-location-box/class.php:57
+#: elementor/listing-location-box-2/class.php:49
+#: elementor/listing-location-box-2/class.php:57
+#: elementor/listing-slider/class.php:104
+#: elementor/listing-slider/class.php:112
+#: elementor/listing-slider/class.php:120
+#: elementor/listing-slider/class.php:128
+#: elementor/listing-slider/class.php:169
+#: elementor/listing-slider/class.php:265
+#: elementor/listing-slider/class.php:274
+#: elementor/listing-slider/class.php:307
+#: elementor/listing-term-list/class.php:91
+#: elementor/listing-term-list/class.php:100
+#: elementor/listing-term-list/class.php:108
+#: elementor/listing-term-list/class.php:116 elementor/post/class.php:77
+#: elementor/post/class.php:86 elementor/testimonial-2/class.php:74
+#: elementor/testimonial-2/class.php:83 elementor/testimonial-2/class.php:116
+#: elementor/title-animated/class.php:83 elementor/title-animated/class.php:98
+msgid "Off"
+msgstr "Off"
+
+#: elementor/init.php:115 elementor/listing-ad-type/class.php:97
+#: elementor/listing-ad-type/class.php:105
+#: elementor/listing-ad-type/class.php:113
+#: elementor/listing-ad-type/class.php:136
+#: elementor/listing-category-box/class.php:94
+#: elementor/listing-category-box/class.php:113
+#: elementor/listing-category-list/class.php:58
+#: elementor/listing-category-list/class.php:68
+#: elementor/listing-category-list/class.php:110
+#: elementor/listing-category-list/class.php:129
+#: elementor/listing-category-slider/class.php:89
+#: elementor/listing-category-slider/class.php:108
+#: elementor/listing-category-slider/class.php:127
+#: elementor/listing-category-slider/class.php:136
+#: elementor/listing-category-slider/class.php:169
+#: elementor/listing-grid/class.php:98 elementor/listing-grid/class.php:115
+#: elementor/listing-grid/class.php:123 elementor/listing-grid/class.php:131
+#: elementor/listing-grid/class.php:139 elementor/listing-grid/class.php:147
+#: elementor/listing-grid/class.php:170 elementor/listing-grid/class.php:217
+#: elementor/listing-isotope/class.php:80
+#: elementor/listing-isotope/class.php:88
+#: elementor/listing-isotope/class.php:96
+#: elementor/listing-isotope/class.php:119 elementor/listing-list/class.php:84
+#: elementor/listing-list/class.php:92 elementor/listing-list/class.php:131
+#: elementor/listing-location-box/class.php:48
+#: elementor/listing-location-box/class.php:56
+#: elementor/listing-location-box-2/class.php:48
+#: elementor/listing-location-box-2/class.php:56
+#: elementor/listing-slider/class.php:103
+#: elementor/listing-slider/class.php:111
+#: elementor/listing-slider/class.php:119
+#: elementor/listing-slider/class.php:127
+#: elementor/listing-slider/class.php:168
+#: elementor/listing-slider/class.php:264
+#: elementor/listing-slider/class.php:273
+#: elementor/listing-slider/class.php:306
+#: elementor/listing-term-list/class.php:90
+#: elementor/listing-term-list/class.php:99
+#: elementor/listing-term-list/class.php:107
+#: elementor/listing-term-list/class.php:115 elementor/post/class.php:76
+#: elementor/post/class.php:85 elementor/testimonial-2/class.php:73
+#: elementor/testimonial-2/class.php:82 elementor/testimonial-2/class.php:115
+#: elementor/title-animated/class.php:82 elementor/title-animated/class.php:97
+msgid "On"
+msgstr "A  oldalon"
+
+#: elementor/init.php:141
+msgid "on"
+msgstr "a  oldalon"
+
+#: elementor/pricing-box/class.php:100
+msgid ""
+"One line per feature eg.<br/>10 Ads per month<br/>Featured on first week"
+msgstr ""
+"Egy sor funkciónként, pl. <br/>10 hirdetés havonta<br/>Első héten megjelenik"
+
+#: lib/sidebar-generator/init.php:80
+msgid "Operation failed"
+msgstr "A művelet sikertelen"
+
+#: elementor/listing-grid/class.php:257
+msgid "Order"
+msgstr "Megrendelés"
+
+#: elementor/listing-ad-type/class.php:143
+#: elementor/listing-category-box/class.php:70
+#: elementor/listing-category-list/class.php:86
+#: elementor/listing-category-slider/class.php:65
+#: elementor/listing-grid/class.php:233 elementor/listing-isotope/class.php:126
+#: elementor/listing-list/class.php:147 elementor/listing-slider/class.php:184
+#: elementor/listing-store-grid/class.php:64
+#: elementor/listing-store-list/class.php:55 elementor/post/class.php:57
+msgid "Order By"
+msgstr "Megrendelés"
+
+#: elementor/app-banner/class.php:92 elementor/cta/class.php:79
+msgid "Padding"
+msgstr "Padding"
+
+#: elementor/init.php:112
+msgid "Parallax"
+msgstr "Parallax"
+
+#: elementor/init.php:139
+msgid "Parallax Transition off?"
+msgstr "Parallaxis átmenet ki?"
+
+#: elementor/contact/class.php:38
+msgid "Phone"
+msgstr "Telefon"
+
+#: elementor/listing-slider/class.php:239
+msgid "Phones: < 768px"
+msgstr "Telefonok: < 768px"
+
+#: elementor/listing-ad-type/class.php:185
+#: elementor/listing-category-box/class.php:170
+#: elementor/listing-grid/class.php:312 elementor/listing-isotope/class.php:168
+#: elementor/listing-store-grid/class.php:115
+msgid "Phones: >575px"
+msgstr "Telefonok: >575px"
+
+#: widgets/about.php:130
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: elementor/listing-location-box/class.php:204
+#: elementor/listing-location-box-2/class.php:204
+msgid "Please Select a Location and Background"
+msgstr "Kérjük, válasszon helyszínt és hátteret"
+
+#: elementor/listing-grid/class.php:72 elementor/listing-isotope/class.php:70
+#: elementor/listing-isotope/class.php:335 elementor/listing-list/class.php:58
+#: elementor/listing-slider/class.php:77
+msgid "Popular"
+msgstr "Népszerű"
+
+#: elementor/post/class.php:17
+msgid "Post"
+msgstr "Post"
+
+#: elementor/listing-ad-type/class.php:234
+#: elementor/listing-ad-type/class.php:271 elementor/listing-grid/class.php:361
+#: elementor/listing-grid/class.php:398 elementor/listing-isotope/class.php:217
+#: elementor/listing-isotope/class.php:254 elementor/listing-list/class.php:218
+#: elementor/listing-list/class.php:262 elementor/listing-slider/class.php:349
+#: elementor/listing-slider/class.php:386 elementor/pricing-box/class.php:73
+#: elementor/pricing-box/class.php:160 elementor/pricing-box/class.php:201
+msgid "Price"
+msgstr "Ár"
+
+#: elementor/pricing-box/class.php:19
+msgid "Pricing Box"
+msgstr "Árazás doboz"
+
+#: elementor/pricing-box/class.php:113
+msgid "Pricing Page Link"
+msgstr "Árképzési oldal linkje"
+
+#: elementor/counter/class.php:78
+msgid "Put any text or symbol after Counter Number eg. +"
+msgstr "Tegyen bármilyen szöveget vagy szimbólumot a számlálószám után pl. +"
+
+#: elementor/listing-ad-type/class.php:130 elementor/listing-grid/class.php:211
+#: elementor/listing-isotope/class.php:113 elementor/listing-list/class.php:125
+#: elementor/listing-slider/class.php:162
+msgid "Put the comma seperated ID's here eg. 23,26,89"
+msgstr "Tegye ide a vesszővel elválasztott azonosítókat, pl. 23,26,89"
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+#: elementor/init.php:101
+msgid "RadiusTheme Elements"
+msgstr "RadiusTheme elemek"
+
+#: elementor/testimonial-1/class.php:60
+msgid "Rating"
+msgstr "Értékelés"
+
+#: elementor/info-box/class.php:70
+msgid ""
+"Recommended image size is 160x160 px.<br/>You can upload SVG format as well, "
+"to get SVG images click here: <a target=\"_blank\" href=\"https://www."
+"flaticon.com/\">flaticon.com</a>"
+msgstr ""
+"Az ajánlott képméret 160x160 px.<br/>Az SVG formátumot is feltöltheti, az "
+"SVG képekért kattintson ide: <a target=\"_blank\" href=\"https://www."
+"flaticon.com/\">flaticon.com</a>"
+
+#: elementor/counter/class.php:66
+msgid ""
+"Recommended image size is 94x94 px.<br/>You can upload SVG format as well, "
+"to get SVG images click here: <a target=\"_blank\" href=\"https://www."
+"flaticon.com/\">flaticon.com</a>"
+msgstr ""
+"Az ajánlott képméret 94x94 px.<br/>Az SVG formátumot is feltöltheti, az SVG "
+"képekért kattintson ide: <a target=\"_blank\" href=\"https://www.flaticon."
+"com/\">flaticon.com</a>"
+
+#: inc/post-meta.php:43
+msgid "Right Sidebar"
+msgstr "Jobb oldalsáv"
+
+#: widgets/about.php:142
+msgid "Rss Feed URL"
+msgstr "Rss Feed URL"
+
+#: elementor/counter/class.php:84
+msgid "Satisfied Customers"
+msgstr "Elégedett ügyfelek"
+
+#: elementor/listing-slider/class.php:66 elementor/title/class.php:17
+msgid "Section Title"
+msgstr "Szakasz címe"
+
+#: elementor/title-animated/class.php:17
+msgid "Section Title(Animated)"
+msgstr "Szakasz címe (animált)"
+
+#: elementor/listing-category-list/view-1.php:20
+msgid "See All Categories"
+msgstr "Minden kategória megtekintése"
+
+#: elementor/listing-ad-type/class.php:72
+msgid "Select Listing Type"
+msgstr "Válassza ki a listázás típusát"
+
+#: elementor/pricing-box/class.php:128
+msgid "Select Pricing"
+msgstr "Válassza ki az árképzést"
+
+#: elementor/cta/class.php:32 elementor/info-box/class.php:32
+#: elementor/testimonial-1/class.php:32
+msgid "Select Style"
+msgstr "Stílus kiválasztása"
+
+#: elementor/listing-category-slider/class.php:154
+#: elementor/listing-slider/class.php:291 elementor/testimonial-2/class.php:100
+msgid ""
+"Set any value for example 5 seconds to play it in every 5 seconds. Default: "
+"5 Seconds"
+msgstr ""
+"Állítson be bármilyen értéket, például 5 másodpercet, hogy 5 másodpercenként "
+"játssza le. Alapértelmezett: 5 másodperc"
+
+#: inc/social-share.php:53
+msgid "Share"
+msgstr "Megosztás"
+
+#: elementor/listing-ad-type/class.php:112 elementor/listing-grid/class.php:122
+#: elementor/listing-isotope/class.php:95
+#: elementor/listing-slider/class.php:118
+msgid "Show Ad Type"
+msgstr "Hirdetés típusának megjelenítése"
+
+#: elementor/listing-category-list/class.php:61
+msgid "Show all categories button. Default: Off"
+msgstr "Minden kategória megjelenítése gomb. Alapértelmezett: Kikapcsolva"
+
+#: elementor/title-animated/class.php:81
+msgid "Show Cursor"
+msgstr "Mutassa a kurzort"
+
+#: elementor/listing-ad-type/class.php:104 elementor/listing-grid/class.php:114
+#: elementor/listing-isotope/class.php:87 elementor/listing-list/class.php:91
+#: elementor/listing-slider/class.php:110
+msgid "Show Custom Fields"
+msgstr "Egyéni mezők megjelenítése"
+
+#: elementor/listing-grid/class.php:130
+msgid "Show Date"
+msgstr "Megjelenítés dátuma"
+
+#: elementor/listing-location-box/class.php:47
+#: elementor/listing-location-box-2/class.php:47
+msgid "Show Listing Counts"
+msgstr "Mutassa a listázási számokat"
+
+#: elementor/listing-grid/class.php:138
+msgid "Show Location"
+msgstr "Megjelenítés helye"
+
+#: elementor/post/class.php:79
+msgid "Show or hide author name"
+msgstr "A szerző neve megjelenítése vagy elrejtése"
+
+#: elementor/listing-category-box/class.php:116
+#: elementor/listing-category-list/class.php:132
+#: elementor/listing-category-slider/class.php:111
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "Listázási számok megjelenítése vagy elrejtése. Alapértelmezett: On"
+
+#: elementor/post/class.php:88
+msgid "Show or hide view-all button"
+msgstr "Összes megtekintése gomb megjelenítése vagy elrejtése"
+
+#: elementor/pricing-box/class.php:79
+msgid "Show per sign"
+msgstr "Megjelenítés jelenként"
+
+#: elementor/listing-category-list/class.php:71
+msgid "Show top categories. Default: On"
+msgstr "Top kategóriák megjelenítése. Alapértelmezett: On"
+
+#: lib/sidebar-generator/init.php:140
+msgid "Sidebar ID not found"
+msgstr "Oldalsáv azonosító nem található"
+
+#: lib/sidebar-generator/init.php:93
+msgid "Sidebar name can't be empty"
+msgstr "Az oldalsáv neve nem lehet üres"
+
+#: lib/sidebar-generator/init.php:106
+msgid ""
+"Sidebar with the same name already exists. Please choose a different name"
+msgstr "Az azonos nevű oldalsáv már létezik. Kérjük, válasszon másik nevet"
+
+#: elementor/listing-store-list/view.php:19
+#, php-format
+msgid "Since %s"
+msgstr "Mivel %s"
+
+#: elementor/listing-category-slider/class.php:162
+#: elementor/listing-slider/class.php:299 elementor/testimonial-2/class.php:108
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "Csúszás sebessége milliszekundumban. Alapértelmezett: 200"
+
+#: elementor/listing-category-slider/class.php:121
+#: elementor/listing-slider/class.php:258 elementor/testimonial-2/class.php:67
+msgid "Slider Options"
+msgstr "Csúszka beállítások"
+
+#: elementor/listing-slider/class.php:246
+msgid "Small Phones: < 480px"
+msgstr "Kis telefonok: < 480px"
+
+#: elementor/listing-ad-type/class.php:192
+#: elementor/listing-category-box/class.php:177
+#: elementor/listing-grid/class.php:319 elementor/listing-isotope/class.php:175
+#: elementor/listing-store-grid/class.php:122
+msgid "Small Phones: <576px"
+msgstr "Kis telefonok: <576px"
+
+#: elementor/listing-category-box/class.php:83
+#: elementor/listing-category-list/class.php:99
+#: elementor/listing-category-slider/class.php:78
+#: elementor/listing-store-grid/class.php:74
+#: elementor/listing-store-list/class.php:65
+msgid "Sort By"
+msgstr "Rendezés"
+
+#: elementor/init.php:124 elementor/title-animated/class.php:89
+msgid "Speed"
+msgstr "Sebesség"
+
+#: elementor/title-animated/class.php:91
+msgid "Speed in milliseconds"
+msgstr "Sebesség milliszekundumban"
+
+#: elementor/listing-category-box/class.php:65
+#: elementor/listing-category-list/class.php:80
+#: elementor/listing-category-slider/class.php:60
+msgid ""
+"Start typing category names. If empty then all parent categories will be "
+"displayed"
+msgstr ""
+"Kezdje el beírni a kategóriák nevét. Ha üres, akkor az összes szülő "
+"kategória megjelenik"
+
+#: elementor/listing-category-slider/class.php:139
+#: elementor/listing-slider/class.php:276 elementor/testimonial-2/class.php:85
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr ""
+"Az automatikus lejátszás leállítása az egér lebegtetésekor. Alapértelmezett: "
+"On"
+
+#: elementor/listing-category-slider/class.php:135
+#: elementor/listing-slider/class.php:272 elementor/testimonial-2/class.php:81
+msgid "Stop on Hover"
+msgstr "Stop on Hover"
+
+#: elementor/app-banner/class.php:85 elementor/button/class.php:95
+#: elementor/counter/class.php:109 elementor/cta/class.php:72
+#: elementor/info-box/class.php:98 elementor/listing-ad-type/class.php:58
+#: elementor/listing-category-box/class.php:50
+#: elementor/listing-category-list/class.php:47
+#: elementor/listing-grid/class.php:50 elementor/listing-isotope/class.php:54
+#: elementor/listing-list/class.php:40
+#: elementor/listing-location-box/class.php:121
+#: elementor/listing-location-box-2/class.php:121
+#: elementor/listing-search/class.php:43 elementor/listing-slider/class.php:52
+#: elementor/listing-store-grid/class.php:135
+#: elementor/listing-store-list/class.php:81 elementor/post/class.php:39
+#: elementor/pricing-box/class.php:55 elementor/testimonial-1/class.php:89
+#: elementor/testimonial-2/class.php:129 elementor/text-button/class.php:88
+#: elementor/title/class.php:32 elementor/title/class.php:63
+#: elementor/title-animated/class.php:110
+msgid "Style"
+msgstr "Stílus"
+
+#: inc/post-meta.php:92 elementor/cta/class.php:34
+#: elementor/info-box/class.php:34 elementor/listing-ad-type/class.php:60
+#: elementor/listing-category-box/class.php:52
+#: elementor/listing-category-list/class.php:49
+#: elementor/listing-grid/class.php:52 elementor/listing-isotope/class.php:56
+#: elementor/listing-list/class.php:42 elementor/listing-search/class.php:45
+#: elementor/listing-slider/class.php:54 elementor/post/class.php:41
+#: elementor/pricing-box/class.php:57 elementor/testimonial-1/class.php:34
+#: elementor/title/class.php:34
+msgid "Style 1"
+msgstr "1. stílus"
+
+#: inc/post-meta.php:93 elementor/cta/class.php:35
+#: elementor/info-box/class.php:35 elementor/listing-ad-type/class.php:61
+#: elementor/listing-category-box/class.php:53
+#: elementor/listing-category-list/class.php:50
+#: elementor/listing-grid/class.php:53 elementor/listing-isotope/class.php:57
+#: elementor/listing-list/class.php:43 elementor/listing-search/class.php:46
+#: elementor/listing-slider/class.php:55 elementor/post/class.php:42
+#: elementor/pricing-box/class.php:58 elementor/testimonial-1/class.php:35
+#: elementor/title/class.php:35
+msgid "Style 2"
+msgstr "Stílus 2"
+
+#: elementor/listing-ad-type/class.php:62
+#: elementor/listing-category-box/class.php:54
+#: elementor/listing-grid/class.php:54 elementor/listing-isotope/class.php:58
+#: elementor/listing-list/class.php:44 elementor/listing-search/class.php:47
+#: elementor/listing-slider/class.php:56 elementor/post/class.php:43
+#: elementor/pricing-box/class.php:59 elementor/title/class.php:36
+msgid "Style 3"
+msgstr "3. stílus"
+
+#: elementor/listing-ad-type/class.php:63
+#: elementor/listing-category-box/class.php:55
+#: elementor/listing-grid/class.php:55 elementor/listing-isotope/class.php:59
+#: elementor/listing-list/class.php:45 elementor/listing-slider/class.php:57
+#: elementor/title/class.php:37
+msgid "Style 4"
+msgstr "4-es stílus"
+
+#: elementor/listing-ad-type/class.php:64 elementor/listing-grid/class.php:56
+#: elementor/listing-list/class.php:46 elementor/listing-slider/class.php:58
+msgid "Style 5"
+msgstr "5. stílus"
+
+#: elementor/listing-ad-type/class.php:65 elementor/listing-grid/class.php:57
+#: elementor/listing-slider/class.php:59
+msgid "Style 6"
+msgstr "6-os stílus"
+
+#: elementor/listing-grid/class.php:58
+msgid "Style 7"
+msgstr "7-es stílus"
+
+#: elementor/listing-grid/class.php:59
+msgid "Style 8"
+msgstr "8-as stílus"
+
+#: elementor/listing-grid/class.php:60
+msgid "Style 9"
+msgstr "9-es stílus"
+
+#: elementor/app-banner/class.php:38 elementor/cta/class.php:48
+#: elementor/title/class.php:50 elementor/title-animated/class.php:45
+msgid "Subtitle"
+msgstr "Alcím"
+
+#: elementor/app-banner/class.php:134 elementor/cta/class.php:125
+#: elementor/title/class.php:74 elementor/title-animated/class.php:121
+msgid "Subtitle Color"
+msgstr "Felirat Szín"
+
+#: elementor/app-banner/class.php:148 elementor/cta/class.php:139
+#: elementor/title/class.php:89 elementor/title-animated/class.php:135
+msgid "Subtitle Typography"
+msgstr "Felirat tipográfia"
+
+#: elementor/listing-slider/class.php:232
+msgid "Tablets: > 767px"
+msgstr "Tabletták: > 767px"
+
+#: elementor/listing-ad-type/class.php:178
+#: elementor/listing-category-box/class.php:163
+#: elementor/listing-grid/class.php:305 elementor/listing-isotope/class.php:161
+#: elementor/listing-store-grid/class.php:108
+msgid "Tablets: >767px"
+msgstr "Tabletták: >767px"
+
+#: elementor/listing-term-list/class.php:79
+msgid "Term Type"
+msgstr "Függvény típus"
+
+#: elementor/testimonial-1/class.php:17
+msgid "Testimonial 1"
+msgstr "Ajánlás 1"
+
+#: elementor/testimonial-2/class.php:17
+msgid "Testimonial 2"
+msgstr "Tanúvallomás 2"
+
+#: elementor/contact/class.php:95 elementor/listing-search/class.php:66
+#: elementor/listing-search/class.php:95
+msgid "Text"
+msgstr "Szöveg"
+
+#: elementor/text-button/class.php:93
+msgid "Text Background Color"
+msgstr "Szöveg háttérszín"
+
+#: elementor/button/class.php:116
+msgid "Text Color"
+msgstr "Szöveg színe"
+
+#: elementor/button/class.php:129
+msgid "Text Typography"
+msgstr "Szöveg tipográfia"
+
+#: elementor/text-button/class.php:17
+msgid "Text With Button"
+msgstr "Szöveg a gombbal"
+
+#: elementor/contact/class.php:73
+msgid "Text/Link"
+msgstr "Szöveg/Link"
+
+#. %s: html tags
+#: classima-core.php:54
+#, php-format
+msgid ""
+"The %1$sClassima Optimization%2$s requires %1$sphp 7.2+%2$s. Please consider "
+"updating php version and know more about it <a href=\"https://wordpress."
+"org/about/requirements/\" target=\"_blank\">here</a>."
+msgstr ""
+"A %1$sClassima optimalizálás%2$shoz %1$sphp 7.2+%2$s szükséges. Kérjük, "
+"fontolja meg a php verzió frissítését, és tudjon meg többet <a href=\"https:"
+"//wordpress.org/about/requirements/\" target=\"_blank\">itt</a>."
+
+#: elementor/counter/class.php:91
+msgid "The total duration of the count animation in milisecond eg. 1000"
+msgstr "A számláló animáció teljes időtartama miliszekundumban pl. 1000"
+
+#: elementor/counter/class.php:37
+#: elementor/listing-category-slider/class.php:47
+#: elementor/listing-search/class.php:33
+msgid "Theme"
+msgstr "Téma"
+
+#: elementor/testimonial-1/class.php:78 elementor/testimonial-2/class.php:55
+#: lib/wp-svg/init.php:134
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: elementor/listing-store-list/class.php:98
+#: elementor/listing-store-list/class.php:127
+msgid "Time"
+msgstr "Idő"
+
+#: widgets/about.php:106 elementor/accordian/class.php:37
+#: elementor/accordian/class.php:74 elementor/accordian/class.php:96
+#: elementor/app-banner/class.php:32 elementor/counter/class.php:83
+#: elementor/cta/class.php:42 elementor/info-box/class.php:75
+#: elementor/listing-ad-type/class.php:146
+#: elementor/listing-ad-type/class.php:222
+#: elementor/listing-ad-type/class.php:257
+#: elementor/listing-category-box/class.php:74
+#: elementor/listing-category-box/class.php:195
+#: elementor/listing-category-box/class.php:224
+#: elementor/listing-category-list/class.php:90
+#: elementor/listing-category-list/class.php:157
+#: elementor/listing-category-list/class.php:179
+#: elementor/listing-category-slider/class.php:69
+#: elementor/listing-category-slider/class.php:188
+#: elementor/listing-category-slider/class.php:210
+#: elementor/listing-grid/class.php:236 elementor/listing-grid/class.php:349
+#: elementor/listing-grid/class.php:384 elementor/listing-isotope/class.php:129
+#: elementor/listing-isotope/class.php:205
+#: elementor/listing-isotope/class.php:240 elementor/listing-list/class.php:150
+#: elementor/listing-list/class.php:194 elementor/listing-list/class.php:241
+#: elementor/listing-location-box/class.php:126
+#: elementor/listing-location-box/class.php:154
+#: elementor/listing-location-box-2/class.php:126
+#: elementor/listing-location-box-2/class.php:154
+#: elementor/listing-slider/class.php:187
+#: elementor/listing-slider/class.php:337
+#: elementor/listing-slider/class.php:372
+#: elementor/listing-store-grid/class.php:67
+#: elementor/listing-store-grid/class.php:140
+#: elementor/listing-store-grid/class.php:162
+#: elementor/listing-store-list/class.php:58
+#: elementor/listing-store-list/class.php:86
+#: elementor/listing-store-list/class.php:120
+#: elementor/listing-term-list/class.php:73 elementor/post/class.php:60
+#: elementor/post/class.php:118 elementor/post/class.php:154
+#: elementor/pricing-box/class.php:92 elementor/pricing-box/class.php:154
+#: elementor/pricing-box/class.php:194 elementor/text-button/class.php:38
+#: elementor/title/class.php:44 elementor/title-animated/class.php:37
+msgid "Title"
+msgstr "Cím"
+
+#: elementor/app-banner/class.php:128 elementor/counter/class.php:126
+#: elementor/cta/class.php:119 elementor/info-box/class.php:115
+#: elementor/text-button/class.php:99 elementor/title/class.php:68
+#: elementor/title-animated/class.php:115
+msgid "Title Color"
+msgstr "Cím Szín"
+
+#: elementor/listing-list/class.php:200
+#: elementor/listing-location-box/class.php:132
+#: elementor/listing-location-box-2/class.php:132
+#: elementor/listing-store-list/class.php:92
+msgid "Title Hover"
+msgstr "Cím Hover"
+
+#: elementor/info-box/class.php:121
+msgid "Title Hover Color"
+msgstr "Cím Hover szín"
+
+#: elementor/app-banner/class.php:141 elementor/counter/class.php:140
+#: elementor/cta/class.php:132 elementor/info-box/class.php:134
+#: elementor/text-button/class.php:112 elementor/title/class.php:82
+#: elementor/title-animated/class.php:128
+msgid "Title Typography"
+msgstr "Cím tipográfia"
+
+#: elementor/title-animated/class.php:32
+msgid "Titles"
+msgstr "Címek"
+
+#: elementor/google-map/class.php:34
+#, php-format
+msgid ""
+"To create your own google map, follow the steps below:<br/>Step 1: Visit "
+"%s<br/>Step 2: Search for a location using the search bar of the top-left "
+"corner<br/>Step 3: After you find the location, click on the \"Share\" icon "
+"from the left panel<br/>Step 4: A popup will come up. From there go to the "
+"\"Embed map\" tab. You will find your Google Map code. Copy and paste this "
+"code in here"
+msgstr ""
+"Saját google térkép létrehozásához kövesse az alábbi lépéseket:<br/>1. lépés:"
+" Látogasson el a %s oldalra<br/>2. lépés: Keressen egy helyszínt a bal felső "
+"sarokban található keresősáv segítségével<br/>3. lépés: Miután megtalálta a "
+"helyszínt, kattintson a bal oldali panel \"Megosztás\" ikonjára<br/>4. lépés:"
+" Egy felugró ablak jelenik meg. Onnan menj a \"Térkép beágyazása\" fülre. "
+"Itt találod meg a Google térkép kódját. Másolja ki és illessze be ide ezt a "
+"kódot"
+
+#: elementor/listing-grid/class.php:73 elementor/listing-isotope/class.php:71
+#: elementor/listing-isotope/class.php:336 elementor/listing-list/class.php:59
+#: elementor/listing-slider/class.php:78
+msgid "Top"
+msgstr "Top"
+
+#: inc/post-meta.php:64
+msgid "Top Bar"
+msgstr "Top Bar"
+
+#: elementor/listing-category-list/class.php:67
+#: elementor/listing-category-list/class.php:77
+msgid "Top Categories"
+msgstr "Top kategóriák"
+
+#: elementor/listing-category-list/view-1.php:86
+msgid "Top Categories:"
+msgstr "Top Kategóriák: Felső kategóriák:"
+
+#: elementor/listing-slider/class.php:143
+msgid "Total Number of Items"
+msgstr "Tételek száma összesen"
+
+#: inc/post-meta.php:54
+msgid "Transparent Header"
+msgstr "Átlátszó fejléc"
+
+#: widgets/about.php:122
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: elementor/accordian/class.php:90 elementor/contact/class.php:89
+#: elementor/listing-ad-type/class.php:244
+#: elementor/listing-category-box/class.php:218
+#: elementor/listing-category-list/class.php:173
+#: elementor/listing-category-slider/class.php:204
+#: elementor/listing-grid/class.php:371 elementor/listing-isotope/class.php:227
+#: elementor/listing-list/class.php:228
+#: elementor/listing-location-box/class.php:148
+#: elementor/listing-location-box-2/class.php:148
+#: elementor/listing-search/class.php:89 elementor/listing-slider/class.php:359
+#: elementor/listing-store-grid/class.php:156
+#: elementor/listing-store-list/class.php:114 elementor/post/class.php:148
+#: elementor/pricing-box/class.php:188
+msgid "Typography"
+msgstr "Tipográfia"
+
+#: elementor/pricing-box/class.php:85
+msgid "Unit Name"
+msgstr "Egység neve"
+
+#: elementor/post/class.php:95
+msgid "VIEW ALL"
+msgstr "VIEW ALL"
+
+#: inc/demo-importer.php:34
+msgid ""
+"Warning: All your old data will be lost if you install One Click demo data "
+"from here, so it is suitable only for a new website."
+msgstr ""
+"Figyelmeztetés: Minden régi adatod elveszik, ha innen telepíted a One Click "
+"demo adatokat, ezért csak új weboldalhoz alkalmas."
+
+#: elementor/listing-ad-type/class.php:122 elementor/listing-grid/class.php:194
+#: elementor/listing-isotope/class.php:105 elementor/listing-list/class.php:108
+#: elementor/listing-slider/class.php:145
+#: elementor/listing-store-grid/class.php:51
+#: elementor/listing-store-list/class.php:42
+msgid "Write -1 to show all"
+msgstr "Írjon -1-et az összes"
+
+#: inc/post-meta.php:164
+msgid "Write a feature in each line eg. <br/>Feature 1<br/>Feature 2<br/>..."
+msgstr ""
+"Minden sorba írj egy jellemzőt, pl. <br/>Jellemző1<br/>Jellemző 2<br/>..."
+
+#: widgets/about.php:138
+msgid "YouTube URL"
+msgstr "YouTube URL"

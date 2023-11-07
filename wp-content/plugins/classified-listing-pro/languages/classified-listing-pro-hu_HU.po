@@ -1,0 +1,3782 @@
+# Copyright (C) 2022 Classified Listing Pro
+# This file is distributed under the same license as the Classified Listing Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Pro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-09 14:19+0000\n"
+"PO-Revision-Date: 2023-02-06 13:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: Magyar\n"
+"Language: hu_HU\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: ../app/RtclPro.php:58, ../app/RtclPro.php:65
+msgid "Cheatin&#8217; huh?"
+msgstr "Csalás&#8217; mi?"
+
+#: ../app/Api/RestController.php:73, ../app/Api/V1/V1_ListingApi.php:52,
+#: ../app/Api/V1/V1_MyApi.php:79, ../app/Api/V1/V1_MyApi.php:117,
+#: ../app/Api/V1/V1_OrderApi.php:141, ../app/Api/V1/V1_OrderApi.php:191
+msgid "Current page of the collection."
+msgstr "A gyűjtemény aktuális oldala."
+
+#: ../app/Api/RestController.php:81, ../app/Api/V1/V1_ListingApi.php:43,
+#: ../app/Api/V1/V1_MyApi.php:70, ../app/Api/V1/V1_MyApi.php:108,
+#: ../app/Api/V1/V1_OrderApi.php:132, ../app/Api/V1/V1_OrderApi.php:182
+msgid "Maximum number of items to be returned in result set."
+msgstr "Az eredményhalmazban visszaadandó elemek maximális száma."
+
+#: ../app/Api/RestController.php:90
+msgid "Limit results to those matching a string."
+msgstr "A találatok korlátozása a karakterláncnak megfelelő találatokra."
+
+#: ../app/Api/RestController.php:96
+msgid "Offset the result set by a specific number of items."
+msgstr "Az eredménykészlet eltolása egy adott számú elemmel."
+
+#: ../app/Api/RestController.php:100
+msgid "Order sort attribute ascending or descending."
+msgstr "Rendezés rendezési attribútum növekvő vagy csökkenő."
+
+#: ../app/Api/RestController.php:109
+msgid "Sort collection by object attribute."
+msgstr "Gyűjtemény rendezése objektum attribútum szerint."
+
+#: ../app/Controllers/AuthController.php:34
+msgid "Session Error!!"
+msgstr "Session Error!!!"
+
+#: ../app/Controllers/AuthController.php:48
+msgid "Invalid request."
+msgstr "Érvénytelen kérés."
+
+#: ../app/Controllers/AuthController.php:72
+msgid "Your email address is already verified."
+msgstr "Az Ön e-mail címe már ellenőrizve van."
+
+#: ../app/Controllers/AuthController.php:67
+msgid ""
+"You have tried re-sending verification link too many times, please contact "
+"site administrators."
+msgstr ""
+"Túl sokszor próbálta újra elküldeni az ellenőrző linket, kérjük, lépjen "
+"kapcsolatba az oldal adminisztrátorával."
+
+#: ../app/Controllers/AuthController.php:64
+msgid "Verification link sent to your email address"
+msgstr "Ellenőrző linket küldünk az Ön e-mail címére"
+
+#: ../app/Controllers/AuthController.php:56
+msgid "Verification link sent to user's email address"
+msgstr "A felhasználó e-mail címére küldött ellenőrző link"
+
+#: ../app/Controllers/AuthController.php:96
+msgid ""
+"You have not verified your email address, please check your email and click "
+"on verification link we sent you. <a href=\"javascript:;\" id=\"rtcl-resend-"
+"verify-link\" data-login=\"%s\">Re-send the link</a>"
+msgstr ""
+"Nem igazolta az e-mail címét, kérjük, ellenőrizze az e-mail címét, és "
+"kattintson az általunk küldött ellenőrző linkre. <a href=\"javascript:;\" "
+"id=\"rtcl-resend-verify-link\" data-login=\"%s\">Újra elküldi a linket</a>"
+
+#: ../app/Controllers/ChatController.php:78
+msgid "Chat table has been regenerated"
+msgstr "A csevegőasztal újratermelődött"
+
+#: ../app/Controllers/CommentController.php:129,
+#: ../app/Controllers/CommentController.php:120,
+#: ../app/Controllers/CommentController.php:81
+msgid "Please add the required field."
+msgstr "Kérjük, adja meg a szükséges mezőt."
+
+#: ../app/Controllers/CommentController.php:124,
+#: ../app/Controllers/CommentController.php:85,
+#: ../app/Controllers/CommentController.php:272,
+#: ../app/Controllers/CommentController.php:274,
+#: ../app/Api/V1/V1_ReviewApi.php:642
+msgid "You have already a review."
+msgstr "Már van egy véleményed."
+
+#: ../app/Controllers/CommentController.php:117,
+#: ../app/Controllers/CommentController.php:78
+msgid "Your rating has been updated."
+msgstr "Az Ön értékelése frissült."
+
+#: ../app/Controllers/CommentController.php:52,
+#: ../app/Controllers/CommentController.php:247,
+#: ../app/Controllers/CommentController.php:249
+msgid "Ad author can't post rating."
+msgstr "A hirdetés szerzője nem tud értékelést közzétenni."
+
+#: ../app/Controllers/CommentController.php:179
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"
+
+#: ../app/Controllers/CommentController.php:266,
+#: ../app/Controllers/CommentController.php:268
+msgid "Only ajax can update the comment."
+msgstr "Csak ajax frissítheti a megjegyzést."
+
+#: ../app/Controllers/CommentController.php:294,
+#: ../app/Controllers/CommentController.php:296
+msgid "Please rate the listing."
+msgstr "Kérjük, értékelje a hirdetést."
+
+#: ../app/Controllers/CommentController.php:314,
+#: ../app/Controllers/CommentController.php:316
+msgid "Please add the review title."
+msgstr "Kérjük, adja meg a felülvizsgálat címét."
+
+#: ../app/Controllers/CompareController.php:60
+msgid "Compare page"
+msgstr "Összehasonlítás oldal"
+
+#: ../app/Controllers/CompareController.php:63
+msgid "Select a page"
+msgstr "Válasszon ki egy oldalt"
+
+#: ../app/Controllers/CompareController.php:65
+msgid "This is the page where all the compared listings are displayed."
+msgstr "Ez az az oldal, ahol az összes összehasonlított lista jelenik meg."
+
+#: ../app/Controllers/CompareController.php:87,
+#: ../app/Controllers/CompareController.php:134,
+#: ../app/Controllers/CompareController.php:144,
+#: ../templates/compare/content.php:17, ../templates/compare/popup.php:46
+msgid "No Items Selected"
+msgstr "Nincs kiválasztott tétel"
+
+#: ../app/Controllers/CompareController.php:151,
+#: ../app/Controllers/QuickViewController.php:61
+msgid "Server Error!!"
+msgstr "Szerver hiba!!"
+
+#: ../app/Controllers/ScriptController.php:62, ../app/Helpers/Options.php:68,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:36,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:68,
+#: ../app/Controllers/Hooks/FilterHooks.php:320,
+#: ../app/Controllers/Hooks/TemplateHooks.php:401
+msgid "Chat"
+msgstr "Chat"
+
+#: ../app/Controllers/ScriptController.php:63
+msgid "Loading ..."
+msgstr "Betöltés ..."
+
+#: ../app/Controllers/ScriptController.php:64
+msgid "Are you sure to delete."
+msgstr "Biztos vagy benne, hogy törölni akarod."
+
+#: ../app/Controllers/ScriptController.php:65
+msgid "My Chats"
+msgstr "Beszélgetéseim"
+
+#: ../app/Controllers/ScriptController.php:66
+msgid "Chat With"
+msgstr "Csevegés"
+
+#: ../app/Controllers/ScriptController.php:67
+msgid "Delete chat"
+msgstr "Csevegés törlése"
+
+#: ../app/Controllers/ScriptController.php:68
+msgid "Please select a conversation"
+msgstr "Kérjük, válasszon egy beszélgetést"
+
+#: ../app/Controllers/ScriptController.php:69
+msgid "You have no conversation yet."
+msgstr "Még nincs beszélgetés."
+
+#: ../app/Controllers/ScriptController.php:70
+msgid "Type a message here"
+msgstr "Írjon ide egy üzenetet"
+
+#: ../app/Controllers/ScriptController.php:71
+msgid "No permission to start chat."
+msgstr "Nincs engedély a csevegés megkezdésére."
+
+#: ../app/Controllers/ScriptController.php:72
+msgid "Server Error"
+msgstr "Kiszolgálói hiba"
+
+#: ../app/Controllers/SubscriptionController.php:28,
+#: ../app/Controllers/SubscriptionController.php:54
+msgid "Subscription id is mission"
+msgstr "Az előfizetési azonosító a küldetés"
+
+#: ../app/Controllers/SubscriptionController.php:33,
+#: ../app/Controllers/SubscriptionController.php:58
+msgid "No subscription found to cancel"
+msgstr "Nem találtak lemondandó előfizetést"
+
+#: ../app/Controllers/SubscriptionController.php:46
+msgid "Subscription cancel successfully."
+msgstr "Az előfizetés törlése sikeres."
+
+#: ../app/Controllers/SubscriptionController.php:64,
+#: ../app/Controllers/SubscriptionController.php:94
+msgid "Please select card field"
+msgstr "Kérjük, válassza ki a kártyamezőt"
+
+#: ../app/Controllers/SubscriptionController.php:73,
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:244
+msgid "Merchant do not support accepting in %s"
+msgstr "A kereskedő nem támogatja az elfogadást %s-ban"
+
+#: ../app/Controllers/SubscriptionController.php:110
+msgid "Subscription payment card information updated."
+msgstr "Az előfizetési kártyaadatok frissítése."
+
+#: ../app/Controllers/SubscriptionController.php:113
+msgid "Payment gateway not found."
+msgstr "Fizetési átjáró nem található."
+
+#: ../app/Controllers/TermMetas.php:27, ../app/Controllers/TermMetas.php:51
+msgid "Map Icon"
+msgstr "Térkép ikon"
+
+#: ../app/Controllers/TermMetas.php:32, ../app/Controllers/TermMetas.php:64
+msgid "Add Map Icon"
+msgstr "Térkép ikon hozzáadása"
+
+#: ../app/Controllers/TermMetas.php:35
+msgid "Remove Icon"
+msgstr "Ikon eltávolítása"
+
+#: ../app/Controllers/TermMetas.php:67
+msgid "Remove Map Icon"
+msgstr "Térkép ikon eltávolítása"
+
+#: ../app/Emails/UnreadMessageEmail.php:31
+msgid "[{site_title}] New Messages Waiting ({listing_title})"
+msgstr "[{site_title}] Új üzenetek várakozása ({listing_title})"
+
+#: ../app/Emails/UnreadMessageEmail.php:40
+msgid "New Message \"{listing_title}\""
+msgstr "Új üzenet \"{listing_title}\""
+
+#: ../app/Emails/UserVerifyLinkEmailToUser.php:31
+msgid "[{site_title}] Verify your email address"
+msgstr "[{site_title}] Ellenőrizze az e-mail címét"
+
+#: ../app/Emails/UserVerifyLinkEmailToUser.php:40
+msgid "Verify your email address"
+msgstr "Ellenőrizze az e-mail címét"
+
+#: ../app/Helpers/Api.php:98, ../app/Helpers/Api.php:112
+msgid "Denied api call"
+msgstr "Megtagadott api hívás"
+
+#. translators: %s: rating
+#: ../app/Helpers/Fns.php:118
+msgid "Rated %s out of 5"
+msgstr "Értékelés %s az 5-ből"
+
+#: ../app/Helpers/Fns.php:115, ../app/Helpers/Fns.php:139
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] "Értékelés %1$s-ből 5-ből %2$s vásárlói értékelés alapján"
+msgstr[1] "Értékelés %1$s-ből 5-ből %2$s vásárlói értékelés alapján"
+
+#: ../app/Helpers/Options.php:14
+msgid "Listing seller information"
+msgstr "Az eladói információk listázása"
+
+#: ../app/Helpers/Options.php:31,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:228
+msgid "Popup"
+msgstr "Popup"
+
+#: ../app/Helpers/Options.php:32,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:229
+msgid "Auto Suggestion"
+msgstr "Automatikus javaslat"
+
+#: ../app/Helpers/Options.php:33
+msgid "Dependency Selection"
+msgstr "Függőségi kiválasztás"
+
+#: ../app/Helpers/Options.php:34,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:230
+msgid "Standard"
+msgstr "Standard"
+
+#: ../app/Helpers/Options.php:42
+msgid "List"
+msgstr "Lista"
+
+#: ../app/Helpers/Options.php:43
+msgid "Grid"
+msgstr "Rács"
+
+#: ../app/Helpers/Options.php:52
+msgid "Chat settings"
+msgstr "Chat beállítások"
+
+#: ../app/Helpers/Options.php:54
+msgid ""
+"Regenerate Chat Table <a href=\"%s\" onClick=\"return confirm('Do you really "
+"want to Confirm this booking')\">Click Here.</a> <span style=\"color:red\">"
+"This will remove all chat history.</span>"
+msgstr ""
+"Csevegési táblázat újragenerálása <a href=\"%s\" onClick=\"return "
+"confirm('Tényleg meg akarja erősíteni ezt a foglalást')\">Kattintson ide.</a>"
+" <span style=\"color:red\">Ez eltávolítja az összes csevegési előzményt."
+"</span>"
+
+#: ../app/Helpers/Options.php:69, ../app/Helpers/Options.php:75,
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:97
+msgid "Enable"
+msgstr "Engedélyezze a"
+
+#: ../app/Helpers/Options.php:71
+msgid "Enable Chat option"
+msgstr "Chat opció engedélyezése"
+
+#: ../app/Helpers/Options.php:74
+msgid "Unread Message Email"
+msgstr "Olvasatlan üzenet Email"
+
+#: ../app/Helpers/Options.php:78
+msgid ""
+"Enable email for unread message trace to receiver, if receiver at offline "
+"<span style=\"color: red\">(Only for the first message)</span>."
+msgstr ""
+"Engedélyezze az olvasatlan üzenetek nyomon követését a címzettnek, ha a "
+"címzett offline <span style=\"color: red\">(Csak az első üzenet esetén)"
+"</span>."
+
+#: ../app/Helpers/Options.php:87
+msgid "Delete inactive conversation (in days)"
+msgstr "Inaktív beszélgetés törlése (napokban)"
+
+#: ../app/Helpers/Options.php:91
+msgid ""
+"Auto remove inactive conversation which are last active in given days ago "
+"<span style=\"color: red\">(Leave it blank to alive conversation forever)"
+"</span>."
+msgstr ""
+"Automatikusan eltávolítja az inaktív beszélgetéseket, amelyek utoljára az "
+"adott napokban voltak aktívak <span style=\"color: red\">(Üresnek hagyja, "
+"hogy örökké éljen a beszélgetés)</span>."
+
+#: ../app/Helpers/PNHelper.php:83
+msgid "Congratulations!"
+msgstr "Gratulálunk!"
+
+#: ../app/Helpers/PNHelper.php:94
+msgid "Your [%s] has been approved!"
+msgstr "A [%s] engedélyt megkapta!"
+
+#: ../app/Helpers/PNHelper.php:106
+msgid "Listing expired."
+msgstr "Listázás lejárt."
+
+#: ../app/Helpers/PNHelper.php:117
+msgid "Your [%s] has been expired!"
+msgstr "A [%s] lejárt!"
+
+#: ../app/Helpers/PNHelper.php:129
+msgid "New Listing created."
+msgstr "Új listázás létrehozva."
+
+#: ../app/Helpers/PNHelper.php:140
+msgid "New listing is created [%s] at your site!"
+msgstr "Új listát hoztunk létre [%s] az Ön webhelyén!"
+
+#: ../app/Helpers/PNHelper.php:152
+msgid "New Order Placed."
+msgstr "Új megrendelés."
+
+#: ../app/Helpers/PNHelper.php:163
+msgid "New order is placed at your site [%s]"
+msgstr "Új megrendelés érkezett az Ön webhelyére [%s]"
+
+#: ../app/Helpers/PNHelper.php:177
+msgid "You have a new Message."
+msgstr "Új üzenete van."
+
+#: ../app/Models/Dependencies.php:76
+msgid "and"
+msgstr "és"
+
+#: ../app/Models/Dependencies.php:89
+msgid ""
+"<strong>Classified Listing Pro</strong> is enabled but not effective. It "
+"requires %s in order to work."
+msgstr ""
+"<strong>Classified Listing Pro</strong> engedélyezve van, de nem hatékony. "
+"Működéséhez %s szükséges."
+
+#: ../app/Models/RtclLicense.php:188, ../app/Models/RtclLicense.php:182
+msgid "Please enter valid license key for automatic updates."
+msgstr ""
+"Kérjük, adja meg az érvényes licenckulcsot az automatikus frissítésekhez."
+
+#: ../app/Models/RtclLicense.php:188, ../app/Models/RtclLicense.php:182
+msgid "Click here"
+msgstr "Kattintson ide"
+
+#: ../app/Models/RtclLicense.php:281
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"A %1$s új verziója elérhető. %2$sNézze meg a %3$s verzió részleteit%4$s vagy "
+"%5$frissítse most%6$s."
+
+#: ../app/Models/RtclLicense.php:273
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"A %1$s új verziója elérhető. %2$sNézze meg a %3$s verzió részleteit%4$s."
+
+#: ../app/Models/RtclLicense.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr "Nincs engedélye a plugin frissítések telepítésére"
+
+#: ../app/Models/RtclLicense.php:474
+msgid "Error"
+msgstr "Hiba"
+
+#: ../app/Models/UserAuthentication.php:60
+msgid "Your account hash, user id must be set"
+msgstr "A fiók hash, felhasználói azonosító kell beállítani"
+
+#: ../app/Models/UserAuthentication.php:69
+msgid "Your account email address already verified"
+msgstr "Az Ön fiókjának e-mail címe már hitelesítve van"
+
+#: ../app/Models/UserAuthentication.php:79
+msgid "Your account hash is not matched"
+msgstr "A számla hash nem egyezik"
+
+#: ../app/Models/UserAuthentication.php:102
+msgid "Your account email address is verified"
+msgstr "Az Ön fiókjának e-mail címe ellenőrzött"
+
+#: ../app/Api/V1/V1_AuthApi.php:23, ../app/Api/V1/V1_AuthApi.php:85
+msgid "User name / Email is required"
+msgstr "Felhasználónév / Email szükséges"
+
+#: ../app/Api/V1/V1_AuthApi.php:28
+msgid "User password required"
+msgstr "Felhasználói jelszó szükséges"
+
+#: ../app/Api/V1/V1_AuthApi.php:97, ../app/Api/V1/V1_AuthApi.php:272
+msgid "Username and password are required."
+msgstr "Felhasználónév és jelszó szükséges."
+
+#: ../app/Api/V1/V1_AuthApi.php:199
+msgid "Apple user is missing"
+msgstr "Apple felhasználó hiányzik"
+
+#: ../app/Api/V1/V1_AuthApi.php:310, ../app/Api/V1/V1_AuthApi.php:331,
+#: ../app/Api/V1/V1_MyApi.php:272, ../app/Api/V1/V1_MyApi.php:377,
+#: ../app/Api/V1/V1_MyApi.php:754, ../app/Api/V1/V1_OrderApi.php:229,
+#: ../app/Api/V1/V1_OrderApi.php:257, ../app/Api/V1/V1_OrderApi.php:305
+msgid "You are not logged in."
+msgstr "Ön nincs bejelentkezve."
+
+#: ../app/Api/V1/V1_AuthApi.php:342
+msgid "Could not delete user."
+msgstr "Nem sikerült törölni a felhasználót."
+
+#: ../app/Api/V1/V1_CommonApi.php:32, ../app/Api/V1/V1_CommonApi.php:51,
+#: ../app/Api/V1/V1_CommonApi.php:77
+msgid "The filter argument must be a integer."
+msgstr "A filter argumentumnak egész számnak kell lennie."
+
+#: ../app/Api/V1/V1_CommonApi.php:37
+msgid "Category id"
+msgstr "Kategória azonosító"
+
+#: ../app/Api/V1/V1_CommonApi.php:58
+msgid "Parent Category id"
+msgstr "Szülő kategória azonosító"
+
+#: ../app/Api/V1/V1_CommonApi.php:63
+msgid "Listing type"
+msgstr "Listázási típus"
+
+#: ../app/Api/V1/V1_CommonApi.php:84
+msgid "Parent location id"
+msgstr "Szülői hely azonosítója"
+
+#: ../app/Api/V1/V1_CommonApi.php:99
+msgid "Contact sender name"
+msgstr "Kapcsolattartó feladó neve"
+
+#: ../app/Api/V1/V1_CommonApi.php:104
+msgid "Contact phone number."
+msgstr "Kapcsolattartó telefonszáma."
+
+#: ../app/Api/V1/V1_CommonApi.php:111
+msgid "The filter argument must be a email."
+msgstr "A filter argumentumnak egy e-mailnek kell lennie."
+
+#: ../app/Api/V1/V1_CommonApi.php:115
+msgid "Contact email required."
+msgstr "Kapcsolattartási e-mail cím szükséges."
+
+#: ../app/Api/V1/V1_CommonApi.php:123
+msgid "Contact message."
+msgstr "Kapcsolatfelvételi üzenet."
+
+#: ../app/Api/V1/V1_ListingApi.php:33
+msgid "Category ids as array of integer or only single integer."
+msgstr ""
+"Kategória azonosítók egész számok tömbjeként vagy csak egyetlen egész "
+"számként."
+
+#: ../app/Api/V1/V1_ListingApi.php:40
+msgid "Location ids as array of integer or only single integer."
+msgstr ""
+"Hely azonosítók egész számok tömbjeként vagy csak egyetlen egész számként."
+
+#: ../app/Api/V1/V1_ListingApi.php:60
+msgid "custom_fields is an array or object or JSON object"
+msgstr "custom_fields egy tömb vagy objektum vagy JSON objektum"
+
+#: ../app/Api/V1/V1_ListingApi.php:63
+msgid "price range."
+msgstr "árkategória."
+
+#: ../app/Api/V1/V1_ListingApi.php:67
+msgid "Listing type."
+msgstr "Hirdetmény típusa."
+
+#: ../app/Api/V1/V1_ListingApi.php:71
+msgid "Order by."
+msgstr "Rendelje meg."
+
+#: ../app/Api/V1/V1_ListingApi.php:75, ../app/Api/V1/V1_ListingApi.php:89
+msgid "Promotion include filter"
+msgstr "A promóció tartalmaz szűrőt"
+
+#: ../app/Api/V1/V1_ListingApi.php:82
+msgid "Promotion exclude filter"
+msgstr "Promóció kizáró szűrő"
+
+#: ../app/Api/V1/V1_ListingApi.php:105, ../app/Api/V1/V1_ListingApi.php:177,
+#: ../app/Api/V1/V1_ListingApi.php:196, ../app/Api/V1/V1_MyApi.php:96
+msgid "Listing id is required"
+msgstr "Listázási azonosító szükséges"
+
+#: ../app/Api/V1/V1_ListingApi.php:143
+msgid "Locations ids as array of integers or only single integer."
+msgstr ""
+"Helyek azonosítói egész számok tömbjeként vagy csak egyetlen egész számként."
+
+#: ../app/Api/V1/V1_ListingApi.php:147
+msgid "Category id integer."
+msgstr "Kategória azonosító egész szám."
+
+#: ../app/Api/V1/V1_ListingApi.php:151
+msgid "listing_type e.g. sell"
+msgstr "listing_type pl. eladni"
+
+#: ../app/Api/V1/V1_ListingApi.php:158
+msgid "Image ids which will be deleted"
+msgstr "Törlésre kerülő képazonosítók"
+
+#: ../app/Api/V1/V1_ListingApi.php:162
+msgid "Image ids / name for new image ids, which will be deleted"
+msgstr "Képazonosítók / új képazonosítók neve, amelyek törlésre kerülnek"
+
+#: ../app/Api/V1/V1_ListingApi.php:182
+msgid "message is the report details"
+msgstr "üzenet a jelentés részletei"
+
+#: ../app/Api/V1/V1_ListingApi.php:201
+msgid "name field is the sender name."
+msgstr "name mező a feladó neve."
+
+#: ../app/Api/V1/V1_ListingApi.php:206
+msgid "email field is the sender email."
+msgstr "email mező a feladó e-mail címe."
+
+#: ../app/Api/V1/V1_ListingApi.php:211
+msgid "message is the message details"
+msgstr "message az üzenet részletei"
+
+#: ../app/Api/V1/V1_ListingApi.php:645
+msgid "Listing not found."
+msgstr "Nem található listázás."
+
+#: ../app/Api/V1/V1_ListingApi.php:802
+msgid "Category is not valid"
+msgstr "A kategória nem érvényes"
+
+#: ../app/Api/V1/V1_ListingApi.php:791
+msgid "Please select ad type and category"
+msgstr "Kérjük, válassza ki a hirdetés típusát és kategóriáját"
+
+#: ../app/Api/V1/V1_ListingApi.php:794
+msgid "Please select an ad type"
+msgstr "Kérjük, válasszon egy hirdetési típust"
+
+#: ../app/Api/V1/V1_ListingApi.php:798
+msgid "Please select correct type and category"
+msgstr "Kérjük, válassza ki a megfelelő típust és kategóriát"
+
+#: ../app/Api/V1/V1_ListingApi.php:806
+msgid "Category not selected"
+msgstr "Nem kiválasztott kategória"
+
+#: ../app/Api/V1/V1_ListingApi.php:1002
+msgid "Internal Server Error"
+msgstr "Belső szerver hiba"
+
+#: ../app/Api/V1/V1_MyApi.php:30
+msgid "First name is required field."
+msgstr "A keresztnév kötelező mező."
+
+#: ../app/Api/V1/V1_MyApi.php:35
+msgid "Last name is required field."
+msgstr "A vezetéknév kötelező mező."
+
+#: ../app/Api/V1/V1_MyApi.php:53
+msgid "parameter image file field is required."
+msgstr "paraméter képfájl mező kötelező."
+
+#: ../app/Api/V1/V1_MyApi.php:134, ../app/Api/V1/V1_MyApi.php:167,
+#: ../app/Api/V1/V1_MyApi.php:198
+msgid "Listing is required"
+msgstr "Listázás szükséges"
+
+#: ../app/Api/V1/V1_MyApi.php:147
+msgid "Listing id required"
+msgstr "Listázási azonosító szükséges"
+
+#: ../app/Api/V1/V1_MyApi.php:181, ../app/Api/V1/V1_MyApi.php:215
+msgid "Conversation is required"
+msgstr "Beszélgetés szükséges"
+
+#: ../app/Api/V1/V1_MyApi.php:186
+msgid "Message limit"
+msgstr "Üzenet korlát"
+
+#: ../app/Api/V1/V1_MyApi.php:203, ../app/Api/V1/V1_MyApi.php:239
+msgid "Message text is required"
+msgstr "Az üzenet szövege szükséges"
+
+#: ../app/Api/V1/V1_MyApi.php:229, ../app/Api/V1/V1_MyApi.php:251
+msgid "Conversation ID is required"
+msgstr "Beszélgetés azonosító szükséges"
+
+#: ../app/Api/V1/V1_MyApi.php:234
+msgid "Listing ID is required"
+msgstr "Listázási azonosító szükséges"
+
+#: ../app/Api/V1/V1_MyApi.php:256
+msgid "Message ID is required"
+msgstr "Üzenet azonosító szükséges"
+
+#: ../app/Api/V1/V1_MyApi.php:283
+msgid "You are not allow to access this."
+msgstr "Ön nem férhet hozzá."
+
+#: ../app/Api/V1/V1_MyApi.php:390
+msgid "You are not permitted to access this conversation."
+msgstr "Ön nem férhet hozzá ehhez a beszélgetéshez."
+
+#: ../app/Api/V1/V1_MyApi.php:688
+msgid "The password field is empty."
+msgstr "A jelszó mező üres."
+
+#: ../app/Api/V1/V1_MyApi.php:692
+msgid "The two passwords you entered don't match."
+msgstr "A két megadott jelszó nem egyezik."
+
+#: ../app/Api/V1/V1_OrderApi.php:48
+msgid "Checkout type's (promotion, membership)"
+msgstr "Pénztár típusok (promóció, tagság)"
+
+#: ../app/Api/V1/V1_OrderApi.php:58
+msgid "Promotion type's (regular, membership)"
+msgstr "Promóciós típusok (rendszeres, tagsági)"
+
+#: ../app/Api/V1/V1_OrderApi.php:65
+msgid "%s must be regular or membership"
+msgstr "%s rendszeres vagy tagsági jogviszonynak kell lennie"
+
+#: ../app/Api/V1/V1_OrderApi.php:74
+msgid "Promotions for membership (membership_promotions)"
+msgstr "Promóciók a tagság számára (membership_promotions)"
+
+#: ../app/Api/V1/V1_OrderApi.php:80
+msgid "Payment gateway id"
+msgstr "Fizetési átjáró azonosító"
+
+#: ../app/Api/V1/V1_OrderApi.php:85
+msgid "Plane id"
+msgstr "Sík azonosító"
+
+#: ../app/Api/V1/V1_OrderApi.php:91
+msgid "Credit card number (card_number)"
+msgstr "Hitelkártya száma (card_number)"
+
+#: ../app/Api/V1/V1_OrderApi.php:97
+msgid "Credit card expired month (card_exp_month)"
+msgstr "Hitelkártya lejárt hónap (card_exp_month)"
+
+#: ../app/Api/V1/V1_OrderApi.php:103
+msgid "Credit card expired year (card_exp_year)"
+msgstr "Hitelkártya lejárt év (card_exp_year)"
+
+#: ../app/Api/V1/V1_OrderApi.php:109
+msgid "Credit card CVC (card_cvc)"
+msgstr "Hitelkártya CVC (card_cvc)"
+
+#: ../app/Api/V1/V1_OrderApi.php:115
+msgid "Stripe payment method id"
+msgstr "Stripe fizetési mód azonosítója"
+
+#: ../app/Api/V1/V1_OrderApi.php:149, ../app/Api/V1/V1_OrderApi.php:199
+msgid "Order by"
+msgstr "Rendelés"
+
+#: ../app/Api/V1/V1_OrderApi.php:153, ../app/Api/V1/V1_OrderApi.php:203
+msgid "Order"
+msgstr "Megrendelés"
+
+#: ../app/Api/V1/V1_OrderApi.php:166
+msgid "Payment id is required"
+msgstr "Fizetési azonosító szükséges"
+
+#: ../app/Api/V1/V1_OrderApi.php:216
+msgid "Order id is required"
+msgstr "A rendelési azonosító szükséges"
+
+#: ../app/Api/V1/V1_OrderApi.php:238
+msgid "Order not found."
+msgstr "A megrendelés nem található."
+
+#: ../app/Api/V1/V1_OrderApi.php:321
+msgid "Required data missing (plan_id, gateway_id, type)"
+msgstr "A szükséges adatok hiányoznak (plan_id, gateway_id, type)"
+
+#: ../app/Api/V1/V1_OrderApi.php:333
+msgid "Incorrect Plan or gateway"
+msgstr "Helytelen terv vagy átjáró"
+
+#: ../app/Api/V1/V1_OrderApi.php:347
+msgid ""
+"Missing one of thous param card_number , card_exp_month, card_exp_year, "
+"card_cvc"
+msgstr ""
+"Hiányzik az thous param közül egy card_number , card_exp_month, "
+"card_exp_year, card_cvc"
+
+#: ../app/Api/V1/V1_OrderApi.php:362,
+#: ../app/Gateways/Stripe/GatewayStripe.php:818
+msgid "Unable to verify your request. Please reload the page and try again."
+msgstr ""
+"Nem sikerült ellenőrizni a kérését. Kérjük, töltse újra az oldalt, és "
+"próbálja meg újra."
+
+#: ../app/Api/V1/V1_OrderApi.php:375
+msgid "No listing found to make payment."
+msgstr "Nem találtak listát a fizetéshez."
+
+#: ../app/Api/V1/V1_OrderApi.php:394,
+#: ../app/Gateways/WooPayment/WooPayment.php:432
+msgid "Order on"
+msgstr "Rendelés a"
+
+#: ../app/Api/V1/V1_OrderApi.php:423
+msgid "Error to create new payment."
+msgstr "Hiba az új fizetés létrehozásakor."
+
+#: ../app/Api/V1/V1_OrderApi.php:442
+msgid "Error to process the payment."
+msgstr "Hiba a fizetés feldolgozása során."
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:21,
+#: ../app/Api/V1/V1_PushNotificationApi.php:42
+msgid ""
+"An Expo push token or an array of Expo push tokens specifying the "
+"recipient(s) of this message."
+msgstr ""
+"Expo push token vagy Expo push tokenek tömbje, amely meghatározza az üzenet "
+"címzettjét (címzettjeit)."
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:26,
+#: ../app/Api/V1/V1_PushNotificationApi.php:47
+msgid "Push Notification event list of array."
+msgstr "Push értesítés eseménylista tömb."
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:69
+msgid "Push notification update error."
+msgstr "Push-értesítés frissítési hiba."
+
+#: ../app/Api/V1/V1_ReviewApi.php:49
+msgid "Listing  ID"
+msgstr "Listázási azonosító"
+
+#: ../app/Api/V1/V1_ReviewApi.php:54
+msgid "Review rating between 1-5"
+msgstr "Értékelés 1-5 közötti értékelés"
+
+#: ../app/Api/V1/V1_ReviewApi.php:61,
+#: ../templates/single-rtcl_listing-reviews.php:111
+msgid "Review title"
+msgstr "Felülvizsgálat címe"
+
+#: ../app/Api/V1/V1_ReviewApi.php:66
+msgid "Review content"
+msgstr "Tartalom áttekintése"
+
+#: ../app/Api/V1/V1_ReviewApi.php:70
+msgid "Author ID"
+msgstr "Szerzői azonosító"
+
+#: ../app/Api/V1/V1_ReviewApi.php:74
+msgid "Author name"
+msgstr "Szerző neve"
+
+#: ../app/Api/V1/V1_ReviewApi.php:79
+msgid "Author's email address"
+msgstr "A szerző e-mail címe"
+
+#: ../app/Api/V1/V1_ReviewApi.php:84
+msgid "Specific parent comment ID"
+msgstr "Speciális szülői megjegyzés ID"
+
+#: ../app/Api/V1/V1_ReviewApi.php:98
+msgid "Sorry, review is disabled at this site."
+msgstr "Sajnálom, a felülvizsgálat le van tiltva ezen az oldalon."
+
+#: ../app/Api/V1/V1_ReviewApi.php:116
+msgid ""
+"Limit response to comments published after a given ISO8601 compliant date."
+msgstr ""
+"Korlátozza a válaszadást az adott ISO8601 szabványnak megfelelő dátum után "
+"közzétett észrevételekre."
+
+#: ../app/Api/V1/V1_ReviewApi.php:122
+msgid ""
+"Limit result set to comments assigned to specific user IDs. Requires "
+"authorization."
+msgstr ""
+"Az eredményhalmaz korlátozása az adott felhasználói azonosítókhoz rendelt "
+"megjegyzésekre. Engedélyezést igényel."
+
+#: ../app/Api/V1/V1_ReviewApi.php:130
+msgid ""
+"Ensure result set excludes comments assigned to specific user IDs. Requires "
+"authorization."
+msgstr ""
+"Az eredményhalmaz kizárja az egyes felhasználói azonosítókhoz rendelt "
+"megjegyzéseket. Engedélyezést igényel."
+
+#: ../app/Api/V1/V1_ReviewApi.php:139
+msgid ""
+"Limit result set to that from a specific author email. Requires "
+"authorization."
+msgstr ""
+"Az eredménykészlet korlátozása egy adott szerzői e-mailre. Engedélyezést "
+"igényel."
+
+#: ../app/Api/V1/V1_ReviewApi.php:145
+msgid ""
+"Limit response to comments published before a given ISO8601 compliant date."
+msgstr ""
+"Korlátozza a válaszadást az adott ISO8601 szabványnak megfelelő időpont "
+"előtt közzétett észrevételekre."
+
+#: ../app/Api/V1/V1_ReviewApi.php:151
+msgid "Ensure result set excludes specific IDs."
+msgstr ""
+"Biztosítani kell, hogy az eredményhalmaz kizárjon bizonyos azonosítókat."
+
+#: ../app/Api/V1/V1_ReviewApi.php:160
+msgid "Limit result set to specific IDs."
+msgstr "Az eredményhalmaz korlátozása meghatározott azonosítókra."
+
+#: ../app/Api/V1/V1_ReviewApi.php:170
+msgid "Limit result set to comments of specific parent IDs."
+msgstr ""
+"Az eredményhalmaz korlátozása az adott szülői azonosítókhoz tartozó "
+"megjegyzésekre."
+
+#: ../app/Api/V1/V1_ReviewApi.php:179
+msgid "Ensure result set excludes specific parent IDs."
+msgstr ""
+"Biztosítani kell, hogy az eredményhalmaz kizárja az egyes szülői "
+"azonosítókat."
+
+#: ../app/Api/V1/V1_ReviewApi.php:187
+msgid "Limit result set to listing IDS"
+msgstr "Az eredményhalmaz korlátozása az IDS listázására"
+
+#: ../app/Api/V1/V1_ReviewApi.php:196
+msgid ""
+"Limit result set to comments assigned a specific status. Requires "
+"authorization."
+msgstr ""
+"Az eredményhalmaz korlátozása az adott státuszú megjegyzésekre. "
+"Jogosultságot igényel."
+
+#: ../app/Api/V1/V1_ReviewApi.php:204
+msgid ""
+"Limit result set to comments assigned a specific type. Requires "
+"authorization."
+msgstr ""
+"Az eredményhalmaz korlátozása egy adott típusú megjegyzésekre. Engedélyezést "
+"igényel."
+
+#: ../app/Api/V1/V1_ReviewApi.php:211
+msgid "The password for the post if it is password protected."
+msgstr "A hozzászólás jelszava, ha az jelszóval védett."
+
+#: ../app/Api/V1/V1_ReviewApi.php:398
+msgid "Sorry, you must be logged in to comment."
+msgstr "Sajnálom, be kell jelentkezned a hozzászóláshoz."
+
+#. translators: %s: Request parameter.
+#. translators: %s: Request parameter.
+#. translators: %s: Request parameter.
+#: ../app/Api/V1/V1_ReviewApi.php:408, ../app/Api/V1/V1_ReviewApi.php:418,
+#: ../app/Api/V1/V1_ReviewApi.php:428
+msgid "Sorry, you are not allowed to edit '%s' for comments."
+msgstr "Sajnálom, de nem szerkesztheti a '%s' megjegyzést."
+
+#: ../app/Api/V1/V1_ReviewApi.php:436
+msgid "Sorry, you are not allowed to create this review without a listing."
+msgstr "Sajnáljuk, de nem hozhatja létre ezt az értékelést lista nélkül."
+
+#: ../app/Api/V1/V1_ReviewApi.php:446
+msgid "Sorry, you are not allowed to create this comment without a post."
+msgstr "Sajnálom, de nem hozhatod létre ezt a hozzászólást hozzászólás nélkül."
+
+#: ../app/Api/V1/V1_ReviewApi.php:454
+msgid "Sorry, you are not allowed to review at your own listing."
+msgstr "Sajnáljuk, de a saját listáján nem szabad felülvizsgálatot végeznie."
+
+#: ../app/Api/V1/V1_ReviewApi.php:462
+msgid "Sorry, you are not allowed to create a review on this listing."
+msgstr "Sajnáljuk, de nem hozhat létre értékelést erről a bejegyzésről."
+
+#: ../app/Api/V1/V1_ReviewApi.php:470
+msgid "Sorry, you are not allowed to create a review on this post."
+msgstr "Sajnáljuk, de nem hozhatsz létre véleményt erről a bejegyzésről."
+
+#: ../app/Api/V1/V1_ReviewApi.php:478
+msgid "Sorry, you are not allowed to read the listing for this review."
+msgstr "Sajnálom, de nem szabad elolvasni a listát ehhez a felülvizsgálathoz."
+
+#: ../app/Api/V1/V1_ReviewApi.php:486
+msgid "Sorry, reviews are closed for this item."
+msgstr "Sajnáljuk, a termék értékelései lezárultak."
+
+#: ../app/Api/V1/V1_ReviewApi.php:523
+msgid "Creating a comment requires valid author name and email values."
+msgstr ""
+"A hozzászólás létrehozásához érvényes szerzői név és e-mail értékek "
+"szükségesek."
+
+#: ../app/Api/V1/V1_ReviewApi.php:547
+msgid "Comment field exceeds maximum length allowed."
+msgstr ""
+"A megjegyzés mező hossza meghaladja a megengedett maximális hosszúságot."
+
+#: ../app/Api/V1/V1_ReviewApi.php:654
+msgid "Creating review failed."
+msgstr "A felülvizsgálat létrehozása nem sikerült."
+
+#: ../app/Api/V1/V1_ReviewApi.php:727
+msgid "Invalid comment author ID."
+msgstr "Érvénytelen megjegyzés szerzőjének azonosítója."
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:52
+msgid "Session expired!!"
+msgstr "Lejárt a munkamenet!"
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:56
+msgid "Unauthorized action"
+msgstr "Jogosulatlan tevékenység"
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:68,
+#: ../app/Controllers/Hooks/TemplateHooks.php:98
+msgid "Mark as unsold"
+msgstr "Eladhatatlannak jelölni"
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:62,
+#: ../app/Controllers/Hooks/TemplateHooks.php:98
+msgid "Mark as sold"
+msgstr "Eladottként megjelölni"
+
+#: ../app/Controllers/Blocks/PricingTable.php:506,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:329
+msgid "--Select--"
+msgstr "--Válassza ki--"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:44
+msgid "Popular Label"
+msgstr "Népszerű címke"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:45
+msgid "Top Label"
+msgstr "Top címke"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:46
+msgid "Bump Up Label"
+msgstr "Bump Up címke"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:54
+msgid "Subscription"
+msgstr "Előfizetés"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:56
+msgid "Subscription for membership"
+msgstr "Tagsági előfizetés"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:57
+msgid ""
+"Recurring payment with auto renew <span style=\"color: red\">(Available only "
+"with AuthorizeNet)</span>"
+msgstr ""
+"Ismétlődő fizetés automatikus megújítással <span style=\"color: red\">(Csak "
+"az AuthorizeNet szolgáltatással elérhető)</span>"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:73
+msgid "Account verify"
+msgstr "Számla ellenőrzése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:127
+msgid "App Management"
+msgstr "Alkalmazáskezelés"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:131
+msgid "Allow REST API"
+msgstr "REST API engedélyezése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:133,
+#: ../app/Controllers/Hooks/FilterHooks.php:225
+msgid "Allow to handle data to app."
+msgstr "Lehetővé teszi az adatok kezelését az app."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:136
+msgid "REST API key"
+msgstr "REST API kulcs"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:139
+msgid ""
+"This is one time generated key. Do not recreate this key. if you regenerate "
+"then you need to change the key from your application where you are "
+"currently using."
+msgstr ""
+"Ez egy egyszeri generált kulcs. Ne hozza létre újra ezt a kulcsot.Ha újra "
+"létrehozza, akkor meg kell változtatnia a kulcsot az alkalmazásból, ahol "
+"jelenleg használja."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:150
+msgid "Required gallery image"
+msgstr "Kötelező galériakép"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:152
+msgid "Make gallery image mandatory."
+msgstr "Tegye kötelezővé a galéria képét."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:160
+msgid "Disable gallery zoom"
+msgstr "A galéria zoomolásának kikapcsolása"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:162,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:167
+msgid "Disable"
+msgstr "A  letiltása"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:165
+msgid "Disable gallery lightbox"
+msgstr "Galéria lightbox kikapcsolása"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:168
+msgid "Disable gallery lightbox (PopUp lightbox Gallery)"
+msgstr "Galéria lightbox kikapcsolása (PopUp lightbox Galéria)"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:179
+msgid "Top label background color"
+msgstr "A felső címke háttérszíne"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:183
+msgid "Top label text color"
+msgstr "A felső címke szövegének színe"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:187
+msgid "Popular label background color"
+msgstr "Népszerű címke háttérszín"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:191
+msgid "Popular label text color"
+msgstr "Népszerű címke szöveg színe"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:195
+msgid "BumpUp label background color"
+msgstr "BumpUp címke háttérszín"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:199
+msgid "BumpUp text color"
+msgstr "BumpUp szöveg színe"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:211
+msgid "Admin Menu Access role"
+msgstr "Admin menü hozzáférési szerepkör"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:215
+msgid ""
+"Allowed all Classified Listing Admin Menu access to a user role as like "
+"Administrator. [<span style=\"color: red;\">NOT RECOMMENDED</span>]"
+msgstr ""
+"Minden Classified Listing Admin menü hozzáférése egy olyan felhasználói "
+"szerepkörhöz, mint a Rendszergazda. [<span style=\"color: red;\">NEM "
+"AJÁNLOTT</span>]"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:224
+msgid "Allow post for unregister user"
+msgstr "Engedélyezze a felhasználó leiratkozását"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:226
+msgid "Allow visitor to create a post and account will create automatically"
+msgstr ""
+"Lehetővé teszi a látogató számára, hogy hozzon létre egy hozzászólást, és a "
+"fiók automatikusan létrejön"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:229
+msgid "User Verification"
+msgstr "Felhasználói ellenőrzés"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:231
+msgid ""
+"User Registration will be pending and a verification email will send to the "
+"user email."
+msgstr ""
+"A felhasználó regisztrációja függőben lesz, és egy ellenőrző e-mailt küld a "
+"felhasználó e-mail címére."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:234
+msgid "Max Re-send attempts"
+msgstr "Maximális újraküldési kísérletek"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:244
+msgid ""
+"Max number of re-send requests a user can make, more than that, his account "
+"will be locked."
+msgstr ""
+"A felhasználó által küldhető újraküldési kérelmek maximális száma, ennél "
+"többször a fiókja zárolásra kerül."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:255
+msgid "Popular listing threshold (in views count)"
+msgstr "Népszerű listázás küszöbérték (a megtekintések számában)"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:258
+msgid ""
+"Enter the minimum number of views required for a listing to be tagged as "
+"\"Popular\"."
+msgstr ""
+"Adja meg a minimálisan szükséges megtekintések számát ahhoz, hogy egy listát "
+"\"Népszerűnek\" lehessen jelölni."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:264
+msgid "Label text for popular listings"
+msgstr "Címke szöveg a népszerű listákhoz"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:266,
+#: ../app/Controllers/Hooks/TemplateHooks.php:330
+msgid "Popular"
+msgstr "Népszerű"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:267
+msgid "Enter the text you want to use inside the \"Popular\" tag."
+msgstr "Írja be a \"Népszerű\" címkén belül használni kívánt szöveget."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:270
+msgid "Label text for Top listings"
+msgstr "Címke szövege a Top listákhoz"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:272,
+#: ../app/Controllers/Hooks/FilterHooks.php:414,
+#: ../app/Controllers/Hooks/TemplateHooks.php:317
+msgid "Top"
+msgstr "Előresorolás"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:273
+msgid "Enter the text you want to use inside the \"Top\" tag."
+msgstr "Írja be a \"Top\" címkén belül használni kívánt szöveget."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:276
+msgid "Label text for Bump Up listings"
+msgstr "Címke szövege a Bump Up listákhoz"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:278,
+#: ../app/Controllers/Hooks/FilterHooks.php:415,
+#: ../app/Controllers/Hooks/TemplateHooks.php:299
+msgid "Bump Up"
+msgstr "Bump Up"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:279
+msgid "Enter the text you want to use inside the \"Bump Up\" tag."
+msgstr "Írja be a \"Bump Up\" címkén belül használni kívánt szöveget."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:282
+msgid "Enable top listing at listing page"
+msgstr "Engedélyezze a felső listázást a listázási oldalon"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:285
+msgid "Enable top listing"
+msgstr "Felső listázás engedélyezése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:288
+msgid "Top listing number to display"
+msgstr "A megjelenítendő legfelső listaszám"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:291
+msgid "Enter number of top listing to display at listing page"
+msgstr "Adja meg a listázási oldalon megjelenítendő felső lista számát"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:294
+msgid "Registered user only"
+msgstr "Csak regisztrált felhasználó"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:304
+msgid "Enable review rating"
+msgstr "Értékelési értékelés engedélyezése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:306
+msgid "Allow visitors to make review rating."
+msgstr "Lehetővé teszi a látogatók számára, hogy értékelést készítsenek."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:309
+msgid "Enable update rating"
+msgstr "Frissítési besorolás engedélyezése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:311
+msgid ""
+"If same user try to add duplicate post than allow it to update previous one."
+msgstr ""
+"Ha ugyanaz a felhasználó megpróbál duplikált hozzászólást hozzáadni, akkor "
+"engedje meg, hogy frissítse az előzőt."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:322
+msgid "Enable quick view"
+msgstr "Gyorsnézet engedélyezése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:324
+msgid "Enable Quick view."
+msgstr "Gyorsnézet engedélyezése."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:327,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:329
+msgid "Enable compare"
+msgstr "Összehasonlítás engedélyezése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:332
+msgid "Compare limit"
+msgstr "Határérték összehasonlítása"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:336
+msgid "Maximum number of listings to compare"
+msgstr "Az összehasonlítandó listák maximális száma"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:339,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:341
+msgid "Enable Mark as Sold"
+msgstr "Eladottként való megjelölés engedélyezése"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:344
+msgid "Default Listing view"
+msgstr "Alapértelmezett listázás nézet"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:348
+msgid "List view"
+msgstr "Lista nézet"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:349
+msgid "Grid view"
+msgstr "Rácsnézet"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:374
+msgid "Pro settings"
+msgstr "Pro beállítások"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:107
+msgid "Main plugin license key"
+msgstr "Fő plugin licenckulcs"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:197
+msgid "App"
+msgstr "App"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:207
+msgid "App push notifications"
+msgstr "App push értesítések"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:211
+msgid "App schema"
+msgstr "Alkalmazás séma"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:213
+msgid "myapp"
+msgstr "myapp"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:215
+msgid ""
+"At your react native app folder -> app.json \"expo\": {\"scheme\": <b>"
+"\"myapp\"</b>}"
+msgstr ""
+"A react native alkalmazás mappájában -> app.json \"expo\": {\"scheme\": "
+"{\"scheme\": <b>\"myapp\"</b>}}"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:222
+msgid "Allow Events"
+msgstr "Események engedélyezése"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:228
+msgid "Disable In App Purchase"
+msgstr "Alkalmazáson belüli vásárlás letiltása"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:230
+msgid ""
+"Disable in app purchase, This will turn off membership and promotion feature "
+"from app."
+msgstr ""
+"Az alkalmazáson belüli vásárlás letiltása, Ez kikapcsolja a előfizetői és "
+"promóciós funkciót az alkalmazásból."
+
+#: ../app/Controllers/Hooks/FilterHooks.php:422
+msgid "Featured only"
+msgstr "Csak kiemelt"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:423
+msgid "Top Only"
+msgstr "Csak fent"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:424
+msgid "Featured and Top"
+msgstr "Kiemelt és Előresorolt"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:425
+msgid "All Type"
+msgstr "Minden típus"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:427
+msgid "Map"
+msgstr "Térkép"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:498
+msgid "Show category image / icon"
+msgstr "Kategória kép / ikon megjelenítése"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:502
+msgid "Search by Rating"
+msgstr "Keresés minősítés szerint"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:506
+msgid "Search by Custom Fields"
+msgstr "Keresés egyéni mezők alapján"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:704
+msgid "Show More"
+msgstr "Többet mutasd meg"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:677
+msgid "Search by %s"
+msgstr "Keresés %s szerint"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:661,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:127,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:949
+msgid "Date"
+msgstr "Dátum"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:646
+msgid "Min."
+msgstr "Min."
+
+#: ../app/Controllers/Hooks/FilterHooks.php:648
+msgid "Max."
+msgstr "Max."
+
+#: ../app/Controllers/Hooks/FilterHooks.php:747
+msgid "5.0"
+msgstr "5.0"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:748
+msgid "4.5 & up"
+msgstr "4.5 és felette"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:749
+msgid "4.0 & up"
+msgstr "4.0 és felette"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:750
+msgid "3.5 & up"
+msgstr "3.5 és felette"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:751
+msgid "3.0 & up"
+msgstr "3.0 és felette"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:778
+msgid "Ratings"
+msgstr "Értékelések"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:821
+msgid "Orientation"
+msgstr "Orientáció"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:824
+msgid "Vertical"
+msgstr "Függőleges"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:825
+msgid "inline"
+msgstr "inline"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:885,
+#: ../app/Controllers/Hooks/TemplateHooks.php:408
+msgid "Offline Now"
+msgstr "Offline most"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:886,
+#: ../app/Controllers/Hooks/TemplateHooks.php:410
+msgid "Online Now"
+msgstr "Online most"
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:85
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr ""
+"Kérjük, <a href='%s'>jelentkezzen be</a> az eladói információk "
+"megtekintéséhez."
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:162
+msgid "Add to compare list"
+msgstr "Hozzáadás az összehasonlítási listához"
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:174
+msgid "Quick view"
+msgstr "Gyors nézet"
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:422
+msgid "Sold Out"
+msgstr "Elfogyott"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:87,
+#: ../app/Gateways/Stripe/GatewayStripe.php:326
+msgid "Enable/Disable"
+msgstr "Engedélyezés/Kikapcsolás"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:89
+msgid "Enable Authorize.Net"
+msgstr "Authorize.Net engedélyezése"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:92,
+#: ../app/Gateways/Stripe/GatewayStripe.php:331,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:128,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:783,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:108,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:216,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:744,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:163,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:948
+msgid "Title"
+msgstr "Cím"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:94
+msgid "This controls the title which the buyer sees during checkout."
+msgstr "Ez vezérli a címét, amelyet a vevő a pénztárnál lát."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:95
+msgid "Authorize.Net"
+msgstr "Authorize.Net"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:98,
+#: ../app/Gateways/Stripe/GatewayStripe.php:338,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:205,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:331,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:337
+msgid "Description"
+msgstr "Leírás"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:100,
+#: ../app/Gateways/Stripe/GatewayStripe.php:340
+msgid "This controls the description which the user sees during checkout."
+msgstr "Ez vezérli a leírást, amelyet a felhasználó a pénztárnál lát."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:101
+msgid "All cards are charged by &copy;Authorize.Net &#174;&#8482; servers."
+msgstr ""
+"Minden kártyát a &copy;Authorize.Net &#174;&#8482; szerverek terhelnek."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:104
+msgid "API Login ID"
+msgstr "API bejelentkezési azonosító"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:106
+msgid "This is the API Login ID Authorize.net."
+msgstr "Ez az API bejelentkezési azonosítója Authorize.net."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:108
+msgid "Authorize.Net API Login ID"
+msgstr "Authorize.Net API bejelentkezési azonosító"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:111
+msgid "Transaction Key"
+msgstr "Tranzakciós kulcs"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:113
+msgid "This is the Transaction Key of Authorize.Net."
+msgstr "Ez az Authorize.Net tranzakciós kulcsa."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:115
+msgid "Authorize.Net Transaction Key"
+msgstr "Authorize.Net tranzakciós kulcs"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:118
+msgid "Authorize.Net sandbox"
+msgstr "Authorize.Net homokozó"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:120
+msgid "Enable Authorize.Net sandbox (Live Mode if Unchecked)"
+msgstr "Authorize.Net sandbox engedélyezése (Élő mód, ha nincs bejelölve)"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:121
+msgid "If checked its in sandbox mode and if unchecked its in live mode"
+msgstr ""
+"Ha be van jelölve, akkor homokozó üzemmódban van, ha nincs jelölve, akkor "
+"élő üzemmódban van"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:125
+msgid "Authorize Only"
+msgstr "Csak engedélyezni"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:127
+msgid ""
+"Enable Authorize Only Mode (Authorize & Capture If Unchecked).<span "
+"style=\"color:red;\">Make sure to keep <b>Unchecked</b> if your Address "
+"Verification Service (AVS) is set to hold transaction for review.</span>"
+msgstr ""
+"Engedélyezze a Csak engedélyezés módot (engedélyezés és rögzítés, ha nincs "
+"bejelölve).<span style=\"color:red;\">Győződjön meg róla, hogy a <b>Nem "
+"bejelölve</b> marad, ha a címellenőrző szolgáltatás (AVS) úgy van beállítva, "
+"hogy a tranzakciót visszatartja felülvizsgálatra.</span>"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:128
+msgid "If checked will only authorize the credit card only upon checkout."
+msgstr "Ha be van jelölve, akkor a hitelkártyát csak a pénztárnál engedélyezi."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:132
+msgid "Authorize.Net + Cartspan"
+msgstr "Authorize.Net + Cartspan"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:134
+msgid "Enable Authorize.Net Metas for Cartspan"
+msgstr "Authorize.Net meták engedélyezése a Cartspan számára"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:135
+msgid ""
+"If checked will store last4 and card brand in local db from Transaction "
+"response"
+msgstr ""
+"Ha be van jelölve, akkor a last4 és a kártya márkája a helyi adatbázisban "
+"lesz tárolva a tranzakciós válaszból"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:139
+msgid "Accepted Cards"
+msgstr "Elfogadott kártyák"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:143
+msgid "Select the card types to accept."
+msgstr "Válassza ki az elfogadandó kártyatípusokat."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:156,
+#: ../app/Gateways/Stripe/GatewayStripe.php:463
+msgid "Webhook url"
+msgstr "Webhook url"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:158
+msgid ""
+"<strong>Important:</strong> the webhook url is called by Authorize.net when "
+"events occur in your account, like a source becomes chargeable. You must add "
+"this webhook to your Stripe Dashboard if you are using any of the local "
+"gateways. %1$sWebhook guide%2$s"
+msgstr ""
+"<strong>Fontos:</strong> a webhook url-t az Authorize.net hívja meg, amikor "
+"a fiókjában események történnek, például egy forrás fizetőssé válik. Ezt a "
+"webhookot hozzá kell adnod a Stripe Dashboardhoz, ha valamelyik helyi "
+"átjárót használod. %1$sWebhook útmutató%2$s"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:162
+msgid "Signature Key"
+msgstr "Aláírási kulcs"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:163
+msgid "Signature Key. %1$sWebhook guide%2$s"
+msgstr "Aláírási kulcs. %1$sWebhook útmutató%2$s"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:190,
+#: ../app/Gateways/Stripe/GatewayStripe.php:749
+msgid "Card Number"
+msgstr "Kártya száma"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:200
+msgid "Expiry (MM/YY)"
+msgstr "Lejárat (MM/YY)"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:204
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:208
+msgid "Card Code"
+msgstr "Kártya kód"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:212
+msgid "CVC"
+msgstr "CVC"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:229
+msgid "Payment not found"
+msgstr "Fizetés nem található"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:279
+msgid "Card expired month or year / CVC is not defined."
+msgstr "A kártya lejárt hónap vagy év / CVC nincs meghatározva."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:419,
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:421
+msgid "Payment error: Please check your credit card details and try again."
+msgstr ""
+"Fizetési hiba: Kérjük, ellenőrizze hitelkártyája adatait, és próbálja meg "
+"újra."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:320
+msgid ""
+"Authorize.Net payment %1$s for %2$s. Transaction ID: %3$s.\n"
+"\n"
+" <strong>AVS Response:</strong> %4$s.\n"
+"\n"
+" <strong>CVV2 Response:</strong> %5$s."
+msgstr ""
+"Authorize.Net fizetés %1$s %2$s részére. Tranzakció azonosítója: %3$s.\n"
+"\n"
+" <strong>AVS válasz:</strong> %4$s.\n"
+"\n"
+" <strong>CVV2 válasz:</strong> %5$s."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:590
+msgid "No subscription found to remove"
+msgstr "Nem találtak előfizetést az eltávolításhoz"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:594
+msgid "This subscription is not active."
+msgstr "Ez az előfizetés nem aktív."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:72
+msgid "Stripe"
+msgstr "Csíkos"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:141
+msgid "Rest Api permission error"
+msgstr "Rest Api engedélyezési hiba"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:163
+msgid "You are not logged in or Order is missing."
+msgstr "Ön nincs bejelentkezve, vagy a Rendelés hiányzik."
+
+#. translators: %s is the order Id
+#: ../app/Gateways/Stripe/GatewayStripe.php:265
+msgid "Payment Intent not found for order #%s"
+msgstr "Fizetési szándék nem található a #%s megrendeléshez"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:293
+msgid "Stripe Credit cards payment gateway addon for Classified listing"
+msgstr "Stripe Hitelkártyák fizetési átjáró addon az apróhirdetésekhez"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:294
+msgid ""
+"Stripe is a company that provides a way for individuals and businesses to "
+"accept payments over the Internet."
+msgstr ""
+"A Stripe egy olyan vállalat, amely magánszemélyek és vállalkozások számára "
+"nyújt lehetőséget az interneten keresztül történő fizetés elfogadására."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:328
+msgid "Enable Stripe"
+msgstr "Stripe engedélyezése"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:333
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ez vezérli a címet, amelyet a felhasználó a fizetés során lát."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:335
+msgid "Credit Card"
+msgstr "Hitelkártya"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:342
+msgid ""
+"All cards are stored by &copy;Stripe servers we do not store any card details"
+msgstr ""
+"Minden kártyát a &copy;Stripe szerverek tárolnak, mi nem tároljuk a kártya "
+"adatait"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:346
+msgid "Stripe Account Keys"
+msgstr "Stripe számla kulcsok"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:350
+msgid "Test mode"
+msgstr "Teszt üzemmód"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:351
+msgid "Enable Test Mode"
+msgstr "Teszt üzemmód engedélyezése"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:353
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+"Helyezze a fizetési átjárót teszt üzemmódba teszt API-kulcsok használatával."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:357
+msgid "Test Publishable Key"
+msgstr "Közzétehető kulcs tesztelése"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:359,
+#: ../app/Gateways/Stripe/GatewayStripe.php:391
+msgid "This is the Publishable Key found in API Keys in Account Dashboard."
+msgstr ""
+"Ez az a közzétehető kulcs, amely a Fiókvezérlőpulton az API-kulcsok között "
+"található."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:373
+msgid "Test Secret Key"
+msgstr "Teszt titkos kulcs"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:375,
+#: ../app/Gateways/Stripe/GatewayStripe.php:407
+msgid "This is the Secret Key found in API Keys in Account Dashboard."
+msgstr "Ez a titkos kulcs a fiókvezérlőpulton az API-kulcsok között található."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:389
+msgid "Live Publishable Key"
+msgstr "Élő közzétehető kulcs"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:405
+msgid "Live Secret Key"
+msgstr "Élő titkos kulcs"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:421
+msgid "Inline Credit Card Form"
+msgstr "Inline hitelkártya űrlap"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:423
+msgid ""
+"Choose the style you want to show for your credit card form. When unchecked, "
+"the credit card form will display separate credit card number field, expiry "
+"date field and cvc field."
+msgstr ""
+"Válassza ki a hitelkártya űrlapon megjeleníteni kívánt stílust. Ha nincs "
+"bejelölve, a hitelkártya űrlapon külön hitelkártya szám mező, lejárati dátum "
+"mező és cvc mező jelenik meg."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:427
+msgid "Statement Descriptor"
+msgstr "Kijelentés leíró"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:429
+msgid ""
+"Statement descriptors are limited to 22 characters, cannot use the special "
+"characters >, <, \", , ', *, /, (, ), {, }, and must not consist solely of "
+"numbers. This will appear on your customer's statement in capital letters."
+msgstr ""
+"Az utasításleírások legfeljebb 22 karakterből állhatnak, nem használhatják a "
+">, <, \", , , ', *, /, (, ), {, } speciális karaktereket, és nem állhatnak "
+"kizárólag számokból. Ez az ügyfél nyilatkozatán nagybetűkkel fog megjelenni."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:433
+msgid "Capture"
+msgstr "Capture"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:434
+msgid "Capture charge immediately"
+msgstr "Azonnali töltés rögzítése"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:436
+msgid ""
+"Whether or not to immediately capture the charge. When unchecked, the charge "
+"issues an authorization and will need to be captured later. Uncaptured "
+"charges expire in 7 days."
+msgstr ""
+"Azonnal rögzítsük-e a töltetet vagy sem. Ha nincs bejelölve, a díj engedélyt "
+"ad ki, és később kell rögzíteni. A rögzítetlen díjak 7 nap múlva lejárnak."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:440
+msgid "Enable stripe receipt email"
+msgstr "Csíkos átvételi elismervény e-mail engedélyezése"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:442
+msgid "Enable receipt email from Stripe (Active If Checked)"
+msgstr "A Stripe-tól érkező nyugta e-mail engedélyezése (aktív, ha bejelölve)"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:443
+msgid ""
+"If checked will send stripe receipt email to billing email in live mode only"
+msgstr ""
+"Ha be van jelölve, akkor csak élő üzemmódban küld e-mailt a számlázási e-"
+"mail címre"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:448
+msgid "Saved Cards"
+msgstr "Mentett kártyák"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:449
+msgid "Enable Payment via Saved Cards"
+msgstr "Elmentett kártyákkal történő fizetés engedélyezése"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:451
+msgid ""
+"If enabled, users will be able to pay with a saved card during checkout. "
+"Card details are saved on Stripe servers, not on your store."
+msgstr ""
+"Ha engedélyezve van, a felhasználók a fizetés során elmentett kártyával "
+"fizethetnek. A kártyaadatok a Stripe szerverein kerülnek elmentésre, nem az "
+"Ön áruházában."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:455
+msgid "Force 3D Secure"
+msgstr "3D Secure kényszerítése"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:459
+msgid ""
+"Stripe internally determines when 3D secure should be presented based on "
+"their SCA engine. If <strong>Force 3D Secure</strong> is enabled, 3D Secure "
+"will be forced for ALL credit card transactions. In test mode 3D secure only "
+"shows for %1$s3DS Test Cards%2$s regardless of this setting."
+msgstr ""
+"A Stripe belsőleg határozza meg, hogy mikor kell 3D Secure-t bemutatni az "
+"SCA motor alapján. Ha a <strong>Force 3D Secure</strong> opció be van "
+"kapcsolva, akkor a 3D Secure minden hitelkártya-tranzakciónál kötelező lesz. "
+"Teszt üzemmódban a 3D Secure ettől a beállítástól függetlenül csak a %1$s3DS "
+"tesztkártyák%2$s esetében jelenik meg."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:465
+msgid ""
+"<strong>Important:</strong> the webhook url is called by Stripe when events "
+"occur in your account, like a source becomes chargeable. You must add this "
+"webhook to your Stripe Dashboard if you are using any of the local gateways. "
+"%1$sWebhook guide%2$s"
+msgstr ""
+"<strong>Fontos:</strong> a webhook url-t a Stripe hívja meg, amikor a "
+"számláján események történnek, például egy forrás díjkötelessé válik. Ezt a "
+"webhookot hozzá kell adnia a Stripe Dashboardjához, ha valamelyik helyi "
+"átjárót használja. %1$sWebhook útmutató%2$s"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:469
+msgid "Live Webhook Secret"
+msgstr "Élő Webhook titok"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:470,
+#: ../app/Gateways/Stripe/GatewayStripe.php:483
+msgid ""
+"The webhook secret is used to authenticate webhooks sent from Stripe. It "
+"ensures no 3rd party can send you events, pretending to be Stripe. "
+"%1$sWebhook guide%2$s"
+msgstr ""
+"A webhook-titok a Stripe által küldött webhookok hitelesítésére szolgál. "
+"Biztosítja, hogy harmadik fél ne küldhessen eseményeket, és ne adja ki magát "
+"Stripe-nek. %1$sWebhook útmutató%2$s"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:482
+msgid "Test Webhook Secret"
+msgstr "Teszt Webhook titok"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:494
+msgid "Logging"
+msgstr "Naplózás"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:495
+msgid "Log debug messages"
+msgstr "Napló hibakeresési üzenetek"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:497
+msgid "Save debug messages to the Classified Listing System Status log."
+msgstr ""
+"A hibakeresési üzenetek mentése a Classified Listing System Status naplóba."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:666
+msgid ""
+"<strong>%s</strong> is enabled and Classified listing is not forcing the SSL "
+"on your checkout page. Please ensure that you have a valid SSL certificate "
+"and that you are <a href=\"%s\">forcing the checkout pages to be secured.</a>"
+msgstr ""
+"a <strong>%s</strong> engedélyezve van, és a Classified listing nem "
+"kényszeríti az SSL-t a pénztár oldalára. Kérjük, győződjön meg róla, hogy "
+"rendelkezik érvényes SSL-tanúsítvánnyal, és hogy <a href=\"%s\">kényszeríti "
+"a pénztár oldalainak biztosítását</a>"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:761
+msgid "Expiry Date"
+msgstr "Lejárati dátum"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:769
+msgid "Card Code (CVC)"
+msgstr "Kártyakód (CVC)"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:741
+msgid "Credit or debit card"
+msgstr "Hitel- vagy bankkártya"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:799
+msgid "Payment not found!"
+msgstr "Fizetés nem található!"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:868
+msgid "Your order is created and please confirm your order"
+msgstr "A megrendelését létrehoztuk, és kérjük, erősítse meg a megrendelését"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:916
+msgid ""
+"Sorry, we're not accepting prepaid cards at this time. Your credit card has "
+"not been charged. Please try with alternative payment method."
+msgstr ""
+"Sajnáljuk, de jelenleg nem fogadunk el előre fizetett kártyákat. A "
+"hitelkártyáját nem terheltük meg. Kérjük, próbálkozzon más fizetési móddal."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:929,
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:649
+msgid "Payment processing failed. Please retry."
+msgstr "A fizetés feldolgozása sikertelen. Kérjük, próbálja meg újra."
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:18
+msgid "WooCommerce Payout"
+msgstr "WooCommerce kifizetés"
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:19
+msgid "WooCommerce Payment"
+msgstr "WooCommerce fizetés"
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:20
+msgid "Make a payment with WooCommerce payment methods."
+msgstr "Fizetés a WooCommerce fizetési módokkal."
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:79
+msgid "This payment is %s, please click the link beside to enable/disable."
+msgstr ""
+"Ez a fizetés %s, kérjük, kattintson a mellette lévő linkre az "
+"engedélyezéshez/letiltáshoz."
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:99
+msgid "Enable WooCommerce Payment"
+msgstr "WooCommerce fizetés engedélyezése"
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:100
+msgid ""
+"<span style=\"color: red\">If <strong>WooCommerce Payment</strong> is "
+"enabled you can not use other payments provided by ClassifiedListing.</span>"
+msgstr ""
+"<span style=\"color: red\">Ha a <strong>WooCommerce Payment</strong> "
+"engedélyezve van, akkor nem használhatja a ClassifiedListing által "
+"biztosított egyéb fizetéseket.</span>"
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:103
+msgid "WooCommerce Payments"
+msgstr "WooCommerce kifizetések"
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:106
+msgid ""
+"List of all available payment gateways installed and activated for "
+"WooCommerce. Click on a payment method to go to <strong>WooCommerce "
+"Payment</strong> settings."
+msgstr ""
+"A WooCommerce számára telepített és aktivált összes elérhető fizetési átjáró "
+"listája. Kattintson egy fizetési módra a <strong>WooCommerce Payment</strong>"
+" beállításaihoz."
+
+#: ../app/Gateways/WooPayment/WooPayment.php:166
+msgid ""
+"This order is related to Classified Listing Payment, For WooCommerce payment "
+"please change order status from here it will auto change in Classified "
+"Listing Plugin order. <a href=\"%s\">You can view the order from Classified "
+"Listing Payment History also.</a>"
+msgstr ""
+"Ez a megrendelés kapcsolódik a Classified Listing Payment, A WooCommerce "
+"fizetés, kérjük, változtassa meg a megrendelés állapotát innen automatikusan "
+"változik a Classified Listing Plugin sorrendben. <a href=\"%s\">A "
+"megrendelést megtekintheti a Classified Listing fizetési előzmények között "
+"is.</a>"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:63
+msgid "Custom Field's"
+msgstr "Egyéni mező"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:70,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:832,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:898,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:965,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:682,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:750,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:798,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:853,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:901,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:172,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:239,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:349,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:383,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:506
+msgid "Typography"
+msgstr "Tipográfia"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:74,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:809
+msgid "Spacing"
+msgstr "Távolságtartás"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:87,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:705,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:745,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:803,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:818,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:870,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:885,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:937,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:952,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:565,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:694,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:765,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:791,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:859,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:970,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:1015,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:199,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:214,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:265,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:295
+msgid "Color"
+msgstr "Színes"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:111
+msgid "Rand"
+msgstr "Rand"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:136
+msgid "Show compare icon"
+msgstr "Összehasonlítás ikon megjelenítése"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:137,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:157,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:188,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:198,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:209,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:95,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:116,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:148,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:157,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:166,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:186,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:195,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:213,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:251,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:260,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:269,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:278,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:320,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:329,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1021,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1049
+msgid "On"
+msgstr "A  oldalon"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:138,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:158,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:189,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:199,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:210,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:96,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:117,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:149,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:158,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:167,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:187,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:196,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:214,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:252,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:261,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:270,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:279,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:321,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:330,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1022,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1050
+msgid "Off"
+msgstr "Off"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:140,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:160
+msgid "Show or Hide Icon. Default: On"
+msgstr "Ikon megjelenítése vagy elrejtése. Alapértelmezett: Beállítás"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:145
+msgid "Compare icon order"
+msgstr "Összehasonlítás ikon sorrendben"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:147,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:167
+msgid "Icon order"
+msgstr "Ikonrendelés"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:156
+msgid "Show chat icon"
+msgstr "Csevegés ikon megjelenítése"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:165
+msgid "Chat icon order"
+msgstr "Chat ikonok sorrendje"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:187
+msgid "Show Custom fields"
+msgstr "Egyéni mezők megjelenítése"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:191,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:201,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:212
+msgid "Only work for Pro. Default: Off"
+msgstr "Csak a Pro esetében működik. Alapértelmezett: Kikapcsolva"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:197
+msgid "Show Quick View"
+msgstr "Gyorsnézet megjelenítése"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:208
+msgid "Show Compare"
+msgstr "Megjelenítés Összehasonlítás"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:279,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:338,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:365,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1043,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:101
+msgid "Style 3"
+msgstr "3. stílus"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:306,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:334,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:361,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:406,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1042,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:100
+msgid "Style 2"
+msgstr "Stílus 2"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:342,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:369,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1044
+msgid "Style 4"
+msgstr "4-es stílus"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:346,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:373
+msgid "Style 5"
+msgstr "5. stílus"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:36
+msgid "Category Slider"
+msgstr "Kategória csúszka"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:42
+msgid "1 Col"
+msgstr "1 Col"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:43
+msgid "2 Col"
+msgstr "2 Col"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:44
+msgid "3 Col"
+msgstr "3 Col"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:45
+msgid "4 Col"
+msgstr "4 Col"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:46
+msgid "5 Col"
+msgstr "5 Col"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:47
+msgid "6 Col"
+msgstr "6 Col"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:67,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:92,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:961
+msgid "General"
+msgstr "Általános"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:72,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1039,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:97,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:968
+msgid "Style"
+msgstr "Stílus"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:79,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1010
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:82
+msgid ""
+"Start typing category names. If empty then all parent categories will be "
+"displayed"
+msgstr ""
+"Kezdje el beírni a kategóriák nevét. Ha üres, akkor az összes szülő "
+"kategória megjelenik"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:87
+msgid "Category Limit"
+msgstr "Kategória Határérték"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:89
+msgid "How Many Category will Display ?"
+msgstr "Hány kategória jelenik meg ?"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:94
+msgid "Display Sub Category"
+msgstr "Megjelenítés alkategória"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:104
+msgid "Child Category Limit"
+msgstr "Gyermek kategória Határérték"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:106
+msgid "How Many Child Category will Display ?"
+msgstr "Hány gyermek kategória jelenik meg ?"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:115
+msgid "Counts Include Children"
+msgstr "A számlálások a gyermekeket is tartalmazzák"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:123,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1073
+msgid "Order By"
+msgstr "Megrendelés"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:125,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:601,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:953
+msgid "None"
+msgstr "Nincs"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:126,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:950
+msgid "ID"
+msgstr "ID"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:129
+msgid "Count"
+msgstr "Count"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:130
+msgid "Custom Order"
+msgstr "Egyedi megrendelés"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:137,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1080
+msgid "Sort By"
+msgstr "Rendezés"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:139,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1082
+msgid "Ascending"
+msgstr "Felszálló"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:140,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1083
+msgid "Descending"
+msgstr "Leereszkedő"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:147
+msgid "Hide Empty"
+msgstr "Üres elrejtése"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:151
+msgid "Hide Categories that has no listings. Default: On"
+msgstr ""
+"Rejtse el a kategóriákat, amelyeknek nincs listája. Alapértelmezett: On"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:156
+msgid "Show Icon/Image"
+msgstr "Ikon/kép megjelenítése"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:160
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "Listázási ikon/kép megjelenítése vagy elrejtése. Alapértelmezett: On"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:165
+msgid "Show Title"
+msgstr "Megjelenítés címe"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:169
+msgid "Show or Hide Category Title. Default: On"
+msgstr "Kategória címének megjelenítése vagy elrejtése. Alapértelmezett: On"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:174
+msgid "Icon Type"
+msgstr "Ikon típusa"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:176
+msgid "Image"
+msgstr "Kép"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:177
+msgid "Icon"
+msgstr "Ikon"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:185
+msgid "Listing Counts"
+msgstr "Listázás Számlák"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:189
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "Listázási számok megjelenítése vagy elrejtése. Alapértelmezett: On"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:194
+msgid "Category Description"
+msgstr "Kategória Leírás"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:198
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "Megjelenítés vagy elrejtés Listázás Leírás. Alapértelmezett: On"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:204
+msgid "Description Word Limit"
+msgstr "Leírás Szóhatár"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:206
+msgid "Number of Words to display"
+msgstr "Megjelenítendő szavak száma"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:212
+msgid "Display Child category"
+msgstr "Gyermek kategória megjelenítése"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:216,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:263,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:323,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:332
+msgid "Loop to first item. Default: On"
+msgstr "Hurok az első elemhez. Alapértelmezett: On"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:223,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:232
+msgid "Content alignment"
+msgstr "Tartalmi összehangolás"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:245
+msgid "Slider Options"
+msgstr "Csúszka beállítások"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:250
+msgid "Auto Height"
+msgstr "Automatikus magasság"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:253
+msgid "Auto Height. Default: On"
+msgstr "Automatikus magasság. Alapértelmezett: Beállítás"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:259
+msgid "Loop"
+msgstr "Hurok"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:268
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:272
+msgid "Enable or disable autoplay. Default: On"
+msgstr ""
+"Az automatikus lejátszás engedélyezése vagy letiltása. Alapértelmezett: "
+"Beállítás"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:277
+msgid "Stop on Hover"
+msgstr "Stop on Hover"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:281
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr ""
+"Az automatikus lejátszás leállítása az egér lebegtetésekor. Alapértelmezett: "
+"On"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:287
+msgid "Autoplay Delay"
+msgstr "Automatikus lejátszás késleltetése"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:289
+msgid "7 Seconds"
+msgstr "7 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:290
+msgid "6 Seconds"
+msgstr "6 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:291
+msgid "5 Seconds"
+msgstr "5 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:292
+msgid "4 Seconds"
+msgstr "4 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:293
+msgid "3 Seconds"
+msgstr "3 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:294
+msgid "2 Seconds"
+msgstr "2 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:295
+msgid "1 Second"
+msgstr "1 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:298
+msgid ""
+"Set any value for example 5 seconds to play it in every 5 seconds. Default: "
+"5 Seconds"
+msgstr ""
+"Állítson be bármilyen értéket, például 5 másodpercet, hogy 5 másodpercenként "
+"játssza le. Alapértelmezett: 5 másodperc"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:304
+msgid "Autoplay Slide Speed"
+msgstr "Automatikus lejátszás Dia sebesség"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:306
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "Csúszás sebessége milliszekundumban. Alapértelmezett: 200"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:312
+msgid "Space Between"
+msgstr "Space Between"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:314
+msgid "Space Between. Default: 20"
+msgstr "Space Between. Alapértelmezett: 20"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:319
+msgid "Arrow Navigation"
+msgstr "Nyíl navigáció"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:328
+msgid "Dot Navigation"
+msgstr "Pont navigáció"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:352
+msgid "Number of Responsive Columns"
+msgstr "Responsive oszlopok száma"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:357
+msgid "Desktops: >1199px"
+msgstr "Asztali számítógépek: >1199px"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:364
+msgid "Desktops: >991px"
+msgstr "Asztali számítógépek: >991px"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:371
+msgid "Tablets: >767px"
+msgstr "Tabletták: >767px"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:378
+msgid "Phones: >575px"
+msgstr "Telefonok: >575px"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:385
+msgid "Small Phones: <576px"
+msgstr "Kis telefonok: <576px"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:405,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1041,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:99
+msgid "Style 1"
+msgstr "1. stílus"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:426
+msgid "Box style"
+msgstr "Doboz stílus"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:430
+msgid "Gutter pading"
+msgstr "Ereszcsatorna burkolat"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:441
+msgid "Box pading"
+msgstr "Box pading"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:451
+msgid "Head Section Pading"
+msgstr "Fejrészlet Pading"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:464
+msgid "Body Section Pading"
+msgstr "Body Section Pading"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:492,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:546
+msgid "Head background"
+msgstr "Fej háttér"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:503,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:557
+msgid "Body background"
+msgstr "Test háttér"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:513,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:567,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:492,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:531,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:559,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:653,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:688,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:964
+msgid "Background"
+msgstr "Háttér"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:528,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:582,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:727,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:763,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:73
+msgid "Box Shadow"
+msgstr "Doboz árnyék"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:599
+msgid "Content Vertical Alignment"
+msgstr "Tartalom függőleges igazítása"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:602
+msgid "Middle"
+msgstr "Középső"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:616
+msgid "Icon And Image"
+msgstr "Ikon és kép"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:622
+msgid "Icon Area"
+msgstr "Ikon terület"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:639,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:270,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:381,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:571
+msgid "Icon Size"
+msgstr "Ikon mérete"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:657,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1089
+msgid "Image Size"
+msgstr "Képméret"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:668,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:481,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:943
+msgid "Border Radius"
+msgstr "Határ sugara"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:681,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:145
+msgid "Image Spacing"
+msgstr "Képtávolság"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:721
+msgid "Icon Bg Color"
+msgstr "Ikon Bg szín"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:757
+msgid "Icon Bg Hover Color"
+msgstr "Ikon Bg Hover szín"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:836,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:754,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:176
+msgid "Title Spacing"
+msgstr "Cím távolság"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:851
+msgid "Counter"
+msgstr "Counter"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:902
+msgid "Counter Spacing"
+msgstr "Counter Spacing"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:918
+msgid "Short Description"
+msgstr "Rövid leírás"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:969,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:100
+msgid "Content Spacing"
+msgstr "Tartalom Távolság"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:984,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:800
+msgid "Slider Navigation"
+msgstr "Csúszka navigáció"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:989
+msgid "Arrow Position"
+msgstr "Nyíl pozíciója"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:991
+msgid "Center"
+msgstr "Központ"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:992
+msgid "Left Top"
+msgstr "Bal felső"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:993
+msgid "Right Top"
+msgstr "Jobb felső"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1001,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:819
+msgid "Arrow Navigation Border Radius"
+msgstr "Nyíl navigációs határ sugara"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1013,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:66,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:431,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:512,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:629,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:697,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:757,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:835,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:907
+msgid "Background Color"
+msgstr "Háttérszín"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1019,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:844
+msgid "Hover Background Color"
+msgstr "Hover háttérszín"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1026,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:871
+msgid "Dot Navigation Settings"
+msgstr "Pont navigációs beállítások"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1055,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:884
+msgid "Dot Navigation Spacing"
+msgstr "Pont navigációs távolság"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1078
+msgid "Default Color"
+msgstr "Alapértelmezett szín"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1091
+msgid "Active Color"
+msgstr "Aktív szín"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSlider.php:33
+msgid "Listing Slider"
+msgstr "Listázó csúszka"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:34
+msgid "Pricing Table"
+msgstr "Árképzési táblázat"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:114
+msgid "Currency Symbol"
+msgstr "Valuta szimbólum"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:116
+msgid "Currency sign eg. $"
+msgstr "Valuta jel pl. $"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:122
+msgid "Currency Position"
+msgstr "Pénznem pozíció"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:124
+msgid "Left"
+msgstr "Balra"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:125
+msgid "Right"
+msgstr "Jobbra"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:132,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:785,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:374,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:951,
+#: ../templates/compare/content.php:62
+msgid "Price"
+msgstr "Ár"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:142
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "Megjelenítés vagy elrejtés jelenként. Alapértelmezett: On"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:150
+msgid "Unit Name"
+msgstr "Egység neve"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:152
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "pl. hónap vagy év. Tartsa üresen, ha nem akarja megmutatni az egységet"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:157,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:673
+msgid "Badge"
+msgstr "Jelvény"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:163,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:551
+msgid "Header Icon"
+msgstr "Fejléc ikon"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:175
+msgid "Content Alignment"
+msgstr "Tartalmi összehangolás"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:197,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:847
+msgid "Feature"
+msgstr "Jellemző"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:202
+msgid "Features Text As"
+msgstr "Jellemzők Szöveg mint"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:204
+msgid "List Style"
+msgstr "Lista stílus"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:218
+msgid "List Title"
+msgstr "Lista cím"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:223
+msgid "Icon Before Title"
+msgstr "Ikon a cím előtt"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:249
+msgid "Features"
+msgstr "Jellemzők"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:252
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr ""
+"Egy sor funkciónként, pl. 10 hirdetés havonta Az első héten megjelenő "
+"hirdetés"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:290,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:404
+msgid "Icon Gap"
+msgstr "Ikon Gap"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:338,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:895,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:612
+msgid "Button"
+msgstr "Gomb"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:344
+msgid "Button Text"
+msgstr "Gomb szövege"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:350
+msgid "Button Link Type"
+msgstr "Gomb Link típusa"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:352
+msgid "Pricing Page Link"
+msgstr "Árképzési oldal linkje"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:353
+msgid "Custom Link"
+msgstr "Egyéni link"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:360
+msgid "Button URL"
+msgstr "Gomb URL"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:367
+msgid "Select Pricing"
+msgstr "Válassza ki az árképzést"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:375
+msgid "Button Icon"
+msgstr "Gomb ikon"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:444
+msgid "Wrapper"
+msgstr "Wrapper"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:447,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:89
+msgid "Wrapper Spacing"
+msgstr "Wrapper távolság"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:514
+msgid "Header"
+msgstr "Fejléc"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:520
+msgid "Header Spacing"
+msgstr "Fejléc távolság"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:605
+msgid "Body"
+msgstr "Test"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:611
+msgid "Body Spacing"
+msgstr "Testtávolság"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:636
+msgid "Footer"
+msgstr "Lábléc"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:642
+msgid "Pricing Footer Spacing"
+msgstr "Árképzés Lábléc távolság"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:698
+msgid "Width"
+msgstr "Szélesség"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:713
+msgid "Height"
+msgstr "Magasság"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:805
+msgid "Currency Typography"
+msgstr "Pénznem tipográfia"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:821
+msgid "Unit Typography"
+msgstr "Egység tipográfia"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:827
+msgid "Unit Color"
+msgstr "Egység szín"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:863
+msgid "Feature Spacing"
+msgstr "Jellemző távolság"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:874,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:854
+msgid "Icon Color"
+msgstr "Ikon színe"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:905
+msgid "Button Spacing"
+msgstr "Gombok távolsága"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:914
+msgid "Button Pading"
+msgstr "Gomb Pading"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:924
+msgid "Min width"
+msgstr "Minimális szélesség"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:1009
+msgid "Background Hover"
+msgstr "Háttér Hover"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:61
+msgid "Item Wrapper"
+msgstr "Item Wrapper"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:81
+msgid "Hover Box Shadow"
+msgstr "Hover Box árnyék"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:111
+msgid "Border"
+msgstr "Határ"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:140
+msgid "Image Wrapper"
+msgstr "Image Wrapper"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:194,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:260,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:623
+msgid "Normal"
+msgstr "Normál"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:209,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:290,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:691
+msgid "Hover"
+msgstr "Hover"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:232
+msgid "Meta"
+msgstr "Meta"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:243
+msgid "Meta Spacing"
+msgstr "Meta távolság"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:274,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:304
+msgid "Meta Icon Color"
+msgstr "Meta ikon színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:281,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:314
+msgid "Category Color"
+msgstr "Kategória Szín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:356
+msgid "Short Description Color"
+msgstr "Rövid leírás Szín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:362
+msgid "On Items Hover Description color"
+msgstr "Tételeknél Hover Leírás szín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:391
+msgid "Unit Label Typography"
+msgstr "Egységcímke tipográfia"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:399
+msgid "Unit Label Text Color"
+msgstr "Egységcímke szöveg színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:407
+msgid "Price padding"
+msgstr "Árpárnázás"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:420
+msgid "Price Margin"
+msgstr "Árrés"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:443,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:520,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:641,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:774
+msgid "Text Color"
+msgstr "Szöveg színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:457
+msgid "Badge "
+msgstr "Jelvény"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:460
+msgid "padding"
+msgstr "padding"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:470
+msgid "Margin"
+msgstr "Margin"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:489
+msgid "Sold Out Background Color"
+msgstr "Elfogyott Háttérszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:497
+msgid "Sold Out Text Color"
+msgstr "Elfogyott szöveg Szín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:528
+msgid "Top Background Color"
+msgstr "Top háttérszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:536
+msgid "Top Text Color"
+msgstr "Felső szöveg színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:544
+msgid "Featured Background Color"
+msgstr "Kiemelt háttérszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:552
+msgid "Featured Text Color"
+msgstr "Kiemelt szöveg színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:560
+msgid "New Background Color"
+msgstr "Új háttérszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:568
+msgid "New Text Color"
+msgstr "Új szövegszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:576
+msgid "Popular Background Color"
+msgstr "Népszerű háttérszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:584
+msgid "Popular Text Color"
+msgstr "Népszerű szöveg színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:592
+msgid "Bump Up Background Color"
+msgstr "Bump Up háttérszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:600
+msgid "Bump Up Text Color"
+msgstr "Bump Up szöveg színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:709
+msgid "Text Color In hover"
+msgstr "Szöveg színe hoverben"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:720
+msgid "Border Color"
+msgstr "Határ színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:741
+msgid "Pagination"
+msgstr "Oldalszámozás"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:745
+msgid "Pagination spacing"
+msgstr "Oldaltávolság"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:765,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:920
+msgid "Active Background Color"
+msgstr "Aktív háttérszín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:782
+msgid "Active Text Color"
+msgstr "Aktív szöveg színe"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:863
+msgid "Icon Hover Color"
+msgstr "Ikon lebegő szín"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:952
+msgid "Views"
+msgstr "Nézettség"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:981
+msgid "Promotions"
+msgstr "Promóciók"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:989
+msgid "Promotions Exclude"
+msgstr "Promóciók kizárva"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:997
+msgid "Listing Types"
+msgstr "Listázási típusok"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1014
+msgid "Start typing category names. If empty then all listings will display."
+msgstr ""
+"Kezdje el beírni a kategóriák nevét. Ha üres, akkor az összes lista "
+"megjelenik."
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1020
+msgid "Include Children Categories"
+msgstr "Gyermekek kategóriák felvétele"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1039
+msgid "Locations"
+msgstr "Helyszínek"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1043
+msgid "Start typing locations names."
+msgstr "Kezdje el beírni a helyek nevét."
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1048
+msgid "Include Inner Location"
+msgstr "Beleértve a belső helyet"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1065
+msgid "Listing Limit"
+msgstr "Listázási limit"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1067
+msgid "Number of listing to display"
+msgstr "A megjelenítendő listák száma"
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:66,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:89
+msgid "Empty transaction object."
+msgstr "Üres tranzakciós objektum."
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:126,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:149,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:173,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:196,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:220
+msgid "Subscription type object."
+msgstr "Előfizetés típusú objektum."
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:288,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:323
+msgid "There was a problem connecting to the payment gateway."
+msgstr "Probléma adódott a fizetési átjáróhoz való csatlakozással."
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:293
+msgid "Transaction errors: "
+msgstr "Tranzakciós hibák:"
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:329
+msgid "Subscription errors: "
+msgstr "Előfizetési hibák:"
+
+#: ../app/Gateways/Stripe/lib/StripeAPI.php:150,
+#: ../app/Gateways/Stripe/lib/StripeAPI.php:185
+msgid "There was a problem connecting to the Stripe API endpoint."
+msgstr "Probléma adódott a Stripe API végponthoz való csatlakozással."
+
+#. translators: %1$s First name, %2$s Second name.
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:146
+msgid "Name: %1$s %2$s, Guest"
+msgstr "Név: vendég: %1$s %2$s, Vendég"
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:130
+msgid "Name: %1$s %2$s, Username: %3$s"
+msgstr "Név: felhasználónév: %1$s %2$s, Felhasználónév: %3$s"
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:207
+msgid "Attempting to update a Stripe customer without a customer ID."
+msgstr "Megkísérli frissíteni egy Stripe-ügyfelet ügyfél-azonosító nélkül."
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:360
+msgid "Unable to add payment source."
+msgstr "Nem sikerült fizetési forrást hozzáadni."
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:399
+msgid "Unable to add payment method."
+msgstr "Nem lehet fizetési módot hozzáadni."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:420
+msgid "The card number is not a valid credit card number."
+msgstr "A kártyaszám nem érvényes hitelkártyaszám."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:421
+msgid "The card's expiration month is invalid."
+msgstr "A kártya lejárati hónapja érvénytelen."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:422
+msgid "The card's expiration year is invalid."
+msgstr "A kártya lejárati éve érvénytelen."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:423
+msgid "The card's security code is invalid."
+msgstr "A kártya biztonsági kódja érvénytelen."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:424
+msgid "The card number is incorrect."
+msgstr "A kártyaszám helytelen."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:425
+msgid "The card number is incomplete."
+msgstr "A kártyaszám nem teljes."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:426
+msgid "The card's security code is incomplete."
+msgstr "A kártya biztonsági kódja nem teljes."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:427
+msgid "The card's expiration date is incomplete."
+msgstr "A kártya lejárati dátuma nem teljes."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:428
+msgid "The card has expired."
+msgstr "A kártya lejárt."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:429
+msgid "The card's security code is incorrect."
+msgstr "A kártya biztonsági kódja hibás."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:430
+msgid "The card's zip code failed validation."
+msgstr "A kártya irányítószámának érvényesítését nem sikerült elvégezni."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:431
+msgid "The card's expiration year is in the past"
+msgstr "A kártya lejárati éve a múltban van"
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:432
+msgid "The card was declined."
+msgstr "A kártyát elutasították."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:433
+msgid "There is no card on a customer that is being charged."
+msgstr "Nincs olyan kártya az ügyfélnél, amelyet megterhelnek."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:434
+msgid "An error occurred while processing the card."
+msgstr "Hiba történt a kártya feldolgozása során."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:435
+msgid ""
+"The billing country is not accepted by SOFORT. Please try another country."
+msgstr ""
+"A számlázó országot a SOFORT nem fogadja el. Kérjük, próbálkozzon egy másik "
+"országgal."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:436
+msgid "Invalid email address, please correct and try again."
+msgstr "Érvénytelen e-mail cím, kérjük, javítsa ki és próbálja meg újra."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:437
+msgid ""
+"Unable to process this payment, please try again or use alternative method."
+msgstr ""
+"Nem sikerült feldolgozni ezt a fizetést, kérjük, próbálja meg újra, vagy "
+"használjon más módszert."
+
+#. translators: 1) amount (including currency symbol)
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:332
+msgid ""
+"Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr ""
+"Sajnáljuk, de a minimálisan megengedett rendelési összeg %1$s, hogy ezt a "
+"fizetési módot használhassuk."
+
+#. translators: 1) blog name 2) order number
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:556
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Rendelés %2$s"
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:578
+msgid "customer_name"
+msgstr "customer_name"
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:579
+msgid "customer_email"
+msgstr "customer_email"
+
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:658
+msgid ""
+"Stripe charge authorized (Charge ID: %s). Process order to take payment, or "
+"cancel to remove the pre-authorization. Attempting to refund the order in "
+"part or in full will release the authorization and cancel the payment."
+msgstr ""
+"Stripe-felvétel engedélyezve (Charge ID: %s). Folyamatozza a megrendelést a "
+"fizetés elfogadásához, vagy törölje az előzetes engedélyezés "
+"megszüntetéséhez. A megrendelés részleges vagy teljes visszatérítésének "
+"megkísérlése feloldja az engedélyezést és törli a fizetést."
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:637
+msgid "Stripe charge awaiting payment: %s."
+msgstr "Stripe díjfizetésre vár: %s."
+
+#. translators: transaction id
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:644,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:411,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:457
+msgid "Stripe charge complete (Charge ID: %s)"
+msgstr "Stripe töltés teljesítve (töltés azonosító: %s)"
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:876,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:264
+msgid ""
+"Sorry, we are unable to process your payment at this time. Please retry "
+"later."
+msgstr ""
+"Sajnáljuk, de jelenleg nem áll módunkban feldolgozni a fizetését. Kérjük, "
+"próbálja meg később újra."
+
+#. translators: 1) The URL to the order.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:323
+msgid ""
+"A dispute was created for this order. Response is needed. Please go to your "
+"<a href=\"%s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe "
+"Dashboard</a> to review this dispute."
+msgstr ""
+"Ehhez a megrendeléshez vitát hoztak létre. Válasz szükséges. Kérjük, lépjen "
+"a <a href=\"%s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe "
+"Dashboard</a> felületére, hogy felülvizsgálja ezt a vitát."
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:355
+msgid "The inquiry or retrieval was closed."
+msgstr "A lekérdezés vagy visszakeresés lezárult."
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:353
+msgid "The dispute was resolved in your favor."
+msgstr "A vitát az Ön javára oldották meg."
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:351
+msgid "The dispute was lost or accepted."
+msgstr "A vitát elveszítették vagy elfogadták."
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:406
+msgid ""
+"This charge was partially captured via Stripe Dashboard in the amount of: %s"
+msgstr ""
+"Ez a díj részben a Stripe Dashboardon keresztül került rögzítésre a "
+"következő összegben: %s"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:484
+msgid "This payment failed to clear."
+msgstr "Ez a fizetés nem került elszámolásra."
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:520
+msgid "This payment was cancelled."
+msgstr "Ezt a kifizetést törölték."
+
+#. translators: amount (including currency symbol)
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:565
+msgid "Pre-Authorization for %s voided from the Stripe Dashboard."
+msgstr "A %s előzetes jóváhagyás érvénytelenítve a Stripe Dashboardról."
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:578
+msgid "Refunded via Stripe Dashboard"
+msgstr "Visszatérítés a Stripe Dashboardon keresztül"
+
+#. translators: 1) amount (including currency symbol) 2) transaction id 3) refund message
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:600
+msgid "Refunded %1$s - Refund ID: %2$s - %3$s"
+msgstr "Visszatérített %1$s - Visszatérítési azonosító: %2$s - %3$s"
+
+#. translators: 1) The URL to the order. 2) The reason type.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:632
+msgid ""
+"A review has been opened for this order. Action is needed. Please go to your "
+"<a href=\"%1$s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe "
+"Dashboard</a> to review the issue. Reason: (%2$s)"
+msgstr ""
+"A megrendelésre vonatkozóan felülvizsgálat indult. Intézkedésre van szükség. "
+"Kérjük, lépjen a <a href=\"%1$s\" title=\"Stripe Dashboard\" "
+"target=\"_blank\">Stripe Dashboard</a> felületére a probléma "
+"felülvizsgálatához. Ok: (%2$s)"
+
+#. translators: 1) The reason type.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:665
+msgid "The opened review for this order is now closed. Reason: (%s)"
+msgstr "A megrendelés megnyitott felülvizsgálata lezárult. Indoklás: (%s)"
+
+#. translators: 1) The error message that was received from Stripe.
+#. translators: 1) The error message that was received from Stripe.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:763,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:810
+msgid "Stripe SCA authentication failed. Reason: %s"
+msgstr "A Stripe SCA hitelesítés sikertelen. Ok: %s"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:135
+msgid "No error"
+msgstr "Nincs hiba"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:139
+msgid "The webhook was missing expected headers"
+msgstr "A webhookból hiányoztak a várt fejlécek"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:143
+msgid "The webhook was missing expected body"
+msgstr "A webhook hiányzott a várt test"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:147
+msgid "The webhook received did not come from Stripe"
+msgstr "A kapott webhook nem a Stripe-tól érkezett"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:151
+msgid "The webhook signature was missing or was incorrectly formatted"
+msgstr "A webhook aláírás hiányzott vagy helytelenül volt formázva"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:155
+msgid ""
+"The timestamp in the webhook differed more than five minutes from the site "
+"time"
+msgstr ""
+"A webhook időbélyege több mint öt perc eltérést mutatott a webhely idejéhez "
+"képest"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:159
+msgid "The webhook was not signed with the expected signing secret"
+msgstr "A webhook nem a várt aláírási titokkal lett aláírva"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:162
+msgid "Unknown error."
+msgstr "Ismeretlen hiba."
+
+#. translators: 1) date and time of last webhook received, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:185
+msgid ""
+"The most recent test webhook, timestamped %s, was processed successfully."
+msgstr ""
+"A legutóbbi, %s időbélyegzővel ellátott teszt webhookot sikeresen "
+"feldolgoztuk."
+
+#. translators: 1) date and time of last webhook received, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:187
+msgid ""
+"The most recent live webhook, timestamped %s, was processed successfully."
+msgstr ""
+"A legutóbbi, %s időbélyegzővel ellátott élő webhookot sikeresen feldolgoztuk."
+
+#. translators: 1) date and time webhook monitoring began, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:198
+msgid "No test webhooks have been received since monitoring began at %s."
+msgstr "Nem érkezett teszt webhook a megfigyelés kezdete óta %s."
+
+#. translators: 1) date and time webhook monitoring began, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:200
+msgid "No live webhooks have been received since monitoring began at %s."
+msgstr "Nem érkezett élő webhook a megfigyelés kezdete óta %s."
+
+#. translators: 3) date and time of last successful webhook e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:215
+msgid ""
+"Warning: The most recent test webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (The last test webhook to process successfully was "
+"timestamped %3$s.)"
+msgstr ""
+"Figyelmeztetés: A legutóbbi, %1$s címen érkezett teszt webhookot nem "
+"lehetett feldolgozni. Ok: %2$s. (Az utolsó sikeresen feldolgozott teszt "
+"webhook időbélyegzője %3$s volt.)"
+
+#. translators: 3) date and time of last successful webhook e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:221
+msgid ""
+"Warning: The most recent live webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (The last live webhook to process successfully was "
+"timestamped %3$s.)"
+msgstr ""
+"Figyelmeztetés: A legutóbbi, %1$s címen érkezett élő webhookot nem lehetett "
+"feldolgozni. Ok: %2$s. (Az utolsó sikeresen feldolgozott élő webhook "
+"időbélyegzője %3$s volt.)"
+
+#. translators: 3) date and time webhook monitoring began e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:236
+msgid ""
+"Warning: The most recent test webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (No test webhooks have been processed successfully "
+"since monitoring began at %3$s.)"
+msgstr ""
+"Figyelmeztetés: A legutóbbi, %1$s címen érkezett teszt webhookot nem "
+"lehetett feldolgozni. Ok: %2$s. (A megfigyelés %3$s-ban történt kezdete óta "
+"egyetlen teszt webhookot sem dolgoztak fel sikeresen.)"
+
+#. translators: 3) date and time webhook monitoring began e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:241
+msgid ""
+"Warning: The most recent live webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (No live webhooks have been processed successfully "
+"since monitoring began at %3$s.)"
+msgstr ""
+"Figyelmeztetés: A legutóbbi, %1$s címen érkezett élő webhookot nem lehetett "
+"feldolgozni. Ok: %2$s. (A megfigyelés %3$s-ban történt kezdete óta egyetlen "
+"élő webhookot sem dolgoztak fel sikeresen.)"
+
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:318,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:278,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:281,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:217,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:220,
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:83
+msgid "Payment object can't be empty"
+msgstr "A fizetési objektum nem lehet üres"
+
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:275,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:214,
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:77,
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:80
+msgid "Order object can't be empty"
+msgstr "A rendelési objektum nem lehet üres"
+
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:97
+msgid "CreditCard object can't be empty"
+msgstr "A CreditCard objektum nem lehet üres"
+
+#: ../templates/single-rtcl_listing-reviews.php:36
+msgid "Reviews"
+msgstr "Vélemények"
+
+#: ../templates/single-rtcl_listing-reviews.php:53,
+#: ../templates/single-rtcl_listing-reviews.php:90
+msgid "Leave Review"
+msgstr "Hagyja a felülvizsgálatot"
+
+#: ../templates/single-rtcl_listing-reviews.php:79
+msgid "There are no reviews yet."
+msgstr "Még nincsenek értékelések."
+
+#: ../templates/single-rtcl_listing-reviews.php:90
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Legyen Ön az első, aki értékeli a &ldquo;%s&rdquo;"
+
+#: ../templates/single-rtcl_listing-reviews.php:91
+msgid "Leave a Reply to %s"
+msgstr "Hagy egy Válaszol a %s"
+
+#: ../templates/single-rtcl_listing-reviews.php:96
+msgid "Name"
+msgstr "Név"
+
+#: ../templates/single-rtcl_listing-reviews.php:98
+msgid "Email"
+msgstr "E-mail"
+
+#: ../templates/single-rtcl_listing-reviews.php:101
+msgid "Submit"
+msgstr "Küldés"
+
+#: ../templates/single-rtcl_listing-reviews.php:108
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "A véleményezéshez <a href=\"%s\">be kell jelentkeznie</a>."
+
+#: ../templates/single-rtcl_listing-reviews.php:113
+msgid "Your rating"
+msgstr "Az Ön értékelése"
+
+#: ../templates/single-rtcl_listing-reviews.php:114
+msgid "Rate&hellip;"
+msgstr "Rate&hellip;"
+
+#: ../templates/single-rtcl_listing-reviews.php:115
+msgid "Perfect"
+msgstr "Tökéletes"
+
+#: ../templates/single-rtcl_listing-reviews.php:116
+msgid "Good"
+msgstr "Jó"
+
+#: ../templates/single-rtcl_listing-reviews.php:117
+msgid "Average"
+msgstr "Átlagos"
+
+#: ../templates/single-rtcl_listing-reviews.php:118
+msgid "Not that bad"
+msgstr "Nem is olyan rossz"
+
+#: ../templates/single-rtcl_listing-reviews.php:119
+msgid "Very poor"
+msgstr "Nagyon gyenge"
+
+#: ../templates/single-rtcl_listing-reviews.php:123
+msgid "Your review"
+msgstr "Az Ön véleménye"
+
+#: ../templates/compare/content.php:63
+msgid "Review"
+msgstr "Felülvizsgálat"
+
+#: ../templates/compare/content.php:64
+msgid "Category"
+msgstr "Kategória"
+
+#: ../templates/compare/popup.php:21, ../templates/compare/popup.php:49,
+#: ../templates/elementor/listing-ads/grid/style-2.php:97,
+#: ../templates/elementor/listing-ads/grid/style-3.php:226,
+#: ../templates/elementor/listing-ads/grid/style-4.php:97,
+#: ../templates/elementor/listing-ads/grid/style-5.php:218,
+#: ../templates/elementor/listing-ads/list/style-2.php:99,
+#: ../templates/elementor/listing-ads/list/style-3.php:97,
+#: ../templates/elementor/listing-ads/list/style-4.php:197,
+#: ../templates/elementor/listing-ads/list/style-5.php:190,
+#: ../templates/elementor/listing-ads-slider/grid/style-1.php:89,
+#: ../templates/elementor/listing-ads-slider/grid/style-2.php:88,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:225,
+#: ../templates/elementor/listing-ads-slider/grid/style-4.php:88,
+#: ../templates/elementor/listing-ads-slider/grid/style-5.php:212
+msgid "Compare"
+msgstr "Összehasonlítás"
+
+#: ../templates/compare/popup.php:51
+msgid "Clear"
+msgstr "Törlés"
+
+#: ../templates/emails/unread-message.php:27,
+#: ../templates/emails/user-verify-link-email.php:25
+msgid "Hello %s,"
+msgstr "Hello %s,"
+
+#: ../templates/emails/unread-message.php:28
+msgid "Latest unread message on ad %s from user %s"
+msgstr "Legutóbbi olvasatlan üzenet a hirdetésen %s a felhasználótól %s"
+
+#: ../templates/emails/unread-message.php:33
+msgid "Reply To this conversation"
+msgstr "Válasz erre a beszélgetésre"
+
+#: ../templates/emails/user-verify-link-email.php:26
+msgid ""
+"Thanks for registering on our site, please <a href='%s' target='_blank'>"
+"click here to confirm your email address</a>."
+msgstr ""
+"Köszönjük, hogy regisztrált az oldalunkon, kérjük <a href='%s' "
+"target='_blank'>kattintson ide az e-mail címe megerősítéséhez</a>."
+
+#: ../templates/emails/user-verify-link-email.php:27
+msgid "If you didn't make this request, just ignore this email."
+msgstr ""
+"Ha nem te kérted ezt a kérést, akkor hagyd figyelmen kívül ezt az e-mailt."
+
+#: ../templates/emails/user-verify-link-email.php:28
+msgid "Thanks for reading."
+msgstr "Köszönöm, hogy elolvastad."
+
+#: ../templates/listing/photoswipe.php:28
+msgid "Close (Esc)"
+msgstr "Bezárás (Esc)"
+
+#: ../templates/listing/photoswipe.php:29
+msgid "Share"
+msgstr "Megosztás"
+
+#: ../templates/listing/photoswipe.php:30
+msgid "Toggle fullscreen"
+msgstr "Teljes képernyő bekapcsolása"
+
+#: ../templates/listing/photoswipe.php:31
+msgid "Zoom in/out"
+msgstr "Nagyítás/ kicsinyítés"
+
+#: ../templates/listing/photoswipe.php:43
+msgid "Previous (arrow left)"
+msgstr "Előző (nyíl balra)"
+
+#: ../templates/listing/photoswipe.php:44
+msgid "Next (arrow right)"
+msgstr "Következő (nyíl jobbra)"
+
+#: ../templates/listing/review-meta.php:22
+msgid "Your review is awaiting approval"
+msgstr "Az Ön véleménye jóváhagyásra vár"
+
+#: ../templates/myaccount/subscription-report.php:18
+msgid "Subscription Report"
+msgstr "Előfizetési jelentés"
+
+#: ../templates/myaccount/subscription-report.php:35
+msgid "Name: "
+msgstr "Név:"
+
+#: ../templates/myaccount/subscription-report.php:39
+msgid "Status: "
+msgstr "Állapot:"
+
+#: ../templates/myaccount/subscription-report.php:43
+msgid "Renew at: "
+msgstr "Megújítás:"
+
+#: ../templates/widgets/search.php:38
+msgid "Select a location"
+msgstr "Település kiválasztása"
+
+#: ../templates/widgets/search.php:170, ../templates/widgets/search.php:173
+msgid "Select type"
+msgstr "Típus kiválasztása"
+
+#: ../templates/widgets/search.php:190
+msgid "Price Range"
+msgstr "Ártartomány"
+
+#: ../templates/widgets/search.php:194
+msgid "min"
+msgstr "min"
+
+#: ../templates/widgets/search.php:201
+msgid "max"
+msgstr "max"
+
+#: ../templates/widgets/search.php:213
+msgid "Enter your keyword here ..."
+msgstr "Adja meg a kulcsszót itt ..."
+
+#: ../templates/widgets/search.php:223
+msgid "Search"
+msgstr "Keresés"
+
+#. translators: %s: Category term
+#. translators: %s: Category term
+#. translators: %s: Category term
+#: ../templates/elementor/listing-cat-box/grid-style-2.php:43,
+#: ../templates/elementor/listing-cat-slider/grid-style-1.php:42,
+#: ../templates/elementor/listing-cat-slider/grid-style-2.php:40
+msgid "View all posts in %s"
+msgstr "Minden hozzászólás megtekintése %s"
+
+#: ../templates/elementor/listing-cat-slider/grid-style-1.php:90,
+#: ../templates/elementor/listing-cat-slider/grid-style-2.php:96
+msgid "Ads"
+msgstr "Hirdetések"
+
+#: ../templates/elementor/single-location/grid-style-3.php:14
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s Hirdetés"
+msgstr[1] "%s Hirdetés"
+
+#: ../templates/elementor/listing-ads/grid/style-2.php:73,
+#: ../templates/elementor/listing-ads/grid/style-3.php:201,
+#: ../templates/elementor/listing-ads/grid/style-4.php:73,
+#: ../templates/elementor/listing-ads/grid/style-5.php:198,
+#: ../templates/elementor/listing-ads/list/style-2.php:74,
+#: ../templates/elementor/listing-ads/list/style-3.php:72,
+#: ../templates/elementor/listing-ads/list/style-4.php:178,
+#: ../templates/elementor/listing-ads/list/style-5.php:171,
+#: ../templates/elementor/listing-ads-slider/grid/style-1.php:65,
+#: ../templates/elementor/listing-ads-slider/grid/style-2.php:63,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:200,
+#: ../templates/elementor/listing-ads-slider/grid/style-4.php:63,
+#: ../templates/elementor/listing-ads-slider/grid/style-5.php:191
+msgid "Quick View"
+msgstr "Gyors megtekintés"
+
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#. translators: %s: views count
+#: ../templates/elementor/listing-ads/grid/style-3.php:123,
+#: ../templates/elementor/listing-ads/grid/style-4.php:181,
+#: ../templates/elementor/listing-ads/grid/style-5.php:123,
+#: ../templates/elementor/listing-ads/list/style-2.php:170,
+#: ../templates/elementor/listing-ads/list/style-3.php:168,
+#: ../templates/elementor/listing-ads/list/style-4.php:107,
+#: ../templates/elementor/listing-ads/list/style-5.php:105,
+#: ../templates/elementor/listing-ads-slider/grid/style-1.php:161,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:119,
+#: ../templates/elementor/listing-ads-slider/grid/style-4.php:174,
+#: ../templates/elementor/listing-ads-slider/grid/style-5.php:117
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s nézet"
+msgstr[1] "%s nézetek"
+
+#: ../templates/elementor/listing-ads/grid/style-3.php:177,
+#: ../templates/elementor/listing-ads/list/style-4.php:162,
+#: ../templates/elementor/listing-ads/list/style-5.php:156,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:176
+msgid "Show Phone No"
+msgstr "Telefonszám megjelenítése"
+
+#: ../templates/elementor/listing-ads/list/style-2.php:219
+msgid "Details"
+msgstr "Részletek"

@@ -1,0 +1,610 @@
+2023-02-02 09:56:53
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 241
+)
+
+Post: {"name":"Farkas Erik","emails":["f.farkas.erik998@gmail.com"],"taxcode":"","phone":"+36309984733","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"Pet\u0151fi S\u00e1ndor \u00fat 36."}}
+Response: 201 | {"id":1769457014,"name":"Farkas Erik","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"Pet\u0151fi S\u00e1ndor \u00fat 36."},"emails":["f.farkas.erik998@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"+36309984733","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":"show_all"}
+2023-02-02 09:56:53
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-02-02"}
+2023-02-02 09:56:54
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 585
+)
+
+Post: {"fulfillment_date":"2023-02-02","due_date":"2023-02-02","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: bdf717dadfa2ed118bec001dd8b71cc4\nMegrendel\u00e9s azonos\u00edt\u00f3: 5397","language":"hu","electronic":1,"currency":"HUF","partner_id":1769457014,"block_id":0,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Alap Csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":1384,"unit_price_type":"gross","comment":""}],"conversion_rate":1}
+Response: 201 | {"id":48171014,"invoice_number":"2023-19","type":"invoice","correction_type":"invoice","cancelled":false,"block_id":186015,"payment_status":"paid","payment_method":"barion","gross_total":1384,"currency":"HUF","conversion_rate":1,"invoice_date":"2023-02-02","fulfillment_date":"2023-02-02","due_date":"2023-02-02","paid_date":"2023-02-02","organization":{"name":"Farkas Erik ev.","tax_number":"12312312-3-12","bank_account":{"id":null,"name":"","account_number":"","account_number_iban":"","swift":""},"address":{"country_code":"HU","post_code":"3300","city":"Eger","address":"Nincs noooo"},"small_taxpayer":false,"ev_number":"","eu_tax_number":"","cash_settled":false},"partner":{"id":1769457014,"name":"Farkas Erik","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"Pet\u0151fi S\u00e1ndor \u00fat 36."},"emails":["f.farkas.erik998@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"+36309984733","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":null},"document_partner":{"id":1769457014,"name":"Farkas Erik","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"Pet\u0151fi S\u00e1ndor \u00fat 36."},"emails":["f.farkas.erik998@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"+36309984733","tax_type":"NO_TAX_NUMBER","partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}}},"electronic":true,"comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: bdf717dadfa2ed118bec001dd8b71cc4\nMegrendel\u00e9s azonos\u00edt\u00f3: 5397","tags":[],"notification_status":"none","language":"hu","items":[{"product_id":null,"name":"Alap Csomag","net_unit_amount":1089.76378,"quantity":1,"unit":"db","net_amount":1089.76,"gross_amount":1384,"vat":"27%","vat_amount":294.24,"entitlement":"AAM","comment":""}],"summary":{"net_amount":1090,"net_amount_local":1090,"gross_amount_local":1384,"vat_amount":294,"vat_amount_local":294,"vat_rate_summary":[{"vat_name":"27%","vat_percentage":0.27,"vat_rate_net_amount":1090,"vat_rate_vat_amount":294,"vat_rate_vat_amount_local":294,"vat_rate_gross_amount":1384}]},"settings":{"mediated_service":false,"without_financial_fulfillment":true,"online_payment":"","should_send_email":false,"round":"one","no_send_onlineszamla_by_user":false,"order_number":"","place_id":null,"instant_payment":true,"selected_type":null,"dont_send_to_nav_reason":null,"instant_payment_request":null},"related_documents":[],"online_szamla_status":"processing","discount":null,"recurring_id":null}
+2023-02-02 09:56:54
+URL: https://api.billingo.hu/v3/documents/48171014/public-url | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"public_url":"https:\/\/api.billingo.hu\/document-access\/yABp8jXa1Qld5Elr2JvWJqY29nR7xOZK"}
+2023-02-02 11:38:16
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":0,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[]}
+2023-02-02 11:38:16
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":186015,"name":"Sz\u00e1ml\u00e1k","prefix":"","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 11:39:12
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":0,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[]}
+2023-02-02 11:39:12
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":186015,"name":"Sz\u00e1ml\u00e1k","prefix":"","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 11:39:12 getBankAccounts FAILED
+2023-02-02 11:39:12 getBlocks FAILED
+2023-02-02 17:01:06 getBankAccounts FAILED
+2023-02-02 17:01:06 getBlocks FAILED
+2023-02-02 17:03:53 getBankAccounts FAILED
+2023-02-02 17:03:53 getBlocks FAILED
+2023-02-02 17:03:53
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:03:53
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:31:07
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 253
+)
+
+Post: {"name":"Barta Norbert ev.","emails":["hirdetes.eger@aproporeklam.hu"],"taxcode":"60697312-2-30","phone":"06308640113","tax_type":"HAS_TAX_NUMBER","address":{"country_code":"HU","post_code":"3300","city":"Eger","address":"Malom\u00e1rok utca 57 4\/30"}}
+Response: 201 | {"id":1769483972,"name":"Barta Norbert ev.","address":{"country_code":"HU","post_code":"3300","city":"Eger","address":"Malom\u00e1rok utca 57 4\/30"},"emails":["hirdetes.eger@aproporeklam.hu"],"taxcode":"60697312-2-30","iban":"","swift":"","account_number":"","phone":"06308640113","general_ledger_number":"","tax_type":"HAS_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":"show_all"}
+2023-02-02 17:31:07
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-02-02"}
+2023-02-02 17:31:08
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 585
+)
+
+Post: {"fulfillment_date":"2023-02-02","due_date":"2023-02-02","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: fea45d491fa3ed119d0ab8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 5518","language":"hu","electronic":1,"currency":"HUF","partner_id":1769483972,"block_id":0,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Alap Csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":1384,"unit_price_type":"gross","comment":""}],"conversion_rate":1}
+Response: 402 | {"error":{"message":"You do not have subscription for this operation"}}
+2023-02-02 17:31:08 createInvoice FAILED
+2023-02-02 17:37:01
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:37:01
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:37:07
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:37:08
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:37:45
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:37:46
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:37:46
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:37:46
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:37:54
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:37:54
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:38:50
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:38:50
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:38:50
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:38:50
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:39:18
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:39:18
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:39:19
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:39:19
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:41:05
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:41:05
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:42:06
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:42:06
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:42:07
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:42:07
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:44:17
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-02-02"}
+2023-02-02 17:44:17
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 617
+)
+
+Post: {"fulfillment_date":"2023-02-02","due_date":"2023-02-02","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: fea45d491fa3ed119d0ab8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 5518","language":"hu","electronic":1,"currency":"HUF","partner_id":"1769483972","block_id":186441,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Alap Csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":1384,"unit_price_type":"gross","comment":""}],"bank_account_id":"9109","conversion_rate":1}
+Response: 402 | {"error":{"message":"You do not have subscription for this operation"}}
+2023-02-02 17:44:17 createInvoice FAILED
+2023-02-02 17:45:43
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:45:43
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:45:43
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:45:43
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-02-02 17:48:23
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-02-02"}
+2023-02-02 17:48:23
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 617
+)
+
+Post: {"fulfillment_date":"2023-02-02","due_date":"2023-02-02","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: fea45d491fa3ed119d0ab8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 5518","language":"hu","electronic":1,"currency":"HUF","partner_id":"1769483972","block_id":186441,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Alap Csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":1384,"unit_price_type":"gross","comment":""}],"bank_account_id":"9109","conversion_rate":1}
+Response: 402 | {"error":{"message":"You do not have subscription for this operation"}}
+2023-02-02 17:48:23 createInvoice FAILED
+2023-02-02 17:49:29
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 216
+)
+
+Post: {"name":"T\u00f3th Noel","emails":["t.tothnoel@gmail.com"],"taxcode":"","phone":"202668706","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"3014","city":"Hort","address":"B\u00e9ke \u00fat 5"}}
+Response: 201 | {"id":1769485076,"name":"T\u00f3th Noel","address":{"country_code":"HU","post_code":"3014","city":"Hort","address":"B\u00e9ke \u00fat 5"},"emails":["t.tothnoel@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"202668706","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":"show_all"}
+2023-02-02 17:49:29
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-02-02"}
+2023-02-02 17:49:30
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 615
+)
+
+Post: {"fulfillment_date":"2023-02-02","due_date":"2023-02-02","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: a669f4b321a3ed119d0ab8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 5524","language":"hu","electronic":1,"currency":"HUF","partner_id":1769485076,"block_id":186441,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Alap Csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":1384,"unit_price_type":"gross","comment":""}],"bank_account_id":"9109","conversion_rate":1}
+Response: 402 | {"error":{"message":"You do not have subscription for this operation"}}
+2023-02-02 17:49:30 createInvoice FAILED
+2023-02-02 17:50:21
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-02-02"}
+2023-02-02 17:50:21
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 617
+)
+
+Post: {"fulfillment_date":"2023-02-02","due_date":"2023-02-02","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: fea45d491fa3ed119d0ab8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 5518","language":"hu","electronic":1,"currency":"HUF","partner_id":"1769483972","block_id":186441,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Alap Csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":1384,"unit_price_type":"gross","comment":""}],"bank_account_id":"9109","conversion_rate":1}
+Response: 402 | {"error":{"message":"You do not have subscription for this operation"}}
+2023-02-02 17:50:21 createInvoice FAILED
+2023-02-02 17:55:10
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-02-02 17:55:10
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3 NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress   NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert         NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}

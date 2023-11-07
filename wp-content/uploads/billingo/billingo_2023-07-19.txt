@@ -1,0 +1,369 @@
+2023-07-19 09:07:11
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 230
+)
+
+Post: {"name":"Pr\u00f3ba Pr\u00f3ba","emails":["torzsizsofia2000@gmail.com"],"taxcode":"","phone":"06309087340","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth, 26"}}
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 09:07:11 createPartner FAILED
+2023-07-19 12:25:55
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:25:55 getBankAccounts FAILED
+2023-07-19 12:25:55
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:25:55 getBlocks FAILED
+2023-07-19 12:26:40
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:26:40 getBankAccounts FAILED
+2023-07-19 12:26:40
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:26:40 getBlocks FAILED
+2023-07-19 12:26:40
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:26:40 getBankAccounts FAILED
+2023-07-19 12:26:41
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:26:41 getBlocks FAILED
+2023-07-19 12:27:40
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 230
+)
+
+Post: {"name":"Pr\u00f3ba Pr\u00f3ba","emails":["torzsizsofia2000@gmail.com"],"taxcode":"","phone":"06309087340","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth, 26"}}
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:27:40 createPartner FAILED
+2023-07-19 12:29:43
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:29:43 getBankAccounts FAILED
+2023-07-19 12:29:43
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:29:43 getBlocks FAILED
+2023-07-19 12:46:15
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 230
+)
+
+Post: {"name":"Pr\u00f3ba Pr\u00f3ba","emails":["torzsizsofia2000@gmail.com"],"taxcode":"","phone":"06309087340","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth, 26"}}
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 12:46:15 createPartner FAILED
+2023-07-19 13:38:32
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 13:38:32 getBankAccounts FAILED
+2023-07-19 13:38:32
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 401 | {"error":{"message":"Authorization information (Header: X-API-KEY) is missing or invalid."}}
+2023-07-19 13:38:32 getBlocks FAILED
+2023-07-19 13:38:32
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX","currency":"HUF","need_qr":false}]}
+2023-07-19 13:38:32
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":205121,"name":"Istv\u00e1n Buz\u00e1s","prefix":"APROPRESS1","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-19 13:38:52
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 230
+)
+
+Post: {"name":"Pr\u00f3ba Pr\u00f3ba","emails":["torzsizsofia2000@gmail.com"],"taxcode":"","phone":"06309087340","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth, 26"}}
+Response: 201 | {"id":1790217084,"name":"Pr\u00f3ba Pr\u00f3ba","address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth, 26"},"emails":["torzsizsofia2000@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"06309087340","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":"show_all"}
+2023-07-19 13:38:52
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-07-19"}
+2023-07-19 13:38:53
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 596
+)
+
+Post: {"fulfillment_date":"2023-07-19","due_date":"2023-07-19","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: 56fe11661326ee119d0bb8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 6145","language":"hu","electronic":1,"currency":"HUF","partner_id":1790217084,"block_id":0,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Legapr\u00f3bb Apr\u00f3","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":99,"unit_price_type":"gross","comment":""}],"conversion_rate":1}
+Response: 201 | {"id":57470794,"invoice_number":"APROPRESS1-2023-1","type":"invoice","correction_type":"invoice","cancelled":false,"block_id":205121,"payment_status":"paid","payment_method":"barion","gross_total":99,"currency":"HUF","conversion_rate":1,"invoice_date":"2023-07-19","fulfillment_date":"2023-07-19","due_date":"2023-07-19","paid_date":"2023-07-19","organization":{"name":"Buz\u00e1s Istv\u00e1n ev.","tax_number":"45764934-1-22","bank_account":{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX"},"address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth 26"},"small_taxpayer":false,"ev_number":"58348293","eu_tax_number":"HU45764934","cash_settled":false},"partner":{"id":1790217084,"name":"Pr\u00f3ba Pr\u00f3ba","address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth, 26"},"emails":["torzsizsofia2000@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"06309087340","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":null},"document_partner":{"id":1790217084,"name":"Pr\u00f3ba Pr\u00f3ba","address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth, 26"},"emails":["torzsizsofia2000@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"06309087340","tax_type":"NO_TAX_NUMBER","partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}}},"electronic":true,"comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: 56fe11661326ee119d0bb8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 6145","tags":[],"notification_status":"none","language":"hu","items":[{"product_id":null,"name":"Legapr\u00f3bb Apr\u00f3","net_unit_amount":77.952756,"quantity":1,"unit":"db","net_amount":77.95,"gross_amount":99,"vat":"27%","vat_amount":21.05,"entitlement":"AAM","comment":"","sku":null}],"summary":{"net_amount":78,"net_amount_local":78,"gross_amount_local":99,"vat_amount":21,"vat_amount_local":21,"vat_rate_summary":[{"vat_name":"27%","vat_percentage":0.27,"vat_rate_net_amount":78,"vat_rate_vat_amount":21,"vat_rate_vat_amount_local":21,"vat_rate_gross_amount":99}]},"settings":{"mediated_service":false,"without_financial_fulfillment":true,"online_payment":"","should_send_email":false,"round":"one","no_send_onlineszamla_by_user":false,"order_number":"","place_id":null,"instant_payment":true,"selected_type":null,"dont_send_to_nav_reason":null,"instant_payment_request":null},"related_documents":[],"online_szamla_status":"processing","discount":null,"recurring_id":null}
+2023-07-19 13:38:53
+URL: https://api.billingo.hu/v3/documents/57470794/public-url | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"public_url":"https:\/\/api.billingo.hu\/document-access\/YnZJQyMxRapeoONamaRw0gP2jXDklqbm"}
+2023-07-19 14:55:09
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX","currency":"HUF","need_qr":false}]}
+2023-07-19 14:55:09
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":205121,"name":"Istv\u00e1n Buz\u00e1s","prefix":"APROPRESS1","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-19 14:56:08
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX","currency":"HUF","need_qr":false}]}
+2023-07-19 14:56:08
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":205121,"name":"Istv\u00e1n Buz\u00e1s","prefix":"APROPRESS1","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-19 14:56:09
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX","currency":"HUF","need_qr":false}]}
+2023-07-19 14:56:09
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":205121,"name":"Istv\u00e1n Buz\u00e1s","prefix":"APROPRESS1","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-19 14:59:09
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX","currency":"HUF","need_qr":false}]}
+2023-07-19 14:59:10
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":205121,"name":"Istv\u00e1n Buz\u00e1s","prefix":"APROPRESS1","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-19 14:59:23
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX","currency":"HUF","need_qr":false}]}
+2023-07-19 14:59:23
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":205121,"name":"Istv\u00e1n Buz\u00e1s","prefix":"APROPRESS1","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-19 14:59:23
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX","currency":"HUF","need_qr":false}]}
+2023-07-19 14:59:24
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":205121,"name":"Istv\u00e1n Buz\u00e1s","prefix":"APROPRESS1","custom_field1":"","custom_field2":"","type":"invoice"}]}

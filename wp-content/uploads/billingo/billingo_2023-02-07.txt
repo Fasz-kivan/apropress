@@ -1,0 +1,50 @@
+2023-02-07 11:12:18
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 252
+)
+
+Post: {"name":"Dobos Erika","emails":["ugyintezes@beavermotorsport.com"],"taxcode":"","phone":"06702888888","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"2318","city":"Szigetszentm\u00e1rton","address":"Dunapart-als\u00f3 utca 61."}}
+Response: 201 | {"id":1769759553,"name":"Dobos Erika","address":{"country_code":"HU","post_code":"2318","city":"Szigetszentm\u00e1rton","address":"Dunapart-als\u00f3 utca 61."},"emails":["ugyintezes@beavermotorsport.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"06702888888","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":"show_all"}
+2023-02-07 11:12:18
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-02-07"}
+2023-02-07 11:12:19
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 618
+)
+
+Post: {"fulfillment_date":"2023-02-07","due_date":"2023-02-07","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: 919a513cd8a6ed119d0ab8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 5761","language":"hu","electronic":1,"currency":"HUF","partner_id":1769759553,"block_id":186441,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Kiemelt Csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":3797,"unit_price_type":"gross","comment":""}],"bank_account_id":"9109","conversion_rate":1}
+Response: 201 | {"id":48456553,"invoice_number":"BN \/ 2023-000020","type":"invoice","correction_type":"invoice","cancelled":false,"block_id":186441,"payment_status":"paid","payment_method":"barion","gross_total":3797,"currency":"HUF","conversion_rate":1,"invoice_date":"2023-02-07","fulfillment_date":"2023-02-07","due_date":"2023-02-07","paid_date":"2023-02-07","organization":{"name":"Barta Norbert ev.","tax_number":"60697312-2-30","bank_account":{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":""},"address":{"country_code":"HU","post_code":"3300","city":"Eger","address":"Malom\u00e1rok utca 57 4\/30."},"small_taxpayer":false,"ev_number":"22171583","eu_tax_number":"HU60697312","cash_settled":false},"partner":{"id":1769759553,"name":"Dobos Erika","address":{"country_code":"HU","post_code":"2318","city":"Szigetszentm\u00e1rton","address":"Dunapart-als\u00f3 utca 61."},"emails":["ugyintezes@beavermotorsport.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"06702888888","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":null},"document_partner":{"id":1769759553,"name":"Dobos Erika","address":{"country_code":"HU","post_code":"2318","city":"Szigetszentm\u00e1rton","address":"Dunapart-als\u00f3 utca 61."},"emails":["ugyintezes@beavermotorsport.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"06702888888","tax_type":"NO_TAX_NUMBER","partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}}},"electronic":true,"comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: 919a513cd8a6ed119d0ab8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 5761","tags":[],"notification_status":"none","language":"hu","items":[{"product_id":null,"name":"Kiemelt Csomag","net_unit_amount":2989.76378,"quantity":1,"unit":"db","net_amount":2989.76,"gross_amount":3797,"vat":"27%","vat_amount":807.24,"entitlement":"AAM","comment":"","sku":null}],"summary":{"net_amount":2990,"net_amount_local":2990,"gross_amount_local":3797,"vat_amount":807,"vat_amount_local":807,"vat_rate_summary":[{"vat_name":"27%","vat_percentage":0.27,"vat_rate_net_amount":2990,"vat_rate_vat_amount":807,"vat_rate_vat_amount_local":807,"vat_rate_gross_amount":3797}]},"settings":{"mediated_service":false,"without_financial_fulfillment":true,"online_payment":"","should_send_email":false,"round":"one","no_send_onlineszamla_by_user":false,"order_number":"","place_id":null,"instant_payment":true,"selected_type":null,"dont_send_to_nav_reason":null,"instant_payment_request":null},"related_documents":[],"online_szamla_status":"processing","discount":null,"recurring_id":null}
+2023-02-07 11:12:19
+URL: https://api.billingo.hu/v3/documents/48456553/public-url | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"public_url":"https:\/\/api.billingo.hu\/document-access\/BMEnKPbmV471W9LybY6ox0ze3yq2jJN6"}

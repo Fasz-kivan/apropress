@@ -1,0 +1,537 @@
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Köszönjük Jelentkezésed!
+                    [message] => Köszönjük hogy jelentkeztél hozzánk!
+Hamarosan felvesszük veled a kapcsolatot.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Köszönjük Jelentkezésed!
+                    [message] => Köszönjük hogy jelentkeztél hozzánk!
+Hamarosan felvesszük veled a kapcsolatot.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Köszönjük Jelentkezésed!
+                    [message] => Köszönjük hogy jelentkeztél hozzánk!
+Hamarosan felvesszük veled a kapcsolatot.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Köszönjük Jelentkezésed!
+                    [message] => <p>Köszönjük hogy jelentkeztél hozzánk!
+Hamarosan felvesszük veled a kapcsolatot.</p><br>---<br><br>Date: január 28, 2023<br>Time: 4:35 du.<br>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => You must provide at least one recipient email address.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => [field id=''email'']
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => You must provide at least one recipient email address.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => [field id=''email'']
+                        )
+
+                    [subject] => Új üzenet innen:Apropress Rólunk Oldal
+                    [message] => Vezetéknév: Faaaaaaa<br>Keresztnév: sffsfses<br>Email: farkas.bence.barnabas@gmail.com<br>Telefonszám: 0612512235<br>Üzenet: dgdgd<br>Adatvédelem: on<br><br>---<br><br>Date: január 31, 2023<br>Time: 5:28 du.<br>Page URL: https://www.apropress.hu/rolunk/<br>User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36<br>Remote IP: 79.120.172.90<br>Powered by: Elementor<br>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => You must provide at least one recipient email address.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => [field id=''email'']
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => You must provide at least one recipient email address.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => [field id='email']
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => You must provide at least one recipient email address.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => [field id=email]
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+Mailer Error: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Could not instantiate mail function.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => farkas.bence.barnabas@gmail.com
+                        )
+
+                    [subject] => Apropress visszajelzés
+                    [message] => Köszönjük hogy felvetted velünk a kapcsolatot, ügyintézőnk hamarosan rendelkezésedre áll.
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 2
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+

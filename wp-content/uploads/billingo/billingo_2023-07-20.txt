@@ -1,0 +1,50 @@
+2023-07-20 18:10:59
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 248
+)
+
+Post: {"name":"T\u00f6rzsi Tibor J\u00e1nos","emails":["tribit60@gmail.com"],"taxcode":"","phone":"36205983789","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"7766","city":"\u00dajpetre","address":"Szabads\u00e1g t\u00e9r 51\/2"}}
+Response: 201 | {"id":1790379142,"name":"T\u00f6rzsi Tibor J\u00e1nos","address":{"country_code":"HU","post_code":"7766","city":"\u00dajpetre","address":"Szabads\u00e1g t\u00e9r 51\/2"},"emails":["tribit60@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"36205983789","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":"show_all"}
+2023-07-20 18:10:59
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-07-20"}
+2023-07-20 18:10:59
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 596
+)
+
+Post: {"fulfillment_date":"2023-07-20","due_date":"2023-07-20","payment_method":"barion","comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: b371dc962827ee119d0bb8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 6167","language":"hu","electronic":1,"currency":"HUF","partner_id":1790379142,"block_id":0,"type":"invoice","paid":true,"settings":{"round":"one","without_financial_fulfillment":true,"should_send_email":0},"items":[{"unit":"db","name":"Nagytakar\u00edt\u00e1s","quantity":1,"vat":"AAM","entitlement":"AAM","unit_price":899,"unit_price_type":"gross","comment":""}],"conversion_rate":1}
+Response: 201 | {"id":57539902,"invoice_number":"APROPRESS1-2023-3","type":"invoice","correction_type":"invoice","cancelled":false,"block_id":205121,"payment_status":"paid","payment_method":"barion","gross_total":899,"currency":"HUF","conversion_rate":1,"invoice_date":"2023-07-20","fulfillment_date":"2023-07-20","due_date":"2023-07-20","paid_date":"2023-07-20","organization":{"name":"Buz\u00e1s Istv\u00e1n ev.","tax_number":"45764934-1-22","bank_account":{"id":167817,"name":"Sparkasse","account_number":"5356862903470021","account_number_iban":"AT352050200002292696","swift":"SPIMAT21XXX"},"address":{"country_code":"HU","post_code":"7768","city":"Vok\u00e1ny","address":"Kossuth 26"},"small_taxpayer":false,"ev_number":"58348293","eu_tax_number":"HU45764934","cash_settled":false},"partner":{"id":1790379142,"name":"T\u00f6rzsi Tibor J\u00e1nos","address":{"country_code":"HU","post_code":"7766","city":"\u00dajpetre","address":"Szabads\u00e1g t\u00e9r 51\/2"},"emails":["tribit60@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"36205983789","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":null},"document_partner":{"id":1790379142,"name":"T\u00f6rzsi Tibor J\u00e1nos","address":{"country_code":"HU","post_code":"7766","city":"\u00dajpetre","address":"Szabads\u00e1g t\u00e9r 51\/2"},"emails":["tribit60@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"36205983789","tax_type":"NO_TAX_NUMBER","partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}}},"electronic":true,"comment":"\nBarion tranzakci\u00f3 azonos\u00edt\u00f3: b371dc962827ee119d0bb8ca3a6352a2\nMegrendel\u00e9s azonos\u00edt\u00f3: 6167","tags":[],"notification_status":"none","language":"hu","items":[{"product_id":null,"name":"Nagytakar\u00edt\u00e1s","net_unit_amount":899,"quantity":1,"unit":"db","net_amount":899,"gross_amount":899,"vat":"AAM","vat_amount":0,"entitlement":"AAM","comment":"","sku":null}],"summary":{"net_amount":899,"net_amount_local":899,"gross_amount_local":899,"vat_amount":0,"vat_amount_local":0,"vat_rate_summary":[{"vat_name":"AAM","vat_percentage":0,"vat_rate_net_amount":899,"vat_rate_vat_amount":0,"vat_rate_vat_amount_local":0,"vat_rate_gross_amount":899}]},"settings":{"mediated_service":false,"without_financial_fulfillment":true,"online_payment":"","should_send_email":false,"round":"one","no_send_onlineszamla_by_user":false,"order_number":"","place_id":null,"instant_payment":true,"selected_type":null,"dont_send_to_nav_reason":null,"instant_payment_request":null},"related_documents":[],"online_szamla_status":"processing","discount":null,"recurring_id":null}
+2023-07-20 18:10:59
+URL: https://api.billingo.hu/v3/documents/57539902/public-url | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 95be3676-20d0-11ee-af91-0254eb6072a0
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"public_url":"https:\/\/api.billingo.hu\/document-access\/vOjMJBQylVKkW4QQNvb5pnN4Ym1D0Ard"}

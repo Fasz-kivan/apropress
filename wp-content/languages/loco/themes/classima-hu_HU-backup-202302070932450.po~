@@ -1,0 +1,2454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Classima Child\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-09 14:32+0000\n"
+"PO-Revision-Date: 2023-01-31 17:13+0000\n"
+"Last-Translator: admin\n"
+"Language-Team: Magyar\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: classima"
+
+#: template-parts/comments-callback.php:29
+msgid " %1$s ago / %2$s @ %3$s"
+msgstr " %1$s ago / %2$s @ %3$s"
+
+#: inc/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s sikeresen telepítve és aktiválva."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s sikeresen telepítve."
+
+#: classified-listing/custom/list-items/archive-grid-1.php:71,
+#: classified-listing/custom/list-items/archive-grid-2.php:74,
+#: classified-listing/custom/list-items/archive-grid-3.php:73,
+#: classified-listing/custom/list-items/archive-grid-4.php:76,
+#: classified-listing/custom/list-items/archive-grid-6.php:48,
+#: classified-listing/custom/list-items/archive-grid-7.php:64,
+#: classified-listing/custom/list-items/archive-grid-8.php:77,
+#: classified-listing/custom/list-items/archive-grid-9.php:65,
+#: classified-listing/custom/list-items/archive-list-1.php:69,
+#: classified-listing/custom/list-items/archive-list-2.php:79,
+#: classified-listing/custom/list-items/archive-list-5.php:51,
+#: classified-listing/custom/list-items/archive-list-map.php:68
+msgid "%1$s Views"
+msgstr "%1$s Megtekintés"
+
+#: classified-listing/custom/content-single-3.php:55,
+#: classified-listing/custom/content-single-4.php:72,
+#: classified-listing/custom/content-single.php:72,
+#: classified-listing/listing/actions.php:26
+msgid "%s views"
+msgstr "%s megtekintés"
+
+#: inc/options/general.php:44, inc/options/listing.php:47,
+#: inc/options/listing.php:59, inc/options/listing.php:71
+msgid "1 Column"
+msgstr "1 oszlop"
+
+#: inc/options/general.php:63
+msgid "12 Hour"
+msgstr "12 óra"
+
+#: inc/options/general.php:45, inc/options/listing.php:48,
+#: inc/options/listing.php:60, inc/options/listing.php:72
+msgid "2 Column"
+msgstr "2 oszlop"
+
+#: inc/options/general.php:64
+msgid "24 Hour"
+msgstr "24 órás"
+
+#: inc/options/general.php:46, inc/options/listing.php:49,
+#: inc/options/listing.php:61, inc/options/listing.php:73
+msgid "3 Column"
+msgstr "3 oszlop"
+
+#: inc/options/general.php:47, inc/options/listing.php:50,
+#: inc/options/listing.php:62, inc/options/listing.php:74
+msgid "4 Column"
+msgstr "4 oszlop"
+
+#: 404.php:16
+msgid "404"
+msgstr "404"
+
+#: inc/breadcrumbs.php:253
+msgid "404 Not Found"
+msgstr "404 Nem található"
+
+#: classified-listing/myaccount/form-edit-account.php:107
+msgid "<a href=\"%s\">You can change your profile picture on Gravatar</a>."
+msgstr "<a href=\"%s\">A profilképét megváltoztathatja a Gravataron</a>."
+
+#: inc/helper/lc-utility.php:42
+msgid ""
+"<b>Please activate your theme using Envato <a href=\"%s\" target=\"_blank\">"
+"purchase code</a>, to get full theme functionality and customer support. <a "
+"href=\"%s\">Activate License</a></b>"
+msgstr ""
+"<b>Kérünk, aktiválja a témát az Envato <a href=\"%s\" target=\"_blank\">"
+"vásárlási kód</a> használatával, hogy teljes körű témafunkciót és "
+"ügyfélszolgálatot kapjon. <a href=\"%s\">Licenc aktiválása</a></b>"
+
+#: inc/helper/lc-utility.php:30
+msgid ""
+"<b>Your license key doesn't match your current domain. Please activate the "
+"license again for your current domain. <a href=\"%s\">Activate License</a>"
+"</b>"
+msgstr ""
+"<b>A licenckulcsa nem felel meg a jelenlegi domainnek. Kérjük, aktiválja "
+"újra a licencet az aktuális domainjéhez. <a href=\"%s\">Licenc aktiválása</a>"
+"</b>"
+
+#: template-parts/content-single.php:88
+msgid "About Author"
+msgstr "A szerzőről"
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Aktiválás"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Aktiválja %2$s"
+
+#: inc/options/advertisement.php:112
+msgid "Activate Ad"
+msgstr "Hirdetés aktiválása"
+
+#: inc/helper/lc-helper.php:185
+msgid "Activate License"
+msgstr "Licenc aktiválása"
+
+#: inc/helper/lc-helper.php:163, inc/helper/lc-utility.php:130
+msgid "Activated"
+msgstr "Aktiválva"
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktív"
+
+#: inc/options/color.php:139
+msgid "Active Breadcrumb Color"
+msgstr "Aktív morzsa színe"
+
+#: classified-listing/listing-form/category.php:24,
+#: inc/options/advertisement.php:120
+msgid "Ad Type"
+msgstr "Hirdetés típusa"
+
+#: classified-listing/myaccount/store.php:55
+msgid "Add Banner"
+msgstr "Banner hozzáadása"
+
+#: classified-listing/myaccount/form-edit-account.php:116,
+#: classified-listing/myaccount/store.php:91
+msgid "Add Logo"
+msgstr "Logó hozzáadása"
+
+#: classified-listing/listing-form/contact.php:143,
+#: classified-listing/myaccount/form-edit-account.php:306,
+#: classified-listing/myaccount/store.php:339, inc/options/social.php:37
+msgid "Address"
+msgstr "Cím"
+
+#: inc/options/advertisement.php:28, inc/options/advertisement.php:29
+msgid "Advertisement Options"
+msgstr "Hirdetési lehetőségek"
+
+#: inc/options/advertisement.php:175
+msgid "Advertisements"
+msgstr "Hirdetések"
+
+#: inc/options/advertisement.php:187
+msgid "After All Listing Items"
+msgstr "Minden listázási tétel után"
+
+#: inc/options/advertisement.php:208
+msgid "After Location Block"
+msgstr "Helyszín blokk után"
+
+#: inc/options/advertisement.php:264
+msgid "After Page Contents"
+msgstr "Az oldal tartalma után"
+
+#: inc/options/advertisement.php:245
+msgid "After Post Contents"
+msgstr "Bejegyzés Tartalma Után"
+
+#: inc/options/advertisement.php:207
+msgid "After Product Block"
+msgstr "Termék blokk után"
+
+#: inc/options/advertisement.php:206
+msgid "After Product Contents"
+msgstr "A termék tartalma után"
+
+#: inc/options/advertisement.php:209
+msgid "After Related Products Block"
+msgstr "Kapcsolódó termékek blokk után"
+
+#: inc/options/advertisement.php:184, inc/options/advertisement.php:203,
+#: inc/options/advertisement.php:225, inc/options/advertisement.php:242,
+#: inc/options/advertisement.php:261
+msgid "After Sidebar"
+msgstr "Oldalsáv után"
+
+#: classified-listing/listing/author-content.php:87
+msgid "All ads from %s"
+msgstr "Az összes hirdetés innen: %s"
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Minden telepítés és aktiválás befejeződött."
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Minden telepítés befejeződött."
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Minden bővítményt sikeresen telepített és aktivált. %1$s"
+
+#: inc/helper.php:40
+msgid "All Posts"
+msgstr "Minden hozzászólás"
+
+#: inc/helper.php:43
+msgid "All Stores"
+msgstr "Minden Bolt"
+
+#: classified-listing/store/custom/sidebar-store.php:81
+msgid "Always Open"
+msgstr "Mindig nyitva"
+
+#: classified-listing/myaccount/store.php:143
+msgid "Always open"
+msgstr "Mindig nyitva"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Hiba történt a %1$s telepítése közben: <strong>%2$s</strong>."
+
+#: inc/breadcrumbs.php:254
+msgid "Archives"
+msgstr "Archívum"
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unknown"
+
+#: inc/options/listing.php:161
+msgid "Auto Suggestion"
+msgstr "Automatikus javaslat"
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Elérhető változat:"
+
+#: classified-listing/single-rtcl_listing-reviews.php:104
+msgid "Average"
+msgstr "Átlagos"
+
+#: inc/options/general.php:97
+msgid "Back to Top Arrow"
+msgstr "Vissza a tetejére Nyíl"
+
+#: inc/options/header.php:174, inc/options/layout.php:122
+msgid "Background Color"
+msgstr "Háttérszín"
+
+#: inc/options/header.php:173, inc/options/layout.php:121
+msgid "Background Image"
+msgstr "Háttérkép"
+
+#: inc/options/header.php:145, inc/options/layout.php:83
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/options/header.php:191, inc/options/layout.php:137
+msgid "Banner Background Color"
+msgstr "Banner háttér színe"
+
+#: inc/options/header.php:182, inc/options/layout.php:130
+msgid "Banner Background Image"
+msgstr "Banner háttérkép"
+
+#: inc/options/header.php:200
+msgid "Banner Background Opacity (in %)"
+msgstr "Banner háttér átlátszósága (%-ban)"
+
+#: inc/options/header.php:171, inc/options/layout.php:118
+msgid "Banner Background Type"
+msgstr "Banner háttér típusa"
+
+#: inc/options/header.php:162, inc/options/layout.php:106
+msgid "Banner Search"
+msgstr "Banner keresés"
+
+#: classified-listing/myaccount/form-edit-account.php:48
+msgid "Basic Information"
+msgstr "Alapvető információk"
+
+#: inc/options/advertisement.php:186
+msgid "Before All Listing Items"
+msgstr "Minden listázási tétel előtt"
+
+#: inc/options/advertisement.php:263
+msgid "Before Page Contents"
+msgstr "Az oldal tartalma előtt"
+
+#: inc/options/advertisement.php:244
+msgid "Before Post Contents"
+msgstr "Mielőtt Post Tartalom"
+
+#: inc/options/advertisement.php:205
+msgid "Before Product Contents"
+msgstr "A termék tartalma előtt"
+
+#: inc/options/advertisement.php:183, inc/options/advertisement.php:202,
+#: inc/options/advertisement.php:224, inc/options/advertisement.php:241,
+#: inc/options/advertisement.php:260
+msgid "Before Sidebar"
+msgstr "Oldalsáv előtt"
+
+#: inc/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "A plugin aktiválásának megkezdése"
+msgstr[1] "Pluginok aktiválásának megkezdése"
+
+#: inc/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "A plugin telepítésének megkezdése"
+msgstr[1] "Pluginok telepítésének megkezdése"
+
+#: inc/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "A plugin frissítésének megkezdése"
+msgstr[1] "A bővítmények frissítésének megkezdése"
+
+#: templates/blank.php:3
+msgid "Blank Template"
+msgstr "Üres sablon"
+
+#: inc/options/layout.php:171
+msgid "Blog / Archive"
+msgstr "Blog / Archívum"
+
+#: inc/options/blog.php:16
+msgid "Blog Settings"
+msgstr "Blog beállítások"
+
+#: inc/options/advertisement.php:231
+msgid "Blog/Archive"
+msgstr "Blog/Archívum"
+
+#: inc/options/blog.php:24
+msgid "Blog/Archive Layout"
+msgstr "Blog/Archívum elrendezése"
+
+#: inc/options/typography.php:23
+msgid "Body"
+msgstr "Test"
+
+#: inc/options/color.php:117, inc/options/general.php:54,
+#: inc/options/header.php:153, inc/options/layout.php:94
+msgid "Breadcrumb"
+msgstr "Morzsa"
+
+#: inc/options/color.php:124
+msgid "Breadcrumb Link Color"
+msgstr "Morzsa link színe"
+
+#: inc/options/color.php:131
+msgid "Breadcrumb Link Hover Color"
+msgstr "Breadcrumb Link Hover szín"
+
+#: inc/options/color.php:146
+msgid "Breadcrumb Seperator Color"
+msgstr "Kenyérmorzsa elválasztó szín"
+
+#: inc/breadcrumbs.php:251
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Morzsa"
+
+#: inc/breadcrumbs.php:250
+msgid "Browse:"
+msgstr "Böngésszen:"
+
+#: classified-listing/single-rtcl_listing.php:61
+msgid "Business Hours"
+msgstr "Munkaidő"
+
+#: inc/options/error.php:38
+msgid "Button Text"
+msgstr "Gomb szövege"
+
+#: classified-listing/listing-form/category.php:55,
+#: classified-listing/listing/custom-fields.php:23
+msgid "Category"
+msgstr "Kategória"
+
+#: classified-listing/myaccount/form-edit-account.php:130
+msgid "Change Password"
+msgstr "Jelszó módosítása"
+
+#: classified-listing/listing-form/information.php:51,
+#: classified-listing/listing-form/information.php:196
+msgid "Character limit %s"
+msgstr "Karakterkorlát %s"
+
+#: classified-listing/custom/seller-info.php:97,
+#: template-parts/header/part-1.php:54, template-parts/header/part-2.php:45,
+#: template-parts/header/part-3.php:190, template-parts/header/part-4.php:53
+msgid "Chat"
+msgstr "Beszélgetés"
+
+#: classified-listing/custom/functions.php:673
+msgid "Click to reveal phone number"
+msgstr "Kattintson a telefonszám felfedéséhez"
+
+#: classified-listing/listing/actions.php:128
+msgid "Close"
+msgstr "Bezárás"
+
+#: classified-listing/store/custom/sidebar-store.php:72
+msgid "Closed"
+msgstr "Zárt"
+
+#: inc/options/color.php:16
+msgid "Colors"
+msgstr "Színek"
+
+#: comments.php:24
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#: comments.php:79
+msgid "Comment *"
+msgstr "Megjegyzés *"
+
+#. translators: %s is the page number.
+#: inc/breadcrumbs.php:260
+msgid "Comment Page %s"
+msgstr "Megjegyzés Oldal %s"
+
+#: comments.php:24
+msgid "Comments"
+msgstr "Megjegyzések"
+
+#: comments.php:46
+msgid "Comments are closed."
+msgstr "Hozzászólások lezárva."
+
+#: classified-listing/custom/list-items/archive-grid-7.php:105,
+#: classified-listing/custom/list-items/archive-list-7.php:110
+msgid "Compare"
+msgstr "Összehasonlítás"
+
+#: classified-listing/booking/confirmation-form.php:88
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#: classified-listing/myaccount/form-edit-account.php:152
+msgid "Confirm Password"
+msgstr "Jelszó megerősítése"
+
+#: inc/options/social.php:16
+msgid "Contact & Socials"
+msgstr "Kapcsolat & közösségi média"
+
+#: classified-listing/listing-form/contact.php:36
+msgid "Contact Details"
+msgstr "Kapcsolattartási adatok"
+
+#: inc/options/general.php:88
+msgid "Container Width"
+msgstr "Konténer szélessége"
+
+#: inc/options/color.php:194, inc/options/footer.php:40
+msgid "Copyright Area"
+msgstr "Szerzői jog terület"
+
+#: inc/options/color.php:201
+msgid "Copyright Background Color"
+msgstr "Copyright háttérszín"
+
+#: inc/options/footer.php:54
+msgid "Copyright Text"
+msgstr "Szerzői jog szöveg"
+
+#: inc/options/color.php:208
+msgid "Copyright Text Color"
+msgstr "Copyright szöveg színe"
+
+#: classified-listing/multi-currency/price-currency.php:23
+msgid "Currency"
+msgstr "Pénznem"
+
+#: inc/options/color.php:47
+msgid "Custom"
+msgstr "Egyéni"
+
+#: inc/options/advertisement.php:123, inc/options/advertisement.php:164
+msgid "Custom Code"
+msgstr "Egyéni kód"
+
+#: inc/options/layout.php:31
+msgid "Custom Sidebar"
+msgstr "Egyéni oldalsáv"
+
+#: inc/breadcrumbs.php:776, inc/breadcrumbs.php:1206
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: inc/options/layout.php:41, inc/options/layout.php:52,
+#: inc/options/layout.php:63, inc/options/layout.php:74,
+#: inc/options/layout.php:85, inc/options/layout.php:96,
+#: inc/options/layout.php:108, inc/options/layout.php:120
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: classified-listing/custom/list-box-myaccount.php:84,
+#: classified-listing/custom/myaccount-contents.php:47
+msgid "Delete"
+msgstr "Törlés"
+
+#: classified-listing/myaccount/store.php:56
+msgid "Delete Banner"
+msgstr "Banner törlése"
+
+#: classified-listing/myaccount/form-edit-account.php:117,
+#: classified-listing/myaccount/store.php:92
+msgid "Delete Logo"
+msgstr "Logo törlése"
+
+#: inc/options/listing.php:162
+msgid "Dependency Selection"
+msgstr "Függőségi kiválasztás"
+
+#: classified-listing/custom/content-single-3.php:94,
+#: classified-listing/custom/content-single-4.php:106,
+#: classified-listing/listing-form/information.php:168,
+#: classified-listing/myaccount/store.php:350
+msgid "Description"
+msgstr "Leírás"
+
+#: inc/options/listing.php:45
+msgid "Desktop"
+msgstr "Asztali"
+
+#: classified-listing/custom/content-single.php:89,
+#: classified-listing/custom/list-items/archive-list-1.php:91,
+#: classified-listing/custom/list-items/archive-list-2.php:92,
+#: classified-listing/store/custom/sidebar-store.php:33
+msgid "Details"
+msgstr "Részletek"
+
+#: inc/options/advertisement.php:114, inc/options/advertisement.php:147,
+#: inc/options/advertisement.php:156, inc/options/footer.php:48,
+#: inc/options/footer.php:63, inc/options/general.php:56,
+#: inc/options/general.php:72, inc/options/general.php:99,
+#: inc/options/general.php:108, inc/options/header.php:36,
+#: inc/options/header.php:44, inc/options/header.php:53,
+#: inc/options/header.php:62, inc/options/header.php:103,
+#: inc/options/header.php:111, inc/options/header.php:120,
+#: inc/options/header.php:147, inc/options/header.php:155,
+#: inc/options/header.php:164, inc/options/layout.php:43,
+#: inc/options/layout.php:54, inc/options/layout.php:87,
+#: inc/options/layout.php:98, inc/options/layout.php:110
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Közlemény elrejtése"
+
+#: inc/options/post.php:98
+msgid "Display About Author"
+msgstr "Megjelenítés a szerzőről"
+
+#: inc/options/blog.php:48, inc/options/post.php:32
+msgid "Display Author Name"
+msgstr "Szerző nevének megjelenítése"
+
+#: inc/options/blog.php:72
+msgid "Display Button"
+msgstr "Megjelenítő gomb"
+
+#: inc/options/blog.php:64, inc/options/post.php:40
+msgid "Display Categories"
+msgstr "Kategóriák megjelenítése"
+
+#: inc/options/blog.php:56, inc/options/post.php:48
+msgid "Display Comment Number"
+msgstr "Megjegyzés számának megjelenítése"
+
+#: inc/options/footer.php:46
+msgid "Display Copyright Area"
+msgstr "Szerzői jog terület megjelenítése"
+
+#: inc/options/listing.php:111
+msgid "Display Custom Fields in Listings"
+msgstr "Egyéni mezők megjelenítése a listákban"
+
+#: inc/options/blog.php:40
+msgid "Display Date"
+msgstr "Dátum megjelenítése"
+
+#: inc/options/footer.php:61
+msgid "Display Payment Icons"
+msgstr "Fizetési ikonok megjelenítése"
+
+#: inc/options/post.php:24
+msgid "Display Post Date"
+msgstr "Közzététel dátumának megjelenítése"
+
+#: inc/options/listing.php:119
+msgid "Display Related Listing"
+msgstr "Kapcsolódó listázás megjelenítése"
+
+#: inc/options/post.php:106
+msgid "Display Related Post"
+msgstr "Kapcsolódó bejegyzés megjelenítése"
+
+#: inc/options/post.php:64
+msgid "Display Social Sharing"
+msgstr "Közösségi megosztás megjelenítése"
+
+#: inc/options/post.php:56
+msgid "Display Tags"
+msgstr "Címkék megjelenítése"
+
+#: inc/helper/lc-helper.php:165
+msgid "Domain Mismtach"
+msgstr "Nem egyező domain"
+
+#: classified-listing/listing-form/contact.php:246
+msgid "Don't show the Map"
+msgstr "Ne jelenítse meg a térképet"
+
+#: classified-listing/listing-form/contact.php:224
+msgid "e.g. https://example.com"
+msgstr "pl. https://example.com"
+
+#: classified-listing/custom/list-box-myaccount.php:80,
+#: classified-listing/custom/myaccount-contents.php:43
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: classified-listing/booking/confirmation-form.php:63,
+#: classified-listing/listing-form/contact.php:202,
+#: classified-listing/myaccount/form-edit-account.php:86,
+#: classified-listing/myaccount/store.php:306, comments.php:70,
+#: inc/options/social.php:30
+msgid "Email"
+msgstr "E-mail"
+
+#: classified-listing/custom/seller-info.php:103
+msgid "Email to Seller"
+msgstr "Email az eladónak"
+
+#: inc/options/advertisement.php:113, inc/options/advertisement.php:146,
+#: inc/options/advertisement.php:155, inc/options/footer.php:47,
+#: inc/options/footer.php:62, inc/options/general.php:55,
+#: inc/options/general.php:71, inc/options/general.php:98,
+#: inc/options/general.php:107, inc/options/header.php:35,
+#: inc/options/header.php:43, inc/options/header.php:52,
+#: inc/options/header.php:61, inc/options/header.php:102,
+#: inc/options/header.php:110, inc/options/header.php:119,
+#: inc/options/header.php:146, inc/options/header.php:154,
+#: inc/options/header.php:163, inc/options/layout.php:42,
+#: inc/options/layout.php:53, inc/options/layout.php:86,
+#: inc/options/layout.php:97, inc/options/layout.php:109
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: classified-listing/custom/listing-search.php:215,
+#: template-parts/header/header-offscreen.php:180,
+#: template-parts/header/part-3.php:163
+msgid "Enter Keyword here ..."
+msgstr "Mit keresel?"
+
+#: inc/options/layout.php:206
+msgid "Error 404 Layout"
+msgstr "Hiba 404 elrendezés"
+
+#: inc/options/error.php:16
+msgid "Error Page Settings"
+msgstr "Hibaoldal beállításai"
+
+#: inc/options/error.php:32
+msgid "Error Text"
+msgstr "Hiba szövege"
+
+#: classified-listing/custom/list-box-myaccount.php:71,
+#: classified-listing/custom/myaccount-contents.php:32
+msgid "Expires on"
+msgstr "Lejár"
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Külső forrás"
+
+#: inc/options/social.php:43
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/options/error.php:24
+msgid "Featured Image"
+msgstr "Kiemelt kép"
+
+#: classified-listing/custom/content-single.php:92,
+#: classified-listing/custom/functions.php:429,
+#: classified-listing/listing-form/information.php:220
+msgid "Features"
+msgstr "Jellemzők"
+
+#: classified-listing/listing-form/information.php:224
+msgid "Features List"
+msgstr "Jellemzők listája"
+
+#: classified-listing/custom/content-single-2.php:98,
+#: classified-listing/custom/content-single-3.php:102,
+#: classified-listing/custom/content-single-4.php:94
+msgid "Features:"
+msgstr "Jellemzők:"
+
+#: classified-listing/myaccount/form-edit-account.php:64
+msgid "First Name"
+msgstr "Keresztnév"
+
+#: inc/options/advertisement.php:185, inc/options/advertisement.php:204,
+#: inc/options/advertisement.php:226, inc/options/advertisement.php:243,
+#: inc/options/advertisement.php:262, inc/options/footer.php:16
+msgid "Footer"
+msgstr "Lábléc"
+
+#: inc/general.php:85
+msgid "Footer 1"
+msgstr "Lábléc 1"
+
+#: inc/general.php:86
+msgid "Footer 2"
+msgstr "Lábléc 2"
+
+#: inc/general.php:87
+msgid "Footer 3"
+msgstr "Lábléc 3"
+
+#: inc/general.php:88
+msgid "Footer 4"
+msgstr "Lábléc 4"
+
+#: inc/options/color.php:152
+msgid "Footer Area"
+msgstr "Lábléc terület"
+
+#: inc/options/color.php:159
+msgid "Footer Background Color"
+msgstr "Lábléc háttérszín"
+
+#: inc/options/color.php:180
+msgid "Footer Body Link Color"
+msgstr "Lábléc test link színe"
+
+#: inc/options/color.php:187
+msgid "Footer Body Link Hover Color"
+msgstr "Lábléc Body Link Hover szín"
+
+#: inc/options/color.php:173
+msgid "Footer Body Text Color"
+msgstr "Lábléc szöveg színe"
+
+#: inc/options/footer.php:24, inc/options/layout.php:72
+msgid "Footer Style"
+msgstr "Lábléc stílus"
+
+#: inc/options/color.php:166
+msgid "Footer Title Text Color"
+msgstr "Lábléc cím szöveg színe"
+
+#: classified-listing/custom/list-items/archive-grid-1.php:25,
+#: classified-listing/custom/list-items/archive-grid-2.php:22,
+#: classified-listing/custom/list-items/archive-grid-4.php:24,
+#: classified-listing/custom/list-items/archive-grid-6.php:22,
+#: classified-listing/custom/list-items/archive-grid-8.php:27,
+#: classified-listing/custom/list-items/archive-grid-9.php:27
+msgid "For %s"
+msgstr "%s esetében"
+
+#: classified-listing/store/custom/sidebar-store.php:27
+msgid "Friday"
+msgstr "Péntek"
+
+#: inc/options/layout.php:23
+msgid "Full Width"
+msgstr "Teljes szélességben"
+
+#: inc/options/general.php:16
+msgid "General"
+msgstr "Általános"
+
+#: inc/options/error.php:39
+msgid "Go To Home Page"
+msgstr "Vissza a főoldalra"
+
+#: classified-listing/single-rtcl_listing-reviews.php:103
+msgid "Good"
+msgstr "Jó"
+
+#: inc/options/listing.php:24
+msgid "Grid View"
+msgstr "Rácsnézet"
+
+#: inc/options/listing.php:30
+msgid "Grid View Style"
+msgstr "Rácsnézet stílusa"
+
+#: classified-listing/booking/confirmation-form.php:51
+msgid "Guest: %s"
+msgstr "Vendég: %s"
+
+#: inc/options/advertisement.php:182, inc/options/advertisement.php:201,
+#: inc/options/advertisement.php:223, inc/options/advertisement.php:240,
+#: inc/options/advertisement.php:259, inc/options/header.php:16
+msgid "Header"
+msgstr "Fejléc"
+
+#: inc/options/header.php:126
+msgid "Header Button Text"
+msgstr "Fejléc gomb szövege"
+
+#: inc/options/header.php:132
+msgid "Header Button Text(Mobile)"
+msgstr "Fejléc gomb szövege (mobil)"
+
+#: inc/options/header.php:139
+msgid "Header Button URL"
+msgstr "Fejléc gomb URL"
+
+#: inc/options/header.php:109
+msgid "Header Chat Icon"
+msgstr "Fejléc Chat ikon"
+
+#: inc/options/typography.php:39
+msgid "Header h1"
+msgstr "Fejléc h1"
+
+#: inc/options/typography.php:55
+msgid "Header h2"
+msgstr "Fejléc h2"
+
+#: inc/options/typography.php:71
+msgid "Header h3"
+msgstr "Fejléc h3"
+
+#: inc/options/typography.php:87
+msgid "Header h4"
+msgstr "Fejléc h4"
+
+#: inc/options/typography.php:103
+msgid "Header h5"
+msgstr "Fejléc h5"
+
+#: inc/options/typography.php:119
+msgid "Header h6"
+msgstr "Fejléc h6"
+
+#: inc/options/header.php:69, inc/options/layout.php:61
+msgid "Header Layout"
+msgstr "Fejléc elrendezés"
+
+#: inc/options/header.php:101
+msgid "Header Login Icon"
+msgstr "Fejléc bejelentkezési ikon"
+
+#: inc/options/header.php:117
+msgid "Header Menu"
+msgstr "Fejléc menü"
+
+#: inc/options/general.php:105
+msgid "Hide Admin Bar"
+msgstr "Admin sáv elrejtése"
+
+#: inc/options/general.php:106
+msgid "Hide Admin Bar for subscribers"
+msgstr "Admin sáv elrejtése előfizetők számára"
+
+#: inc/breadcrumbs.php:252
+msgid "Home"
+msgstr "Főoldal"
+
+#: inc/breadcrumbs.php:758
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: inc/options/advertisement.php:122, inc/options/advertisement.php:131
+msgid "Image"
+msgstr "Kép"
+
+#: classified-listing/listing-form/gallery.php:17
+msgid "Images"
+msgstr "Képek"
+
+#: inc/options/social.php:73
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Telepítés"
+
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Telepítse %2$s"
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Pluginok telepítése"
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Szükséges bővítmények telepítése"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Telepítve, de nem aktiválva"
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Telepített verzió:"
+
+#: inc/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s telepítése és aktiválása (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s telepítése (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Plugin telepítése: %s"
+
+#: classified-listing/myaccount/store.php:399
+msgid "Invite Manager"
+msgstr "Menedzser meghívása"
+
+#: template-parts/content-none.php:17
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr "Sajnos, nem találjuk, amit keres. Próbálja más néven."
+
+#: classified-listing/myaccount/form-edit-account.php:75
+msgid "Last Name"
+msgstr "Vezetéknév"
+
+#: inc/options/layout.php:20
+msgid "Layout"
+msgstr "Elrendezés"
+
+#: inc/options/blog.php:28, inc/options/header.php:73,
+#: inc/options/layout.php:64
+msgid "Layout 1"
+msgstr "1. elrendezés"
+
+#: inc/options/blog.php:32, inc/options/header.php:77,
+#: inc/options/layout.php:65
+msgid "Layout 2"
+msgstr "2. elrendezés"
+
+#: inc/options/header.php:81
+msgid "Layout 3"
+msgstr "3. elrendezés"
+
+#: inc/options/header.php:85
+msgid "Layout 4"
+msgstr "4. elrendezés"
+
+#: inc/options/header.php:89
+msgid "Layout 5"
+msgstr "5. elrendezés"
+
+#: inc/options/header.php:93
+msgid "Layout 6"
+msgstr "6. elrendezés"
+
+#: inc/options/layout.php:148
+msgid "Layout Defaults"
+msgstr "Alapértelmezett elrendezés"
+
+#: comments.php:87
+msgid "Leave a Reply"
+msgstr "Hozzászólok"
+
+#: classified-listing/single-rtcl_listing-reviews.php:115
+msgid "Leave a Review"
+msgstr "Hagyjon egy véleményt"
+
+#: inc/options/layout.php:22, inc/options/layout.php:216,
+#: inc/options/layout.php:233, inc/options/layout.php:249
+msgid "Left Sidebar"
+msgstr "Bal oldalsáv"
+
+#: inc/helper/lc-helper.php:97
+msgid "License Status"
+msgstr "Előfizetői státusz"
+
+#: inc/options/general.php:32
+msgid "Light Logo"
+msgstr "Világos logó"
+
+#: inc/options/advertisement.php:138
+msgid "Link"
+msgstr "Link"
+
+#: inc/options/social.php:55
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/options/listing.php:86
+msgid "List View Style"
+msgstr "Lista nézet stílus"
+
+#: inc/options/layout.php:256
+msgid "Listing Account Page"
+msgstr "Felhasználó oldal listázása"
+
+#: inc/options/layout.php:223
+msgid "Listing Archive"
+msgstr "Listázási archívum"
+
+#: inc/options/advertisement.php:192
+msgid "Listing Page"
+msgstr "Listázó oldal"
+
+#: inc/options/listing.php:138
+msgid "Listing Search Items"
+msgstr "Listázó keresési tételek"
+
+#: inc/options/listing.php:157
+msgid "Listing Search Style"
+msgstr "Listázási keresési stílus"
+
+#: inc/options/listing.php:16
+msgid "Listing Settings"
+msgstr "Listázási beállítások"
+
+#: inc/options/layout.php:239
+msgid "Listing Single"
+msgstr "Listázás Egyedülálló"
+
+#: classified-listing/myaccount/store.php:426
+msgid "Listings (%s)"
+msgstr "Listák (%s)"
+
+#: classified-listing/listing-form/contact.php:156,
+#: classified-listing/listing/map.php:12,
+#: classified-listing/myaccount/form-edit-account.php:201,
+#: classified-listing/myaccount/form-edit-account.php:317
+msgid "Location"
+msgstr "Helyszín"
+
+#: template-parts/header/part-1.php:21, template-parts/header/part-2.php:18,
+#: template-parts/header/part-3.php:33, template-parts/header/part-4.php:21
+msgid "Login/Register"
+msgstr "Bejelentkezés/Regisztráció"
+
+#: inc/options/general.php:41
+msgid "Logo Area Width"
+msgstr "Logó terület szélessége"
+
+#: inc/options/general.php:24
+msgid "Main Logo"
+msgstr "Fő logó"
+
+#: inc/options/color.php:68
+msgid "Main Menu"
+msgstr "Főmenü"
+
+#: inc/options/typography.php:135
+msgid "Main Menu Items"
+msgstr "Főmenü elemek"
+
+#: inc/options/advertisement.php:158
+msgid "Make Link Nofollow"
+msgstr "Legyen Link Nofollow"
+
+#: classified-listing/myaccount/store.php:27
+msgid "Managers"
+msgstr "Menedzserek"
+
+#: classified-listing/listing-form/contact.php:235,
+#: classified-listing/myaccount/form-edit-account.php:334
+msgid "Map"
+msgstr "Térkép"
+
+#: classified-listing/custom/list-box-myaccount.php:88,
+#: classified-listing/custom/myaccount-contents.php:52
+msgid "Mark as sold"
+msgstr "Eladva"
+
+#: classified-listing/custom/list-box-myaccount.php:88,
+#: classified-listing/custom/myaccount-contents.php:52
+msgid "Mark as unsold"
+msgstr "Nincs eladva"
+
+#: classified-listing/listing-form/information.php:138
+msgid "Max Price"
+msgstr "Max ár"
+
+#: classified-listing/content-single-store.php:34
+msgid "Member since - "
+msgstr "Ezóta tag: -"
+
+#: inc/options/color.php:75
+msgid "Menu Color"
+msgstr "Menü színe"
+
+#: inc/options/typography.php:141
+msgid "Menu Font"
+msgstr "Menü betűtípus"
+
+#: inc/options/color.php:82
+msgid "Menu Hover Color"
+msgstr "Menü Hover szín"
+
+#: classified-listing/booking/confirmation-form.php:73
+msgid "Message"
+msgstr "Üzenet"
+
+#: classified-listing/store/custom/sidebar-store.php:91
+msgid "Message Store Owner"
+msgstr "Üzenet az üzlet tulajdonosának"
+
+#: classified-listing/listing/actions.php:122
+msgid "Message... "
+msgstr "Üzenet..."
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimálisan szükséges verzió:"
+
+#. translators: Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs.php:262
+msgid "Minute %s"
+msgstr "Perc %s"
+
+#: inc/breadcrumbs.php:724
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: inc/breadcrumbs.php:741
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/options/listing.php:69
+msgid "Mobile"
+msgstr "Mobil"
+
+#: inc/options/typography.php:181
+msgid "Mobile Menu"
+msgstr "Mobil menü"
+
+#: inc/options/typography.php:187
+msgid "Mobile Menu Font"
+msgstr "Mobil menü betűtípus"
+
+#: classified-listing/store/custom/sidebar-store.php:23
+msgid "Monday"
+msgstr "Hétfő"
+
+#: inc/breadcrumbs.php:775, inc/breadcrumbs.php:831, inc/breadcrumbs.php:1202
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: classified-listing/custom/sidebar-account.php:18,
+#: template-parts/header/part-1.php:21, template-parts/header/part-2.php:18,
+#: template-parts/header/part-3.php:33, template-parts/header/part-4.php:21
+msgid "My Account"
+msgstr "Fiókom"
+
+#: classified-listing/booking/confirmation-form.php:58, comments.php:67
+msgid "Name"
+msgstr "Név"
+
+#: classified-listing/custom/list-box-myaccount.php:23,
+#: classified-listing/custom/myaccount-contents.php:17
+msgid "Never Expires"
+msgstr "Soha"
+
+#: classified-listing/myaccount/form-edit-account.php:141
+msgid "New Password"
+msgstr "Új jelszó"
+
+#: classified-listing/single-rtcl_listing-reviews.php:38
+msgid "Newer Reviews"
+msgstr "Újabb vélemények"
+
+#: template-parts/pagination.php:46
+msgid "Next"
+msgstr "Következő"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nem történt intézkedés. A plugin %1$s már aktív volt."
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Jelenleg nem állnak rendelkezésre aktiválható bővítmények."
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Jelenleg nem állnak rendelkezésre telepíthető bővítmények."
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Jelenleg nem állnak rendelkezésre frissíthető bővítmények."
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Nincs telepítendő, frissítendő vagy aktiválandó bővítmény."
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Egyetlen bővítményt sem választottunk aktiválásra. Nem történt intézkedés."
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"A telepítendő bővítményeket nem választotta ki. Nem történt intézkedés."
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Egyetlen bővítményt sem választottunk ki frissítésre. Nem történt intézkedés."
+
+#: classified-listing/content-single-store.php:102,
+#: classified-listing/content-single-store.php:92
+msgid "No Ratings"
+msgstr "Nincs értékelés"
+
+#: classified-listing/custom/noresults.php:10
+msgid "No results found"
+msgstr "Nincs találat"
+
+#: classified-listing/listing-form/price-unit.php:29
+msgid "No unit"
+msgstr "Nincs egység"
+
+#: inc/options/advertisement.php:154
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: inc/helper/lc-helper.php:159
+msgid "Not Activated"
+msgstr "Nem aktiválva"
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Nincs telepítve"
+
+#: classified-listing/single-rtcl_listing-reviews.php:105
+msgid "Not that bad"
+msgstr "Nem olyan rossz"
+
+#: inc/helper/lc-helper.php:105
+msgid "Note:"
+msgstr "Megjegyzés:"
+
+#: inc/options/blog.php:42, inc/options/blog.php:50, inc/options/blog.php:58,
+#: inc/options/blog.php:66, inc/options/blog.php:74,
+#: inc/options/listing.php:113, inc/options/listing.php:121,
+#: inc/options/post.php:26, inc/options/post.php:34, inc/options/post.php:42,
+#: inc/options/post.php:50, inc/options/post.php:58, inc/options/post.php:66,
+#: inc/options/post.php:100, inc/options/post.php:108
+msgid "Off"
+msgstr "Ki"
+
+#: classified-listing/custom/seller-info.php:71
+msgid "Offline Now"
+msgstr "Jelenleg offline"
+
+#: classified-listing/single-rtcl_listing-reviews.php:37
+msgid "Older Reviews"
+msgstr "Régebbi vélemények"
+
+#: inc/options/blog.php:41, inc/options/blog.php:49, inc/options/blog.php:57,
+#: inc/options/blog.php:65, inc/options/blog.php:73,
+#: inc/options/listing.php:112, inc/options/listing.php:120,
+#: inc/options/post.php:25, inc/options/post.php:33, inc/options/post.php:41,
+#: inc/options/post.php:49, inc/options/post.php:57, inc/options/post.php:65,
+#: inc/options/post.php:99, inc/options/post.php:107
+msgid "On"
+msgstr "Be"
+
+#: classified-listing/custom/seller-info.php:73
+msgid "Online Now"
+msgstr "Jelenleg online"
+
+#: inc/options/advertisement.php:145
+msgid "Open Link in New Tab"
+msgstr "Link megnyitása új lapon"
+
+#: classified-listing/myaccount/store.php:133,
+#: classified-listing/store/custom/sidebar-store.php:55
+msgid "Opening Hours"
+msgstr "Nyitva tartás"
+
+#: inc/options/color.php:44
+msgid "Other Colors"
+msgstr "Más színek"
+
+#: classified-listing/listing/custom-fields.php:50
+msgid "Overview"
+msgstr "Áttekintés"
+
+#: inc/options/advertisement.php:269, inc/options/layout.php:159
+msgid "Page"
+msgstr "Oldal"
+
+#. translators: %s is the page number.
+#: inc/breadcrumbs.php:258
+msgid "Page %s"
+msgstr "Oldal %s"
+
+#: inc/helper.php:33
+msgid "Page not Found"
+msgstr "Oldal nem található"
+
+#: template-parts/content-footer.php:71, template-parts/content-footer.php:72,
+#: template-parts/content-footer.php:73, template-parts/content-footer.php:74
+msgid "payment"
+msgstr "fizetés"
+
+#: inc/options/footer.php:70
+msgid "Payment Icons Gallery"
+msgstr "Fizetési ikonok Galéria"
+
+#: classified-listing/myaccount/store.php:422
+msgid "Pending"
+msgstr "Függőben"
+
+#: classified-listing/single-rtcl_listing-reviews.php:102
+msgid "Perfect"
+msgstr "Tökéletes"
+
+#: classified-listing/store/custom/sidebar-store.php:78
+msgid "Permanently Closed"
+msgstr "Véglegesen zárva"
+
+#: classified-listing/booking/confirmation-form.php:55
+msgid "Personal Information"
+msgstr "Személyes információk"
+
+#: classified-listing/booking/confirmation-form.php:68,
+#: classified-listing/listing-form/contact.php:174,
+#: classified-listing/myaccount/form-edit-account.php:163,
+#: classified-listing/myaccount/store.php:317, inc/options/social.php:24
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/options/social.php:67
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: classified-listing/custom/seller-info.php:49
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr ""
+"Kérjük, <a href='%s'>jelentkezzen be</a> az eladói információk "
+"megtekintéséhez."
+
+#: classified-listing/store/custom/sidebar-store.php:48
+msgid "Please <a href='%s'>login</a> to view the store contact."
+msgstr ""
+"Kérjük, <a href='%s'>jelentkezzen be</a> az üzlet elérhetőségének "
+"megtekintéséhez."
+
+#: inc/helper/lc-utility.php:152
+msgid ""
+"Please activate your theme using Envato purchase code, to install demo data."
+msgstr ""
+"Kérjük, aktiválja a témát az Envato vásárlási kód segítségével, hogy "
+"telepítse a demo adatokat."
+
+#: inc/helper/lc-utility.php:164, inc/helper/lc-utility.php:182
+msgid ""
+"Please activate your theme using Envato purchase code, to use this plugin."
+msgstr ""
+"Kérjük, aktiválja témáját az Envato vásárlási kóddal, hogy használni tudja "
+"ezt a plugint."
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Kérjük, forduljon az oldal adminisztrátorához segítségért."
+
+#: inc/class-tgm-plugin-activation.php:937,
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Kérjük, lépjen kapcsolatba a plugin szolgáltatójával, és kérje meg, hogy a "
+"WordPress irányelveknek megfelelően csomagolja a pluginját."
+
+#: inc/helper/lc-helper.php:176
+msgid ""
+"Please keep in mind, you can activate one license in one domain, if you face "
+"any problem in activation, please contact our"
+msgstr ""
+"Kérjük, tartsa szem előtt, hogy egy licencet aktiválhat egy tartományban, ha "
+"bármilyen probléma merül fel az aktiválással kapcsolatban, kérjük, lépjen "
+"kapcsolatba velünk"
+
+#: functions.php:59
+msgid ""
+"Please update plugin <b><i>%s</b></i> to the latest version otherwise some "
+"functionalities will not work properly. You can update it from <a href='%s'>"
+"here</a>"
+msgstr ""
+"Kérjük, frissítse a <b><i>%s</b></i> plugint a legújabb verzióra, különben "
+"egyes funkciók nem fognak megfelelően működni. A frissítést a <a href='%s'>"
+"itt</a> oldalon</a> végezheti el"
+
+#: inc/options/general.php:79
+msgid ""
+"Please upload your choice of preloader image. Transparent GIF format is "
+"recommended"
+msgstr ""
+"Kérjük, töltse fel az Ön által választott előtöltő képet. Átlátszó GIF "
+"formátum ajánlott"
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/class-tgm-plugin-activation.php:1121,
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "és"
+
+#: inc/class-tgm-plugin-activation.php:387,
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin sikeresen aktiválva."
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "A plugin aktiválása sikertelen."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin nem aktiválva. A témához a %s magasabb verziója szükséges. Kérjük, "
+"frissítse a plugint."
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Minden <span class=\"count\">(%s)</span>"
+msgstr[1] "Minden <span class=\"count\">(%s)</span>"
+
+#: inc/options/listing.php:159
+msgid "Popup"
+msgstr "Popup"
+
+#: inc/options/post.php:16
+msgid "Post Settings"
+msgstr "Bejegyzés beállításai"
+
+#: inc/options/layout.php:183
+msgid "Post Single"
+msgstr "Egyedülálló poszt"
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Előre csomagolt"
+
+#: inc/options/general.php:70
+msgid "Preloader"
+msgstr "Preloader"
+
+#: inc/options/general.php:78
+msgid "Preloader Image"
+msgstr "Előbetöltő kép"
+
+#: template-parts/pagination.php:45
+msgid "Previous"
+msgstr "Előző"
+
+#: classified-listing/listing-form/information.php:117
+msgid "Price"
+msgstr "Ár"
+
+#: classified-listing/listing-form/information.php:91
+msgid "Price Type"
+msgstr "Ár típus"
+
+#: classified-listing/listing-form/price-unit.php:24
+msgid "Price Unit"
+msgstr "Ár Egység"
+
+#: classified-listing/listing-form/information.php:66
+msgid "Pricing"
+msgstr "Árazás"
+
+#: inc/general.php:69
+msgid "Primary"
+msgstr "Elsődleges"
+
+#: inc/options/color.php:31, inc/options/color.php:46
+msgid "Primary Color"
+msgstr "Elsődleges szín"
+
+#: classified-listing/listing-form/information.php:33
+msgid "Product Information"
+msgstr "Termékinformáció"
+
+#: classified-listing/myaccount/form-edit-account.php:98
+msgid "Profile Picture"
+msgstr "Profilkép"
+
+#: classified-listing/custom/list-box-myaccount.php:77,
+#: classified-listing/custom/myaccount-contents.php:39
+msgid "Promote"
+msgstr "Népszerűsítés"
+
+#: inc/helper/lc-helper.php:89
+msgid "Purchase Code"
+msgstr "Vásárlási kód"
+
+#: inc/helper/lc-utility.php:127
+msgid "Purchase code already activated for one domain!!!"
+msgstr "Vásárlási kód már aktiválva egy domainhez!!!!"
+
+#: inc/helper/lc-utility.php:140
+msgid "Purchase code is required!!!"
+msgstr "Vásárlási kód szükséges!!!"
+
+#: classified-listing/custom/list-items/archive-grid-7.php:94,
+#: classified-listing/custom/list-items/archive-list-7.php:96
+msgid "Quick View"
+msgstr "Gyors megtekintés"
+
+#: classified-listing/custom/listing-search.php:123,
+#: template-parts/header/header-offscreen.php:165,
+#: template-parts/header/part-3.php:149
+msgid "Radius"
+msgstr "Hatósugár"
+
+#: classified-listing/custom/functions.php:396
+msgid "Random"
+msgstr "Véletlenszerű"
+
+#: classified-listing/single-rtcl_listing-reviews.php:101
+msgid "Rate&hellip;"
+msgstr "Értékelés&hellip;"
+
+#: template-parts/content-alt.php:52, template-parts/content.php:53
+msgid "Read More"
+msgstr "Olvass tovább"
+
+#: inc/general.php:254
+msgid "read more ..."
+msgstr "tovább ..."
+
+#: template-parts/content-none.php:12
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>"
+msgstr ""
+"Készen állsz az első bejegyzésed közzétételére? <a href=\"%1$s\">Kezdje el "
+"itt</a>"
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Ajánlott"
+
+#: classified-listing/myaccount/store.php:68
+msgid ""
+"Recommended image size to (%dx%d)px, Maximum file size %s, Allowed image "
+"type (%s)"
+msgstr ""
+"Ajánlott képméret (%dx%d)px, Maximális fájlméret %s, Megengedett képtípus "
+"(%s)"
+
+#: classified-listing/myaccount/store.php:110
+msgid ""
+"Recommended image size to (%dx%d)px, Maximum file size %s, Allowed image "
+"types %s"
+msgstr ""
+"Ajánlott képméret: (%dx%d)px, Maximális fájlméret %s, Megengedett képtípusok "
+"%s"
+
+#: classified-listing/listing/related-listings.php:61
+msgid "Related Ads"
+msgstr "Kapcsolódó hirdetések"
+
+#: inc/options/listing.php:127
+msgid "Related Listing Style"
+msgstr "Kapcsolódó listázási stílus"
+
+#: template-parts/related-posts.php:38
+msgid "Related Post"
+msgstr "Kapcsolódó bejegyzés"
+
+#: classified-listing/custom/functions.php:476
+msgid "Remove from Favourites"
+msgstr "Eltávolítás a kedvencek közül"
+
+#: comments.php:30
+msgid "Reply"
+msgstr "Válasz"
+
+#: classified-listing/listing/actions.php:98,
+#: classified-listing/listing/actions.php:96,
+#: classified-listing/listing/actions.php:83,
+#: classified-listing/listing/actions.php:77,
+#: classified-listing/listing/actions.php:36,
+#: classified-listing/listing/actions.php:34,
+#: classified-listing/listing/actions.php:116
+msgid "Report Abuse"
+msgstr "Visszaélés jelentése"
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Kötelező"
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Kötelező frissítés nem elérhető"
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Frissítést igényel"
+
+#: classified-listing/booking/confirmation-form.php:50
+msgid "Reservation Fee: %s%s"
+msgstr "Foglalási díj: %s%s"
+
+#: inc/options/header.php:24
+msgid "Responsive Header Screen Width"
+msgstr "Reszponzív fejléc képernyőszélesség"
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Vissza a szükséges bővítmények telepítőjéhez"
+
+#: inc/class-tgm-plugin-activation.php:386,
+#: inc/class-tgm-plugin-activation.php:827,
+#: inc/class-tgm-plugin-activation.php:2533,
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Vissza az áttekintéshez"
+
+#: classified-listing/single-rtcl_listing-reviews.php:34
+msgid "Review"
+msgstr "Értékelés"
+
+#: classified-listing/single-rtcl_listing-reviews.php:99
+msgid "Review Title"
+msgstr "Értékelés címe"
+
+#: classified-listing/single-rtcl_listing-reviews.php:34
+msgid "Reviews"
+msgstr "Vélemények"
+
+#: classified-listing/single-rtcl_listing-reviews.php:61
+msgid "Reviews are closed."
+msgstr "Vélemények lezárva."
+
+#: classified-listing/single-rtcl_listing-reviews.php:39
+msgid "Reviews navigation"
+msgstr "Vélemények navigáció"
+
+#: inc/options/layout.php:24, inc/options/layout.php:217,
+#: inc/options/layout.php:234, inc/options/layout.php:250
+msgid "Right Sidebar"
+msgstr "Jobb oldalsáv"
+
+#: inc/options/social.php:79
+msgid "RSS"
+msgstr "RSS"
+
+#: classified-listing/store/custom/sidebar-store.php:28
+msgid "Saturday"
+msgstr "Szombat"
+
+#: inc/options/header.php:25
+msgid "Screen width in which mobile menu activated. Recommended value is: 992"
+msgstr ""
+"A képernyő szélessége, amelyen a mobil menü aktiválódik. Ajánlott érték: 992"
+
+#: classified-listing/custom/listing-search.php:222
+msgid "Search"
+msgstr "Keresés"
+
+#: inc/general.php:222
+msgid "Search here ..."
+msgstr "Keresés itt ..."
+
+#: inc/options/layout.php:194
+msgid "Search Layout"
+msgstr "Keresés elrendezése"
+
+#: inc/helper.php:35
+msgid "Search Results for : "
+msgstr "Keresés találatai erre :"
+
+#. translators: %s is the search query.
+#: inc/breadcrumbs.php:256
+msgid "Search results for: %s"
+msgstr "Keresés találatai erre: %s"
+
+#: inc/options/color.php:38
+msgid "Secondary Color"
+msgstr "Másodlagos szín"
+
+#: classified-listing/custom/listing-search.php:106,
+#: classified-listing/listing-form/contact.php:163,
+#: classified-listing/myaccount/form-edit-account.php:324,
+#: template-parts/header/header-offscreen.php:148,
+#: template-parts/header/part-3.php:132
+msgid "Select a location"
+msgstr "Helyszín kiválasztása"
+
+#: classified-listing/custom/listing-search.php:22,
+#: classified-listing/listing-form/category.php:49
+msgid "Select Category"
+msgstr "Összes Kategória"
+
+#: classified-listing/custom/listing-search.php:21,
+#: classified-listing/listing-form/contact.php:48,
+#: classified-listing/listing-form/contact.php:79,
+#: classified-listing/listing-form/contact.php:109,
+#: classified-listing/myaccount/form-edit-account.php:211,
+#: classified-listing/myaccount/form-edit-account.php:244,
+#: classified-listing/myaccount/form-edit-account.php:276,
+#: template-parts/header/header-offscreen.php:26,
+#: template-parts/header/header-offscreen.php:29,
+#: template-parts/header/part-3.php:15
+msgid "Select Location"
+msgstr "Összes Település"
+
+#: classified-listing/myaccount/store.php:148
+msgid "Select Opening Hours"
+msgstr "Nyitvatartási idő beállítása"
+
+#: classified-listing/custom/listing-search.php:23,
+#: classified-listing/custom/listing-search.php:197,
+#: classified-listing/listing-form/category.php:20,
+#: classified-listing/listing-form/category.php:29
+msgid "Select Type"
+msgstr "Típus kiválasztása"
+
+#: inc/options/color.php:50
+msgid ""
+"Selecting Primary Color will hide some color options from the below settings "
+"and replace them with Primary/Secondery Color"
+msgstr ""
+"Az Elsődleges szín kiválasztása elrejt néhány színbeállítást az alábbi "
+"beállítások közül, és az Elsődleges/szekunder színnel helyettesíti őket"
+
+#: classified-listing/custom/seller-info.php:33
+msgid "Seller Information"
+msgstr "Eladói információk"
+
+#: classified-listing/myaccount/store.php:25
+msgid "Settings"
+msgstr "Beállítások"
+
+#: classified-listing/listing/actions.php:104
+msgid "Share"
+msgstr "Megosztás"
+
+#: classified-listing/listing/actions.php:42
+msgid "Share this Ad:"
+msgstr "Ossza meg ezt a hirdetést:"
+
+#: inc/options/header.php:55
+msgid "Show header at the top when scrolling down"
+msgstr "Fejléc megjelenítése a tetején, ha lefelé görgetsz"
+
+#: classified-listing/custom/list-items/archive-grid-3.php:80,
+#: classified-listing/custom/list-items/archive-grid-4.php:83,
+#: classified-listing/custom/list-items/archive-list-4.php:91
+msgid "Show Phone No"
+msgstr "Telefonszám megjelenítése"
+
+#: classified-listing/custom/functions.php:510
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr "%1$d-%2$d találat megjelenítése %3$d eredményből"
+
+#: classified-listing/custom/functions.php:513
+msgid "Showing 0 result"
+msgstr "0 találat"
+
+#: classified-listing/custom/functions.php:508
+msgid "Showing 1 result"
+msgstr "1 találat"
+
+#: inc/general.php:76, inc/helper.php:184
+msgid "Sidebar"
+msgstr "Oldalsáv"
+
+#: inc/general.php:111
+msgid "Sidebar - Archive Listing"
+msgstr "Oldalsáv - Archívum listázás"
+
+#: inc/general.php:119
+msgid "Sidebar - My Account"
+msgstr "Oldalsáv - Saját fiók"
+
+#: inc/general.php:103
+msgid "Sidebar - Single Listing"
+msgstr "Oldalsáv - Egyetlen listázás"
+
+#: inc/options/advertisement.php:214
+msgid "Single Listing Page"
+msgstr "Egyetlen listaoldal"
+
+#: inc/options/listing.php:99
+msgid "Single Listing Style"
+msgstr "Egyetlen listázás stílusa"
+
+#: inc/options/advertisement.php:250
+msgid "Single Post"
+msgstr "Egyetlen poszt"
+
+#: inc/options/color.php:24
+msgid "Sitewide Colors"
+msgstr "Egész oldalra kiterjedő színek"
+
+#: header.php:21
+msgid "Skip to content"
+msgstr "Ugrás a tartalomra"
+
+#: classified-listing/myaccount/store.php:226
+msgid "Slogan"
+msgstr "Szlogen"
+
+#: classified-listing/listing-form/social-profiles.php:29
+msgid "Social Profiles"
+msgstr "Közösségi profilok"
+
+#: classified-listing/listing/social-profiles.php:22
+msgid "Social Profiles:"
+msgstr "Közösségi profilok:"
+
+#: inc/options/post.php:73
+msgid "Social Sharing Icons"
+msgstr "Közösségi megosztás ikonok"
+
+#: classified-listing/myaccount/store.php:361
+msgid "Socials"
+msgstr "Közösségi média"
+
+#: inc/scripts.php:109
+msgid "Sold Out"
+msgstr "Eladva"
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Probléma adódott a plugin API-val."
+
+#: inc/helper/lc-utility.php:133
+msgid "Sorry!!! Purchase code does not match"
+msgstr "Sajnáljuk! A vásárlási kód nem egyezik"
+
+#: template-parts/content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Sajnáljuk, de semmi sem felel meg a keresési feltételeknek. Kérjük, próbálja "
+"meg újra más kulcsszavakkal."
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Forrás"
+
+#: inc/options/listing.php:160
+msgid "Standard"
+msgstr "Standard"
+
+#: classified-listing/custom/list-box-myaccount.php:66,
+#: classified-listing/custom/myaccount-contents.php:27,
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Állapot"
+
+#: inc/options/header.php:51
+msgid "Sticky Header"
+msgstr "Ragadós fejléc"
+
+#: classified-listing/myaccount/store.php:47
+msgid "Store Banner"
+msgstr "Bolt banner"
+
+#: classified-listing/myaccount/store.php:248
+msgid "Store Category"
+msgstr "Bolt kategória"
+
+#: classified-listing/myaccount/store.php:40
+msgid "Store Images"
+msgstr "Bolt képei"
+
+#: classified-listing/myaccount/store.php:195,
+#: classified-listing/store/custom/sidebar-store.php:43
+msgid "Store Information"
+msgstr "Bolt információi"
+
+#: classified-listing/myaccount/store.php:83
+msgid "Store Logo"
+msgstr "Bolt logó"
+
+#: classified-listing/myaccount/store.php:215
+msgid "Store Name"
+msgstr "Bolt neve"
+
+#: classified-listing/content-single-store.php:142
+msgid "Store Review"
+msgstr "Bolt értékelés"
+
+#: classified-listing/myaccount/store.php:128
+msgid "Store Schedule"
+msgstr "Nyitvatartás kezelése"
+
+#: classified-listing/myaccount/store.php:200
+msgid "Store Slug / URL"
+msgstr "Bolt Slug / URL"
+
+#: classified-listing/custom/functions.php:162
+msgid "Style"
+msgstr "Stílus"
+
+#: inc/options/footer.php:28, inc/options/layout.php:75,
+#: inc/options/listing.php:32, inc/options/listing.php:88,
+#: inc/options/listing.php:101, inc/options/listing.php:129
+msgid "Style 1"
+msgstr "1. stílus"
+
+#: inc/options/footer.php:32, inc/options/layout.php:76,
+#: inc/options/listing.php:33, inc/options/listing.php:89,
+#: inc/options/listing.php:102, inc/options/listing.php:130
+msgid "Style 2"
+msgstr "2. stílus"
+
+#: inc/options/listing.php:34, inc/options/listing.php:90,
+#: inc/options/listing.php:103
+msgid "Style 3"
+msgstr "3. stílus"
+
+#: inc/options/listing.php:35, inc/options/listing.php:91,
+#: inc/options/listing.php:104
+msgid "Style 4"
+msgstr "4. stílus"
+
+#: inc/options/listing.php:36, inc/options/listing.php:92
+msgid "Style 5"
+msgstr "5. stílus"
+
+#: inc/options/listing.php:37
+msgid "Style 6"
+msgstr "6. stílus"
+
+#: inc/options/listing.php:38
+msgid "Style 7"
+msgstr "7. stílus"
+
+#: classified-listing/listing-form/category.php:80
+msgid "Sub Category"
+msgstr "Alkategória"
+
+#: inc/options/color.php:89
+msgid "Sub Menu"
+msgstr "Almenü"
+
+#: inc/options/typography.php:158
+msgid "Sub Menu Items"
+msgstr "Almenüelemek"
+
+#: inc/options/color.php:96
+msgid "Submenu Color"
+msgstr "Almenü Szín"
+
+#: inc/options/typography.php:164
+msgid "Submenu Font"
+msgstr "Almenü betűtípus"
+
+#: inc/options/color.php:110
+msgid "Submenu Hover Background Color"
+msgstr "Almenü Hover háttérszín"
+
+#: inc/options/color.php:103
+msgid "Submenu Hover Color"
+msgstr "Almenü Hover szín"
+
+#: classified-listing/listing/actions.php:129,
+#: classified-listing/single-rtcl_listing-reviews.php:88
+msgid "Submit"
+msgstr "Küldés"
+
+#: classified-listing/listing-form/form.php:15
+msgid "Submit Listing"
+msgstr "Listázás beküldése"
+
+#: classified-listing/store/custom/sidebar-store.php:22
+msgid "Sunday"
+msgstr "Vasárnap"
+
+#: inc/helper/lc-helper.php:176
+msgid "Support Center"
+msgstr "Támogatási központ"
+
+#: inc/options/advertisement.php:166
+msgid "Supports: Shortcode, Adsense, Text, HTML, Scripts"
+msgstr "Támogatva: Shortcode, Adsense, Szöveg, HTML, Script"
+
+#: inc/options/listing.php:57
+msgid "Tablet"
+msgstr "Tablet"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:346
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"A következő plugint a legújabb verzióra kell frissíteni, hogy a témával "
+"maximálisan kompatibilis legyen: %1$s."
+msgstr[1] ""
+"A következő bővítményeket a legújabb verzióra kell frissíteni a témával való "
+"maximális kompatibilitás érdekében: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:388,
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "A következő bővítményt sikeresen aktiváltuk:"
+msgstr[1] "A következő bővítményeket sikeresen aktiváltuk:"
+
+#: inc/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "A következő ajánlott plugin jelenleg inaktív: %1$s."
+msgstr[1] "A következő ajánlott bővítmények jelenleg inaktívak: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "A következő szükséges plugin jelenleg inaktív: %1$s."
+msgstr[1] "A következő szükséges bővítmények jelenleg inaktívak: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"A telepítési és aktiválási folyamat elindul. Ez a folyamat néhány gépen "
+"eltarthat egy ideig, ezért kérjük, legyen türelmes."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "A %1$s telepítése sikertelen volt."
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"A telepítési folyamat elindul. Ez a folyamat néhány gépen eltarthat egy "
+"ideig, ezért kérjük, legyen türelmes."
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"A távoli bővítménycsomag egynél több fájlból áll, de a fájlok nincsenek "
+"mappába csomagolva."
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"A távoli plugin csomag nem tartalmaz a kívánt sluggal rendelkező mappát, és "
+"az átnevezés nem működött."
+
+#: inc/helper/lc-helper.php:45, inc/helper/lc-helper.php:45,
+#: inc/helper/lc-helper.php:58
+msgid "Theme License"
+msgstr "Téma licenc"
+
+#: inc/options/init.php:34, inc/options/init.php:35
+msgid "Theme Options"
+msgstr "Téma beállítások"
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Egy vagy több szükséges vagy ajánlott bővítményt kell telepíteni, frissíteni "
+"vagy aktiválni."
+
+#: inc/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Frissítés elérhető a következőkhöz: %1$s."
+msgstr[1] "A következő bővítményekhez vannak frissítések: %1$s."
+
+#: classified-listing/listing-form/terms-conditions.php:36
+msgid "This field is required"
+msgstr "Mező kitöltése kötelező"
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ezt a plugint frissíteni kell, hogy kompatibilis legyen a témával."
+
+#: classified-listing/myaccount/store.php:208
+msgid ""
+"This should be unique and you can't able to change in future. This will be "
+"your store url."
+msgstr ""
+"Ennek egyedinek kell lennie, és a jövőben nem lehet megváltoztatni. Ez lesz "
+"a bolt url címe."
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ez a téma a következő plugint ajánlja: %1$s."
+msgstr[1] "Ez a téma a következő bővítményeket ajánlja: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ez a téma a következő plugint igényli: %1$s."
+msgstr[1] "Ez a téma a következő bővítményeket igényli: %1$s."
+
+#: classified-listing/listing-form/contact.php:208
+msgid "This will be your username"
+msgstr "Ez lesz az Ön felhasználóneve"
+
+#: classified-listing/store/custom/sidebar-store.php:26
+msgid "Thursday"
+msgstr "Csütörtök"
+
+#: inc/options/general.php:62
+msgid "Time Format"
+msgstr "Idő formátum"
+
+#: classified-listing/listing-form/information.php:37
+msgid "Title"
+msgstr "Cím"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "A <span class=\"count\">(%s)</span> aktiválásához"
+msgstr[1] "A <span class=\"count\">(%s)</span> aktiválásához"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "A <span class=\"count\">(%s)</span> telepítéséhez"
+msgstr[1] "A <span class=\"count\">(%s)</span> telepítéséhez"
+
+#: classified-listing/custom/sidebar-archive.php:10
+msgid "Toggle Filter"
+msgstr "Szűrő kapcsolása"
+
+#: inc/options/color.php:55, inc/options/header.php:34,
+#: inc/options/layout.php:50
+msgid "Top Bar"
+msgstr "Felső sáv"
+
+#: inc/options/color.php:62
+msgid "Top Bar Background Color"
+msgstr "Felső sáv háttérszín"
+
+#: classified-listing/booking/confirmation-form.php:52
+msgid "Total Reservation Fee: %s%s"
+msgstr "Foglalási díj összesen: %s%s"
+
+#: inc/options/header.php:60, inc/options/layout.php:39
+msgid "Transparent Header"
+msgstr "Átlátszó fejléc"
+
+#: classified-listing/store/custom/sidebar-store.php:24
+msgid "Tuesday"
+msgstr "Kedd"
+
+#: inc/options/social.php:49
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Típus"
+
+#: inc/options/typography.php:16
+msgid "Typography"
+msgstr "Tipográfia"
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Frissítés"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "%2$s frissítése"
+
+#: classified-listing/myaccount/form-edit-account.php:358
+msgid "Update Account"
+msgstr "Profil frissítése"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Elérhető frissítés <span class=\"count\">(%s)</span>"
+msgstr[1] "Elérhető frissítés <span class=\"count\">(%s)</span>"
+
+#: classified-listing/listing-form/form.php:15
+msgid "Update Listing"
+msgstr "Listázás frissítése"
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Frissítés ajánlott"
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Frissítés szükséges"
+
+#: classified-listing/myaccount/store.php:386
+msgid "Update Store"
+msgstr "Bolti adatainak frissítése"
+
+#: inc/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s frissítése (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Plugin frissítése: %s"
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Frissítési üzenet a plugin szerzőjétől:"
+
+#: inc/options/header.php:133
+msgid "Used on mobile menu"
+msgstr "Mobil menüben használatos"
+
+#: inc/options/header.php:118
+msgid "Used on only header layout 5"
+msgstr "Csak a fejléc elrendezésénél használatos 5"
+
+#: inc/options/general.php:36
+msgid "Used when Transparent Header is enabled"
+msgstr "Akkor használatos, ha az Átlátszó fejléc engedélyezve van"
+
+#: classified-listing/myaccount/form-edit-account.php:53
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Verzió"
+
+#: classified-listing/single-rtcl_listing-reviews.php:106
+msgid "Very poor"
+msgstr "Nagyon gyenge"
+
+#: classified-listing/custom/seller-info.php:66
+msgid "View Store"
+msgstr "Bolt megtekintése"
+
+#: classified-listing/custom/seller-info.php:60,
+#: classified-listing/store/custom/sidebar-store.php:52
+msgid "Visit Website"
+msgstr "Weboldal meglátogatása"
+
+#: classified-listing/custom/list-items/archive-list-3.php:61,
+#: classified-listing/custom/list-items/archive-list-4.php:61,
+#: classified-listing/custom/list-items/archive-list-7.php:62
+msgid "Visit: %1$s"
+msgstr "Látogassa meg: %1$s"
+
+#: inc/options/error.php:33
+msgid "We can't find the page you're looking for"
+msgstr "Nem találjuk a keresett oldalt"
+
+#: classified-listing/listing-form/contact.php:218,
+#: classified-listing/myaccount/form-edit-account.php:189,
+#: classified-listing/myaccount/store.php:328, comments.php:73
+msgid "Website"
+msgstr "Honlap"
+
+#: classified-listing/store/custom/sidebar-store.php:25
+msgid "Wednesday"
+msgstr "Szerda"
+
+#. translators: Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs.php:264
+msgid "Week %s"
+msgstr "Hét %s"
+
+#: inc/breadcrumbs.php:804
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: classified-listing/listing-form/contact.php:188
+msgid "Whatsapp Number"
+msgstr "Whatsapp szám"
+
+#: classified-listing/listing-form/contact.php:193
+msgid "Whatsapp number with your country code. e.g.+1xxxxxxxxxx"
+msgstr "Whatsapp-szám az országkóddal. pl. +1xxxxxxxxxx"
+
+#: classified-listing/myaccount/form-edit-account.php:178
+msgid "WhatsApp Phone"
+msgstr "WhatsApp telefon"
+
+#: inc/options/general.php:42
+msgid ""
+"Width is defined by the number of bootstrap columns. Please note, navigation "
+"menu width will be decreased with the increase of logo width"
+msgstr ""
+"A szélességet a bootstrap oszlopok száma határozza meg. Kérjük, vegye "
+"figyelembe, hogy a navigációs menü szélessége a logó szélességének "
+"növelésével csökken"
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress tároló"
+
+#: inc/options/header.php:42
+msgid "WPML Language Switchers"
+msgstr "WPML nyelvváltók"
+
+#: classified-listing/listing-form/information.php:231
+msgid "Write a feature in each line eg. %1$sFeature 1%1$sFeature 2%1$s..."
+msgstr ""
+"Minden sorba írjon egy jellemzőt, pl. %1$sFull HD kijelző%1$s10 órás "
+"akkumlátor idő%1$s..."
+
+#: classified-listing/booking/confirmation-form.php:74
+msgid "Write your message here"
+msgstr "Írja meg üzenetét itt"
+
+#: inc/breadcrumbs.php:774, inc/breadcrumbs.php:803, inc/breadcrumbs.php:830,
+#: inc/breadcrumbs.php:857, inc/breadcrumbs.php:1198
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/options/header.php:64
+msgid "You have to enable Banner or Slider in page to make it work properly"
+msgstr ""
+"Engedélyeznie kell a Banner vagy a Slider használatát az oldalon, hogy "
+"megfelelően működjön"
+
+#: inc/general.php:281
+msgid ""
+"You have to must update <strong>Classified Listing Pro</strong> plugin, "
+"otherwise functionality will not work properly."
+msgstr ""
+"Frissítenie kell a <strong>Classified Listing Pro</strong> plugint, különben "
+"a funkciók nem fognak megfelelően működni."
+
+#: classified-listing/single-rtcl_listing-reviews.php:95
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "A véleményíráshoz <a href=\"%s\">be kell jelentkeznie</a>."
+
+#: template-parts/comments-callback.php:45
+msgid "Your comment is awaiting moderation."
+msgstr "Hozzászólása moderálásra vár."
+
+#: classified-listing/listing/actions.php:121
+msgid "Your Complain"
+msgstr "Az Ön panasza"
+
+#: classified-listing/single-rtcl_listing-reviews.php:85
+msgid "Your Email"
+msgstr "Az Ön e-mail címe"
+
+#: classified-listing/single-rtcl_listing-reviews.php:83
+msgid "Your Name"
+msgstr "Az Ön neve"
+
+#: classified-listing/single-rtcl_listing-reviews.php:100
+msgid "Your Rating"
+msgstr "Az Ön értékelése"
+
+#: classified-listing/single-rtcl_listing-reviews.php:110
+msgid "Your Review"
+msgstr "Az Ön véleménye"
+
+#: classified-listing/listing/review.php:48
+msgid "Your review is awaiting moderation."
+msgstr "A véleménye moderálásra vár."
+
+#: inc/options/social.php:61
+msgid "Youtube"
+msgstr "Youtube"
+
+#: classified-listing/listing-form/contact.php:130,
+#: classified-listing/myaccount/form-edit-account.php:295
+msgid "Zip Code"
+msgstr "Irányítószám"

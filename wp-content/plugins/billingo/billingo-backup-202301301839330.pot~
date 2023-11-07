@@ -1,0 +1,729 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Integration for Billingo & WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-30 18:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: billingo"
+
+#: admin/class-billingo-admin.php:359
+msgid ""
+"(pl.: WooCheckout vagy Custom WooCommerce Checkout Fields Editor pluginnel). "
+"Fixen meg fog jelenni a számlákon. Ha ezt az opciót használja, akkor a "
+"fentebb található \"Adószám mező megjelenítése vásárláskor\" opció "
+"bekapcsolása nem szükséges."
+msgstr ""
+
+#: admin/class-billingo-admin.php:468
+msgid "-- Válassz! --"
+msgstr ""
+
+#: admin/class-billingo-admin.php:398
+msgid "0% ÁFA felülíráshoz tartozó jogcím"
+msgstr ""
+
+#: admin/class-billingo-admin.php:176
+msgid "A Billingo vezérlőpultban az API menüben található."
+msgstr ""
+
+#: admin/class-billingo-admin.php:365
+msgid ""
+"A felhasználóhoz tartozó, adószámot tartalmazó meta mező neve az "
+"adatbázisban (pl.: billing_adoszam, vagy billing_myfield5)."
+msgstr ""
+
+#: admin/class-billingo-admin.php:773
+msgid "A storno számla sorszáma:"
+msgstr ""
+
+#: admin/class-billingo-admin.php:414
+msgid ""
+"A szállítási díjnál is kicserélődjön-e az ÁFA. (Pl.: termékeknél legyen "
+"felülírás 'AM'-re, de a szállítás 27% maradjon, akkor NE jelölje be ezt a "
+"mezőt.)"
+msgstr ""
+
+#: admin/class-billingo-admin.php:837
+msgid ""
+"A számla automatikusan elkészül és el lesz küldve a vásárlónak, a megfelelő "
+"rendelésállapot beállításakor."
+msgstr ""
+
+#: includes/class-billingo.php:109 includes/class-billingo.php:110
+#: includes/class-billingo.php:987
+msgid "A számla már korábban sztornózásra került."
+msgstr ""
+
+#: admin/class-billingo-admin.php:786
+msgid "A számla sorszáma:"
+msgstr ""
+
+#: admin/class-billingo-admin.php:736
+msgid "A számlakészítés ki lett kapcsolva, mert: "
+msgstr ""
+
+#: admin/class-billingo-admin.php:729
+msgid ""
+"A számlakészítéshez meg kell adnod a Billingo API kulcsokat a Woocommerce "
+"beállításokban!"
+msgstr ""
+
+#: admin/class-billingo-admin.php:183
+msgid "A számlázáshoz használandó számlatömb."
+msgstr ""
+
+#: admin/class-billingo-admin.php:352
+msgid ""
+"A számlázási adatok alján egy új mező kerül hozzáadásra, melybe az adószámot "
+"kérjük be. Ez automatikusan rákerül a számlára is. A rendelés adataiban "
+"tároljuk, ha kézzel kell megadni (utólag) a rendeléskezelőben, akkor az "
+"egyedi mezőknél egy \"adoszam\" mezőt kell kitölteni."
+msgstr ""
+
+#: admin/class-billingo-admin.php:388 admin/class-billingo-admin.php:402
+msgid "A választott ÁFA kulcshoz kötelező a megadott jogcímekből választani."
+msgstr ""
+
+#: admin/class-billingo-admin.php:330
+msgid ""
+"A választott ár kerül átadásra a Billingo felé. (Átszámítás miatti "
+"kerekítési hibák elkerülésére.)"
+msgstr ""
+
+#: includes/class-billingo.php:1228
+msgctxt "Adószám (magánszemélyek esetében nem kötelező)"
+msgid "Adószám (magánszemélyek esetében nem kötelező)"
+msgstr ""
+
+#: admin/class-billingo-admin.php:347
+msgid "Adószám Beállítások"
+msgstr ""
+
+#: admin/class-billingo-admin.php:368
+msgid "Adószám figyelmeztetés"
+msgstr ""
+
+#: admin/class-billingo-admin.php:349
+msgid "Adószám mező megjelenítése vásárláskor"
+msgstr ""
+
+#: admin/class-billingo-admin.php:362
+msgid "Adószámot tartalmazó egyedi meta mező neve."
+msgstr ""
+
+#: admin/class-billingo-admin.php:167 admin/class-billingo-admin.php:168
+msgid "Alapértelmezett"
+msgstr ""
+
+#: admin/class-billingo-admin.php:288
+msgid "Alapértelmezett fizetési mód"
+msgstr ""
+
+#: admin/class-billingo-admin.php:258
+msgid "Alrendelés számlázás tiltása"
+msgstr ""
+
+#: admin/class-billingo-admin.php:264
+msgid "Automata sztornózás"
+msgstr ""
+
+#: admin/class-billingo-admin.php:240
+msgid "Automata számlakészítés"
+msgstr ""
+
+#: admin/class-billingo-admin.php:371
+msgid ""
+"Az adószám megadása kötelező magyar adóalanyok esetében, ezért amennyiben "
+"rendelkezik adószámmal, azt kötelező megadni a számlázási adatoknál."
+msgstr ""
+
+#: admin/class-billingo-admin.php:195
+msgid "Bankszámla EUR"
+msgstr ""
+
+#: admin/class-billingo-admin.php:188
+msgid "Bankszámla HUF"
+msgstr ""
+
+#: includes/class-billingo.php:551
+msgid "Barion tranzakció azonosító"
+msgstr ""
+
+#: admin/class-billingo-admin.php:218
+msgid "Barion tranzakció azonosító hozzáadása a megjegyzéshez"
+msgstr ""
+
+#: admin/class-billingo-admin.php:306
+msgid ""
+"Bekapcsolva a rendeléskor használt nyelven kerül kiállításra a számla. WPML "
+"és WooCommerce Multilingual pluginok szükségesek ehhez a funkcióhoz."
+msgstr ""
+
+#: admin/class-billingo-admin.php:420
+msgid "Bekapcsolva a szállító 0 összegű tételként is rákerül a számlára."
+msgstr ""
+
+#: admin/class-billingo-admin.php:261
+msgid "Bekapcsolva az alrendelésekről nem készülhet számla."
+msgstr ""
+
+#: admin/class-billingo-admin.php:171
+msgid "Billingo API Beállítások"
+msgstr ""
+
+#: admin/class-billingo-admin.php:704
+msgid "Billingo díjbekérő"
+msgstr ""
+
+#: includes/class-billingo.php:684
+msgid "Billingo díjbekérő sikeresen létrehozva. A díjbekérő sorszáma: "
+msgstr ""
+
+#. Description of the plugin
+msgid "Billingo online számlázó összeköttetés WooCommerce-hez"
+msgstr ""
+
+#: includes/class-billingo.php:679
+msgid "Billingo piszkozat sikeresen létrehozva. A sorszáma: "
+msgstr ""
+
+#: admin/class-billingo-admin.php:696
+msgid "Billingo számla"
+msgstr ""
+
+#: admin/class-billingo-admin.php:186
+msgid "Billingo Számla Beállítások"
+msgstr ""
+
+#: includes/class-billingo.php:689
+msgid "Billingo számla sikeresen létrehozva. A számla sorszáma: "
+msgstr ""
+
+#: includes/class-billingo.php:641
+msgid "Billingo számlakészítés sikertelen!"
+msgstr ""
+
+#: admin/class-billingo-admin.php:446
+msgid "Billingo-beli megfelelője"
+msgstr ""
+
+#: admin/class-billingo-admin.php:327
+msgid "Bruttó"
+msgstr ""
+
+#: includes/class-billingo.php:739
+msgid "Cikkszám"
+msgstr ""
+
+#: admin/class-billingo-admin.php:224
+msgid "Cikkszám hozzáadása a tételek megjegyzéseihez"
+msgstr ""
+
+#: admin/class-billingo-admin.php:343
+msgid "Csak cégnév"
+msgstr ""
+
+#: admin/class-billingo-admin.php:495
+msgid "Csak ha fent be van kapcsolva a díjbekérő kiállítása"
+msgstr ""
+
+#: admin/class-billingo-admin.php:507
+msgid "Csatolás a WooCommerce E-mailhez"
+msgstr ""
+
+#: admin/class-billingo-admin.php:342
+msgid "Cégnév + Név"
+msgstr ""
+
+#: admin/class-billingo-admin.php:338
+msgid "Cégnév feltűntetése"
+msgstr ""
+
+#: includes/class-billingo.php:706
+msgid "db"
+msgstr ""
+
+#: admin/class-billingo-admin.php:528 admin/class-billingo-admin.php:751
+#: admin/class-billingo-admin.php:827
+msgid "Díjbekérő"
+msgstr ""
+
+#: admin/class-billingo-admin.php:810
+msgid "Díjbekérő figyelmen kívül hagyása"
+msgstr ""
+
+#: admin/class-billingo-admin.php:450
+msgid "Díjbekérő kiállítása*"
+msgstr ""
+
+#: admin/class-billingo-admin.php:515
+msgid "Díjbekérő letöltése"
+msgstr ""
+
+#: admin/class-billingo-admin.php:271
+msgid "Díjbekérő létrehozása"
+msgstr ""
+
+#: includes/class-billingo.php:685
+msgid "Díjbekérő megtekintése"
+msgstr ""
+
+#: includes/class-billingo.php:683
+msgid "Díjbekérő sikeresen létrehozva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:519
+msgid "Díjbekérője elkészült, melyet az alábbi linken tud letölteni."
+msgstr ""
+
+#: admin/class-billingo-admin.php:523
+msgid "E-mail Beállítások"
+msgstr ""
+
+#: admin/class-billingo-admin.php:356
+msgid "Egyedi meta mezőt használok adószámhoz"
+msgstr ""
+
+#: admin/class-billingo-admin.php:229
+msgid "Elektronikus számla"
+msgstr ""
+
+#: admin/class-billingo-admin.php:629
+msgid "Elérhetőség"
+msgstr ""
+
+#: admin/class-billingo-admin.php:199
+msgid "Euró (EUR) számlákhoz használt bankszámla."
+msgstr ""
+
+#: admin/class-billingo-admin.php:293
+msgid ""
+"Ez akkor kerül használatra, ha a rendeléshez nincs fizetési mód társítva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:571
+msgid ""
+"Ez az üzenet jelenik meg az emailben,<br>ha a csatolás be van kapcsolva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:372
+msgid ""
+"Ez az üzenet jelenik meg felül a fizetés oldalon, ha az \"Adószám mező "
+"megjelenítése vásárláskor\" opció be van kapcsolva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:559
+msgid "Ez lesz a gomb szövege az emailben,<br>ha a csatolás be van kapcsolva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:448
+msgid "Fizetettnek jelölés (Díjbekérő esetén)"
+msgstr ""
+
+#: admin/class-billingo-admin.php:449
+msgid "Fizetettnek jelölés (Éles számla esetén)"
+msgstr ""
+
+#: admin/class-billingo-admin.php:447
+msgid "Fizetési határidő"
+msgstr ""
+
+#: admin/class-billingo-admin.php:818
+msgid "Fizetési határidő (nap)"
+msgstr ""
+
+#: admin/class-billingo-admin.php:445
+msgid "Fizetési mód (helyi)"
+msgstr ""
+
+#: includes/class-billingo.php:541
+msgid "Fizetési mód ismeretlen: "
+msgstr ""
+
+#: admin/class-billingo-admin.php:441
+msgid "Fizetési módok beállításai"
+msgstr ""
+
+#: admin/class-billingo-admin.php:192
+msgid "Forint (HUF) számlákhoz használt bankszámla."
+msgstr ""
+
+#: admin/class-billingo-admin.php:571
+msgid "Gomb feletti szöveg"
+msgstr ""
+
+#: admin/class-billingo-admin.php:559
+msgid "Gomb szöveg"
+msgstr ""
+
+#: admin/class-billingo-admin.php:395
+msgid "Ha 0%-ra jön ki az ÁFA, akkor legyen kicserélve a kiválasztottra."
+msgstr ""
+
+#: admin/class-billingo-admin.php:408
+msgid ""
+"Ha a megrendelő országa EU-s ország, akkor \"EU\", ha azon kívüli, akkor "
+"\"EUK\" ÁFA kulcs kerül használatra. (Az alábbi opciót kapcsolja be a "
+"szállító felülírásához!)"
+msgstr ""
+
+#: admin/class-billingo-admin.php:812
+msgid ""
+"Ha a rendelés módosítva lett a díjbekérő kiállítása óta, akkor ezt a mezőt "
+"jelölje be, hogy a számla friss adatokkal készüljön a korábbi díjbekérő "
+"helyett."
+msgstr ""
+
+#: admin/class-billingo-admin.php:268
+msgid ""
+"Ha be van kapcsolva, a kiválasztott rendelés állapotba váltáskor "
+"automatikusan sztornózásra kerül az éles számla, ha már létezett."
+msgstr ""
+
+#: admin/class-billingo-admin.php:248
+msgid ""
+"Ha be van kapcsolva, akkor a rendelés alább beállított állapotra váltásakor "
+"automatikusan kiállításra kerül a számla, vagy piszkozat készül."
+msgstr ""
+
+#: admin/class-billingo-admin.php:279
+msgid ""
+"Ha be van kapcsolva, akkor a rendelés létrejöttekor automatán kiállításra "
+"kerül egy díjbekérő (vagy piszkozat készül)."
+msgstr ""
+
+#: admin/class-billingo-admin.php:285
+msgid ""
+"Ha be van kapcsolva, akkor piszkozat számláknál beállításra kerül a \"Küldés "
+"Billingon keresztül\" opció."
+msgstr ""
+
+#: admin/class-billingo-admin.php:255
+msgid ""
+"Ha feljebb be van kapcsolva az automata számlakészítés, akkor ebbe a "
+"rendelés állapotba váltáskor fog számla vagy piszkozat készülni."
+msgstr ""
+
+#: admin/class-billingo-admin.php:319
+msgid ""
+"Ha meg van adva, erre cserélődik az alapértelmezett \"db\" mennyiségi egység "
+"a termékeknél."
+msgstr ""
+
+#: admin/class-billingo-admin.php:619
+msgid "Hibakeresést segítő kód"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pws-online.com"
+msgstr ""
+
+#: admin/class-billingo-admin.php:353
+msgid ""
+"HuCommerce plugin használata esetén ne kapcsolja be, az adószám "
+"automatikusan átadásra kerül, amennyiben a vásárló megadta."
+msgstr ""
+
+#: admin/class-billingo-admin.php:246 admin/class-billingo-admin.php:277
+msgid "Igen, de csak piszkozat"
+msgstr ""
+
+#: admin/class-billingo-admin.php:276
+msgid "Igen, díjbekérő"
+msgstr ""
+
+#: admin/class-billingo-admin.php:245
+msgid "Igen, rendes számla"
+msgstr ""
+
+#. Name of the plugin
+msgid "Integration for Billingo & WooCommerce"
+msgstr ""
+
+#: includes/class-billingo.php:755
+msgid "Kedvezmény"
+msgstr ""
+
+#: admin/class-billingo-admin.php:309
+msgid "Kerekítés"
+msgstr ""
+
+#: admin/class-billingo-admin.php:333
+msgid "Keresztnév és vezetéknév felcserélése"
+msgstr ""
+
+#: admin/class-billingo-admin.php:535
+msgid "Küldés"
+msgstr ""
+
+#: admin/class-billingo-admin.php:506
+msgid "Küldés külön E-mailben"
+msgstr ""
+
+#: admin/class-billingo-admin.php:755
+msgid "Letöltés"
+msgstr ""
+
+#: admin/class-billingo-admin.php:208 admin/class-billingo-admin.php:815
+msgid "Megjegyzés"
+msgstr ""
+
+#: includes/class-billingo.php:556
+msgid "Megrendelés azonosító"
+msgstr ""
+
+#: admin/class-billingo-admin.php:213
+msgid "Megrendelés azonosító hozzáadása a megjegyzéshez"
+msgstr ""
+
+#: admin/class-billingo-admin.php:316
+msgid "Mennyiségi egység"
+msgstr ""
+
+#: admin/class-billingo-admin.php:508
+msgid "Mindkét előző opció"
+msgstr ""
+
+#: includes/class-billingo.php:489
+msgid "Már létezik a díjbekérő."
+msgstr ""
+
+#: includes/class-billingo.php:489
+msgid "Már létezik a számla."
+msgstr ""
+
+#: admin/class-billingo-admin.php:635
+msgid "Naplófájlok elérhetősége"
+msgstr ""
+
+#: admin/class-billingo-admin.php:244 admin/class-billingo-admin.php:267
+#: admin/class-billingo-admin.php:275 admin/class-billingo-admin.php:505
+msgid "Nem"
+msgstr ""
+
+#: includes/class-billingo.php:666
+msgid "Nem sikerült elküldeni emailben a számlát"
+msgstr ""
+
+#: includes/class-billingo.php:659
+msgid "Nem sikerült létrehozni a letöltési linket a számlához."
+msgstr ""
+
+#: includes/class-billingo.php:640
+msgid "Nem sikerült létrehozni a számlát."
+msgstr ""
+
+#: includes/class-billingo.php:530
+msgid "Nem sikerült létrehozni az ügyfelet."
+msgstr ""
+
+#: includes/class-billingo.php:118 includes/class-billingo.php:119
+#: includes/class-billingo.php:993
+msgid "Nem sikerült sztornózni a számlát: "
+msgstr ""
+
+#: admin/class-billingo-admin.php:328
+msgid "Nettó"
+msgstr ""
+
+#: admin/class-billingo-admin.php:805
+msgid "Opciók"
+msgstr ""
+
+#: admin/class-billingo-admin.php:828
+msgid "Piszkozat"
+msgstr ""
+
+#: includes/class-billingo.php:680
+msgid "Piszkozat megtekintése"
+msgstr ""
+
+#: includes/class-billingo.php:678
+msgid "Piszkozat sikeresen létrehozva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:282
+msgid "Piszkozatnál \"küldés Billingon keresztül\" megjelölés"
+msgstr ""
+
+#: includes/class-billingo.php:1229
+msgctxt "placeholder"
+msgid "12345678-1-23"
+msgstr ""
+
+#: admin/class-billingo-admin.php:202
+msgid "Proforma figyelmen kívül hagyása számla generálásakor"
+msgstr ""
+
+#. Author of the plugin
+msgid "PWS Online Kft. <info@pws-online.com>"
+msgstr ""
+
+#: admin/class-billingo-admin.php:293
+msgid ""
+"Például, ha kupon felhasználás közben 0 Ft-ra jön ki a rendelés végösszege, "
+"megadhatod, hogy Kupon fizetési móddal jöjjön létre a bizonylat."
+msgstr ""
+
+#: admin/class-billingo-admin.php:234
+msgid "Pénzügyi teljesítést nem igényel jelölés"
+msgstr ""
+
+#: includes/class-billingo.php:1191
+msgid "Saját számla sikeresen hozzáadva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:530
+msgid "Storno"
+msgstr ""
+
+#: admin/class-billingo-admin.php:517
+msgid "Storno számla letöltése"
+msgstr ""
+
+#: admin/class-billingo-admin.php:778
+msgid "Storno Számla megtekintése"
+msgstr ""
+
+#: admin/class-billingo-admin.php:771
+msgid "Storno számla sikeresen létrehozva."
+msgstr ""
+
+#: admin/class-billingo-admin.php:521
+msgid "Storno számlája elkészült, melyet az alábbi linken tud letölteni."
+msgstr ""
+
+#: includes/class-billingo.php:509
+msgid "Sub-order processing is disabled."
+msgstr ""
+
+#: admin/class-billingo-admin.php:796
+msgid "Sztornózás"
+msgstr ""
+
+#: includes/class-billingo.php:820
+msgid "Szállítás"
+msgstr ""
+
+#: admin/class-billingo-admin.php:417
+msgid "Szállító mindig látszódjon"
+msgstr ""
+
+#: admin/class-billingo-admin.php:529 admin/class-billingo-admin.php:826
+msgid "Számla"
+msgstr ""
+
+#: admin/class-billingo-admin.php:303
+msgid "Számla a rendelés nyelvén"
+msgstr ""
+
+#: admin/class-billingo-admin.php:516
+msgid "Számla letöltése"
+msgstr ""
+
+#: admin/class-billingo-admin.php:791 includes/class-billingo.php:690
+msgid "Számla megtekintése"
+msgstr ""
+
+#: admin/class-billingo-admin.php:296
+msgid "Számla nyelve"
+msgstr ""
+
+#: admin/class-billingo-admin.php:784 includes/class-billingo.php:688
+msgid "Számla sikeresen létrehozva."
+msgstr ""
+
+#: includes/class-billingo.php:113 includes/class-billingo.php:116
+#: includes/class-billingo.php:990
+msgid "Számla sztornózva: "
+msgstr ""
+
+#: admin/class-billingo-admin.php:824
+msgid "Számla típusa"
+msgstr ""
+
+#: admin/class-billingo-admin.php:803
+msgid "Számlakészítés"
+msgstr ""
+
+#: admin/class-billingo-admin.php:832
+msgid "Számlakészítés kikapcsolása"
+msgstr ""
+
+#: admin/class-billingo-admin.php:251
+msgid "Számlakészítés rendelés állapot"
+msgstr ""
+
+#: admin/class-billingo-admin.php:179
+msgid "Számlatömb"
+msgstr ""
+
+#: admin/class-billingo-admin.php:520
+msgid "Számlája elkészült, melyet az alábbi linken tud letölteni."
+msgstr ""
+
+#: admin/class-billingo-admin.php:821
+msgid "Teljesítési dátum"
+msgstr ""
+
+#: admin/class-billingo-admin.php:614
+msgid "Támogatás"
+msgstr ""
+
+#: admin/class-billingo-admin.php:173
+msgid "v3 API kulcs*"
+msgstr ""
+
+#: admin/class-billingo-admin.php:738
+msgid "Visszakapcsolás"
+msgstr ""
+
+#: includes/class-billingo.php:1213
+msgid "Visszakapcsolás sikeres."
+msgstr ""
+
+#: admin/class-billingo-admin.php:583
+msgid "WooCommerce template"
+msgstr ""
+
+#: admin/class-billingo-admin.php:377
+msgid "ÁFA felülírás"
+msgstr ""
+
+#: admin/class-billingo-admin.php:375
+msgid "ÁFA Felülírás Beállítások"
+msgstr ""
+
+#: admin/class-billingo-admin.php:411
+msgid "ÁFA felülírás szállítóknál is"
+msgstr ""
+
+#: admin/class-billingo-admin.php:405
+msgid "ÁFA felülírás, EU/EUK"
+msgstr ""
+
+#: admin/class-billingo-admin.php:391
+msgid "ÁFA felülírás, ha 0%"
+msgstr ""
+
+#: admin/class-billingo-admin.php:384
+msgid "ÁFA felülíráshoz tartozó jogcím"
+msgstr ""
+
+#: admin/class-billingo-admin.php:381
+msgid "ÁFA érték kicserélése globálisan a kiválasztottra (ha nem üres)."
+msgstr ""
+
+#: admin/class-billingo-admin.php:323
+msgid "Árazás"
+msgstr ""

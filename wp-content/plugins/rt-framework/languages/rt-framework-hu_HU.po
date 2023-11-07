@@ -1,0 +1,184 @@
+# Copyright (C) 2019 rt-framework
+# This file is distributed under the same license as the rt-framework package.
+msgid ""
+msgstr ""
+"Project-Id-Version: rt-framework\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Magyar\n"
+"Report-Msgid-Bugs-To: support@radiustheme.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"POT-Creation-Date: 2023-01-09 14:25+0000\n"
+"PO-Revision-Date: 2023-01-10 11:59+0000\n"
+"Last-Translator: admin\n"
+"Language: hu_HU\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: inc/rt-postmeta-fields.php:76
+msgid "Add More"
+msgstr "Több hozzáadása"
+
+#: inc/rt-postmeta-fields.php:205, inc/rt-widget-fields.php:114
+msgid "Click here to select options"
+msgstr "Kattintson ide a lehetőségek kiválasztásához"
+
+#: inc/rt-postmeta-fields.php:273, inc/rt-widget-fields.php:101
+msgid "Choose Image"
+msgstr "Kép kiválasztása"
+
+#: inc/rt-postmeta-fields.php:274, inc/rt-widget-fields.php:102
+msgid "Remove Image"
+msgstr "Kép eltávolítása"
+
+#: inc/rt-postmeta-fields.php:299
+msgid "Add/Edit Gallery Images"
+msgstr "Galériaképek hozzáadása/szerkesztése"
+
+#: inc/rt-postmeta-fields.php:300
+msgid "Remove All Images"
+msgstr "Minden kép eltávolítása"
+
+#: inc/rt-postmeta-fields.php:322
+msgid "Choose File"
+msgstr "Fájl kiválasztása"
+
+#: inc/rt-postmeta-fields.php:323
+msgid "Remove File"
+msgstr "Fájl eltávolítása"
+
+#: inc/rt-posts.php:43
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: inc/rt-posts.php:44, inc/rt-posts.php:111
+msgid "Add New %s"
+msgstr "Új %s hozzáadása"
+
+#: inc/rt-posts.php:45, inc/rt-posts.php:108
+msgid "Edit %s"
+msgstr "Szerkeszteni %s"
+
+#: inc/rt-posts.php:46
+msgid "New %s"
+msgstr "Új %s"
+
+#: inc/rt-posts.php:47, inc/rt-posts.php:48, inc/rt-posts.php:109
+msgid "View %s"
+msgstr "Nézet %s"
+
+#: inc/rt-posts.php:49, inc/rt-posts.php:103
+msgid "Search %s"
+msgstr "Keresés %s"
+
+#: inc/rt-posts.php:50
+msgid "%s not found"
+msgstr "%s nem található"
+
+#: inc/rt-posts.php:51
+msgid "%s found in Trash"
+msgstr "%s találtuk a szemetesben"
+
+#: inc/rt-posts.php:53, inc/rt-posts.php:105
+msgid "All %s"
+msgstr "Minden %s"
+
+#: inc/rt-posts.php:54
+msgid "%s Archives"
+msgstr "%s Archívum"
+
+#: inc/rt-posts.php:55
+msgid "%s Attributes"
+msgstr "%s Attribútumok"
+
+#: inc/rt-posts.php:56
+msgid "Insert into %s"
+msgstr "Beszúrás a %s-be"
+
+#: inc/rt-posts.php:57
+msgid "Uploaded to this %s"
+msgstr "Feltöltve erre a %s"
+
+#: inc/rt-posts.php:58
+msgid "Filter %s list"
+msgstr "%s lista szűrése"
+
+#: inc/rt-posts.php:59, inc/rt-posts.php:118
+msgid "%s list navigation"
+msgstr "%s lista navigáció"
+
+#: inc/rt-posts.php:60, inc/rt-posts.php:119
+msgid "%s list"
+msgstr "%s lista"
+
+#: inc/rt-posts.php:61
+msgid "%s published."
+msgstr "%s megjelent."
+
+#: inc/rt-posts.php:62
+msgid "%s published privately."
+msgstr "%s magánkiadásban jelent meg."
+
+#: inc/rt-posts.php:63
+msgid "%s reverted to draft."
+msgstr "%s visszaváltozott tervezetre."
+
+#: inc/rt-posts.php:64
+msgid "%s scheduled."
+msgstr "%s ütemezve."
+
+#: inc/rt-posts.php:65
+msgid "%s  updated."
+msgstr "%s frissítve."
+
+#: inc/rt-posts.php:104
+msgid "Popular %s"
+msgstr "Népszerű %s"
+
+#: inc/rt-posts.php:106
+msgid "Parent %s"
+msgstr "Szülő %s"
+
+#: inc/rt-posts.php:107
+msgid "Parent %s:"
+msgstr "Szülő %s:"
+
+#: inc/rt-posts.php:110
+msgid "Update %s"
+msgstr "%s frissítése"
+
+#: inc/rt-posts.php:112
+msgid "New %s Name"
+msgstr "Új %s név"
+
+#: inc/rt-posts.php:113
+msgid "Separate %s with commas"
+msgstr "%s vesszővel elválasztva"
+
+#: inc/rt-posts.php:114
+msgid "Add or remove %s"
+msgstr "%s hozzáadása vagy eltávolítása"
+
+#: inc/rt-posts.php:115
+msgid "Choose from the most used %s"
+msgstr "Válasszon a leggyakrabban használt %s"
+
+#: inc/rt-posts.php:116
+msgid "No %s found."
+msgstr "Nem találtunk %s-t."
+
+#: inc/rt-posts.php:117
+msgid "No %s"
+msgstr "Nem %s"
+
+#: inc/rt-posts.php:120
+msgid "&larr; Back to %s"
+msgstr "&larr; Vissza a %s oldalra"

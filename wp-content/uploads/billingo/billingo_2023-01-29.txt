@@ -1,0 +1,120 @@
+2023-01-29 14:05:53 getBankAccounts FAILED
+2023-01-29 14:05:53 getBlocks FAILED
+2023-01-29 14:08:02 getBankAccounts FAILED
+2023-01-29 14:08:02 getBlocks FAILED
+2023-01-29 14:08:03 getBankAccounts FAILED
+2023-01-29 14:08:03 getBlocks FAILED
+2023-01-29 14:10:21 getBankAccounts FAILED
+2023-01-29 14:10:21 getBlocks FAILED
+2023-01-29 14:41:06 getBankAccounts FAILED
+2023-01-29 14:41:06 getBlocks FAILED
+2023-01-29 14:41:18 getBankAccounts FAILED
+2023-01-29 14:41:18 getBlocks FAILED
+2023-01-29 14:41:19
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":0,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[]}
+2023-01-29 14:41:19
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":186015,"name":"Sz\u00e1ml\u00e1k","prefix":"","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-01-29 15:07:35
+URL: https://api.billingo.hu/v3/partners | Method: POST
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 219
+)
+
+Post: {"name":"Farkas Erik","emails":["f.farkas.erik998@gmail.com"],"taxcode":"","phone":"0690909090","tax_type":"NO_TAX_NUMBER","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"edfsfsf utca 7."}}
+Response: 201 | {"id":1769134530,"name":"Farkas Erik","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"edfsfsf utca 7."},"emails":["f.farkas.erik998@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"0690909090","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":"show_all"}
+2023-01-29 15:07:35
+URL: https://api.billingo.hu/v3/currencies?from=HUF&to=HUF | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"from_currency":"HUF","to_currency":"HUF","conversation_rate":1,"date":"2023-01-29"}
+2023-01-29 15:07:36
+URL: https://api.billingo.hu/v3/documents | Method: POST
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 510
+)
+
+Post: {"fulfillment_date":"2023-01-29","due_date":"2023-01-29","payment_method":"barion","comment":"\nMegrendel\u00e9s azonos\u00edt\u00f3: 4613","language":"hu","electronic":1,"currency":"HUF","partner_id":1769134530,"block_id":0,"type":"invoice","paid":false,"settings":{"round":"none","without_financial_fulfillment":false,"should_send_email":0},"items":[{"unit":"db","name":"Alap csomag","quantity":1,"vat":"27%","entitlement":"AAM","unit_price":1270,"unit_price_type":"gross","comment":""}],"conversion_rate":1}
+Response: 201 | {"id":47888712,"invoice_number":"2023-2","type":"invoice","correction_type":"invoice","cancelled":false,"block_id":186015,"payment_status":"paid","payment_method":"barion","gross_total":1270,"currency":"HUF","conversion_rate":1,"invoice_date":"2023-01-29","fulfillment_date":"2023-01-29","due_date":"2023-01-29","paid_date":"2023-01-29","organization":{"name":"Farkas Erik ev.","tax_number":"12312312-3-12","bank_account":{"id":null,"name":"","account_number":"","account_number_iban":"","swift":""},"address":{"country_code":"HU","post_code":"3300","city":"Eger","address":"Nincs noooo"},"small_taxpayer":false,"ev_number":"","eu_tax_number":"","cash_settled":false},"partner":{"id":1769134530,"name":"Farkas Erik","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"edfsfsf utca 7."},"emails":["f.farkas.erik998@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"0690909090","general_ledger_number":"","tax_type":"NO_TAX_NUMBER","custom_billing_settings":{"payment_method":null,"document_form":null,"due_days":null,"document_currency":null,"template_language_code":null,"discount":null},"group_member_tax_number":"","giro_settings":{"giro_default_settings":true,"giro_payment_request_enabled":false,"giro_different_amount_allowed":false},"partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}},"internal_comment":"","partner_show_type":null},"document_partner":{"id":1769134530,"name":"Farkas Erik","address":{"country_code":"HU","post_code":"3271","city":"Visonta","address":"edfsfsf utca 7."},"emails":["f.farkas.erik998@gmail.com"],"taxcode":"","iban":"","swift":"","account_number":"","phone":"0690909090","tax_type":"NO_TAX_NUMBER","partner_shipping":{"match":true,"name":"","mode":"none","address":{"country_code":"HU","post_code":"","city":"","address":""}}},"electronic":true,"comment":"\nMegrendel\u00e9s azonos\u00edt\u00f3: 4613","tags":[],"notification_status":"none","language":"hu","items":[{"product_id":null,"name":"Alap csomag","net_unit_amount":1000.000001,"quantity":1,"unit":"db","net_amount":1000,"gross_amount":1270,"vat":"27%","vat_amount":270,"entitlement":"AAM","comment":""}],"summary":{"net_amount":1000,"net_amount_local":1000,"gross_amount_local":1270,"vat_amount":270,"vat_amount_local":270,"vat_rate_summary":[{"vat_name":"27%","vat_percentage":0.27,"vat_rate_net_amount":1000,"vat_rate_vat_amount":270,"vat_rate_vat_amount_local":270,"vat_rate_gross_amount":1270}]},"settings":{"mediated_service":false,"without_financial_fulfillment":false,"online_payment":"","should_send_email":false,"round":"none","no_send_onlineszamla_by_user":false,"order_number":"","place_id":null,"instant_payment":true,"selected_type":null,"dont_send_to_nav_reason":null,"instant_payment_request":null},"related_documents":[],"online_szamla_status":"processing","discount":null,"recurring_id":null}
+2023-01-29 15:07:36
+URL: https://api.billingo.hu/v3/documents/47888712/public-url | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"public_url":"https:\/\/api.billingo.hu\/document-access\/gjZlYpOkQByEoA90qa4ox3b89AGma2qJ"}
+2023-01-29 15:07:36
+URL: https://api.billingo.hu/v3/documents/47888712/send | Method: POST
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+    [0] => Content-type: application/json
+    [1] => Content-length: 2
+)
+
+Post: []
+Response: 200 | {"emails":["f.farkas.erik998@gmail.com"]}
+2023-01-29 15:32:37
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":0,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[]}
+2023-01-29 15:32:37
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => e1bc8970-9f38-11ed-8fef-0adb4fd9a356
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":186015,"name":"Sz\u00e1ml\u00e1k","prefix":"","custom_field1":"","custom_field2":"","type":"invoice"}]}

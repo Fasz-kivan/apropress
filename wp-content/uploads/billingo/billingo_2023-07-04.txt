@@ -1,0 +1,46 @@
+2023-07-04 18:20:34
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-07-04 18:20:34
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3  NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress  NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert  NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert  EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert  NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-04 18:20:56
+URL: https://api.billingo.hu/v3/bank-accounts | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":1,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":9109,"name":"OTP Bank","account_number":"11739009-23906316","account_number_iban":"","swift":"","currency":"HUF","need_qr":false}]}
+2023-07-04 18:20:56
+URL: https://api.billingo.hu/v3/document-blocks | Method: GET
+Header: Array
+(
+    [X-API-KEY] => 5caf0a6e-a31b-11ed-a8ad-06ac9760f844
+    [X-Plugin-Name] => Wordpress
+    [X-Plugin-Version] => 3.4.0
+    [Accept] => application/json
+)
+
+Response: 200 | {"total":5,"per_page":25,"current_page":1,"last_page":1,"prev_page_url":null,"next_page_url":null,"data":[{"id":4156,"name":"Aprop\u00f3  NEM J\u00d3","prefix":"Aprop\u00f3","custom_field1":"A sz\u00e1mla kibocs\u00e1jt\u00f3ja rekl\u00e1mad\u00f3 megfizet\u00e9s\u00e9re nem k\u00f6telezett, a 2014-\u00e9vi 22. t\u00f6rv\u00e9ny 3. \u00a7 (3) bekezd\u00e9se alapj\u00e1n.","custom_field2":"","type":"invoice"},{"id":25525,"name":"apropress  NEM J\u00d3","prefix":"Apr\u00f3Press","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186118,"name":"Barta Norbert  NEM J\u00d3","prefix":"BN \/ 2023","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186441,"name":"Barta Norbert  EZT HASZN\u00c1LOM","prefix":"BN","custom_field1":"","custom_field2":"","type":"invoice"},{"id":186446,"name":"Barta Norbert  NEM J\u00d3","prefix":"BN \/","custom_field1":"","custom_field2":"","type":"invoice"}]}
+2023-07-04 18:20:56 getBankAccounts FAILED
+2023-07-04 18:20:56 getBlocks FAILED
